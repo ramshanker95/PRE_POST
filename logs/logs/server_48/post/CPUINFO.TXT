@@ -1,0 +1,26 @@
+vendor_id	: GenuineIntel
+processor	: 0
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz
+stepping	: 12
+microcode	: 0xffffffff
+cpu MHz		: 1896.005
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni ssse3 cx16 pcid sse4_1 sse4_2 hypervisor lahf_lm ibrs_enhanced fsgsbase invpcid flush_l1d arch_capabilities
+bogomips	: 3792.01
+clflush size	: 64
+cache_alignment	: 64
+power management:
+address sizes	: 39 bits physical, 48 bits virtual
+

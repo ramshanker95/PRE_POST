@@ -1,0 +1,35 @@
+hostname
+sestatus
+cat /etc/fstab
+cat /etc/fstab|wc -l
+uptime
+uname -a
+service ntpd status
+ip a
+lsblk
+chkconfig --list
+route -n
+cat /etc/*-release
+cat /etc/exports
+service sssd status
+blkid
+showmount -a
+df -hT
+df -hT|wc -l
+df -hT|grep -i nfs
+date
+cat /etc/resolv.conf
+service nfs status
+ntpq -p
+free -g
+lscpu|grep -i cpu
+pvs
+vgs
+lvs
+ifconfig
+multipath -ll
+mount
+ps -ef
+iptables -L
+systemctl status nfs
+systemctl status ntpd

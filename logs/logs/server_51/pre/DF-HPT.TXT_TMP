@@ -1,0 +1,9 @@
+Filesystem                  Type      Size  Used Avail Use% Mounted on
+/dev/mapper/rhel_rhel7-root xfs        37G  9.8G   28G  27% /
+devtmpfs                    devtmpfs  484M     0  484M   0% /dev
+tmpfs                       tmpfs     496M     0  496M   0% /dev/shm
+tmpfs                       tmpfs     496M  6.9M  489M   2% /run
+tmpfs                       tmpfs     496M     0  496M   0% /sys/fs/cgroup
+/dev/sda1                   xfs      1014M  133M  882M  14% /boot
+tmpfs                       tmpfs     100M     0  100M   0% /run/user/0
+tmpfs                       tmpfs     100M     0  100M   0% /run/user/2000

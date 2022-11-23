@@ -1,0 +1,58 @@
+hostnameSTDOUT: 
+patient-monitor
+STDERR: 
+
+-----------------------------
+sestatusSTDOUT: 
+STDERR: 
+bash: line 1: sestatus: command not found
+
+-----------------------------
+cat /etc/fstabSTDOUT: 
+proc            /proc           proc    defaults          0       0
+PARTUUID=2002412a-01  /boot           vfat    defaults          0       2
+PARTUUID=2002412a-02  /               ext4    defaults,noatime  0       1
+# a swapfile is not a swap partition, no line here
+#   use  dphys-swapfile swap[on|off]  for that
+STDERR: 
+
+-----------------------------
+cat /etc/fstab|wc -lSTDOUT: 
+5
+STDERR: 
+
+-----------------------------
+uptimeSTDOUT: 
+ 01:08:45 up  2:01,  1 user,  load average: 0.80, 0.79, 0.82
+STDERR: 
+
+-----------------------------
+uname -aSTDOUT: 
+Linux patient-monitor 5.10.88-v7l+ #1504 SMP Wed Dec 22 14:21:11 GMT 2021 armv7l GNU/Linux
+STDERR: 
+
+-----------------------------
+service ntpd status    STDOUT: 
+STDERR: 
+bash: line 1: service: command not found
+
+-----------------------------
+ip aSTDOUT: 
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether dc:a6:32:1d:13:e8 brd ff:ff:ff:ff:ff:ff
+3: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether dc:a6:32:1d:13:e9 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.39/24 brd 192.168.1.255 scope global dynamic noprefixroute wlan0
+       valid_lft 79156sec preferred_lft 68356sec
+    inet6 fe80::4110:c89f:fde8:e880/64 scope link 
+       valid_lft forever preferred_lft forever
+STDERR: 
+
+-----------------------------
+lsblk

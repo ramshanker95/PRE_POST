@@ -1,0 +1,4 @@
+/dev/mapper/rhel_rhel7-root on / type xfs (rw,relatime,seclabel,attr2,inode64,noquota)
+/dev/sda1 on /boot type xfs (rw,relatime,seclabel,attr2,inode64,noquota)
+hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime,seclabel)
+mqueue on /dev/mqueue type mqueue (rw,relatime,seclabel)

@@ -1,0 +1,4 @@
+  LV      VG         Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  TEST_LV TEST_VG    -wi-a----- <15.00g                                                    
+  root    rhel_rhel7 -wi-ao----  36.99g                                                    
+  swap    rhel_rhel7 -wi-ao----   2.00g                                                    
