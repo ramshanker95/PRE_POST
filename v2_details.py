@@ -14,7 +14,15 @@ from tkinter import *
 from PIL import ImageTk, Image
 from threading import Thread
 from random import randint, choice
+import VARIABLES as var
 
+global server_name
+server_name = ""
+
+print(var.NAME)
+print(var.SERVER)
+
+# https://apidemos.com/tkinter/tkinter-progressbar/tkinter-progressbar-start-step-stop-method.html
 # https://www.activestate.com/resources/quick-reads/how-to-add-images-in-tkinter/#:~:text=However%2C%20Tkinter%20does%20not%20support%20images%20directly.%20Instead%2C,%E2%80%9Ctest%E2%80%9D%20in%20the%20background%3A%20label1%20%3D%20tkinter.Label%28image%3Dtest%29%20
 
 
@@ -24,6 +32,84 @@ def my_logger(message=""):
     pass
 
 
+class PageThree(tk.Frame):
+    def __init__(self, parent, controller):
+        tk.Frame.__init__(self, parent)
+
+        main_frame_bg = "#ffffff"  # "#010530"
+        login_section_bg = "#3400f0"
+        font_color = "#01011f"  # "#E1341E"
+        global server_name
+
+        self.controller = controller
+        self.configure(bg=main_frame_bg)
+        # self.rowconfigure(0, weight=1)
+        # self.columnconfigure(0, weight=1)
+        font = tkFont.Font(family="Helvetica", size=16, weight="bold")
+        out_font = tkFont.Font(family="Helvetica", size=12, weight="bold")
+        self.conn_flag = False
+        self.commad_list_for = []
+        self.current_command = 0
+        self.ypad = 20
+        self.xpad = 30
+        self.border = "#00D2FF"
+
+        self.btn_width = 150
+        self.btn_height = 150
+
+        self.frame = Frame(self)
+        self.frame.pack(pady=20)
+
+        self.tv = ttk.Treeview(self.frame, columns=(1,2,3,4,5,6), show="headings", height=30)
+        self.tv.pack(side=LEFT)
+
+        self.tv.heading(1, text="Sn")
+        self.tv.heading(2, text="IP")
+        self.tv.heading(3, text="OS")
+        self.tv.heading(4, text="MAC")
+        self.tv.heading(5, text="ST")
+        self.tv.heading(6, text="Resut")
+
+        self.sb = Scrollbar(self.frame, orient=VERTICAL)
+        self.sb.pack(side=RIGHT, fill=Y)
+
+        self.tv.config(yscrollcommand=self.sb.set)
+        self.sb.config(command=self.tv.yview)
+
+        # data table
+        stat = ["pass", "fiald"]
+        error = ["NA", "Connection Error", "Authentication Error", "Other"]
+        os_name = ["Ubuntu", "kali Linux", "Unix", "Fadora"]
+
+        serial_number = [i for i in range(1, 255)]
+        servers = ["192.16.8.{}".format(i) for i in range(1, 255)]
+        kernals = ["CTP-T56-M{}".format(randint(0, 1000))
+                   for _ in range(1, 100)]
+        Errors = ["{}".format(choice(error)) for _ in range(1, 100)]
+        os_names = ["{}".format(choice(os_name)) for _ in range(1, 100)]
+        test_results = ["{}".format(choice(stat)) for _ in range(1, 100)]
+
+        i = 1
+        for sn, ser, os, ker, err, res in zip(serial_number, servers, os_names, kernals, Errors, test_results):
+            self.tv.insert(parent='', index=i, iid=i, values=(sn, ser, os, ker, err, res))
+            i +=1
+
+        # self.tv.bind('<<TreeviewSelect>>', self.OnDoubleClick)
+        self.tv.bind('<Double-1>', self.OnDoubleClick)
+
+    def OnDoubleClick(self, event):
+        e = event.widget                                  # Get event controls
+        iid = e.identify("item",event.x,event.y)          # Get the double-click item id
+        state = e.item(iid,"text")                        # Get state
+        city = e.item(iid,"values")
+        print(city)                    # Get city
+        outputStr = "{0} : {1}".format(state,city)        # Formatting
+        var.SERVER = city[1]
+        print(var.SERVER)
+        # messagebox.showinfo("Double Clicked",outputStr)   
+        self.controller.show_frame(PageOne)
+
+        
 class PageTwo(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -49,7 +135,8 @@ class PageTwo(tk.Frame):
         self.btn_height = 150
 
         self.result = LabelFrame(self, text="Result of Test")
-        self.result.grid(row=0, column=0)
+        # self.result.grid(row=0, column=0)
+        self.result.pack()
 
         # data table
         stat = ["pass", "fiald"]
@@ -80,12 +167,12 @@ class PageTwo(tk.Frame):
                 if res == "fiald":
                     Label(self.result, text="{}".format(res), width=15, bg="red").grid(
                         row=i, column=5, pady=2, padx=0)
-                    Button(self.result, text="View", width=15, border=0, bg="#526345", command=self.view_details).grid(
+                    Button(self.result, text="View", width=15, border=0, bg="#0792CC", command=self.view_details).grid(
                         row=i, column=6, pady=2, padx=20)
                 else:
                     Label(self.result, text="{}".format(res), width=15, bg="green").grid(
                         row=i, column=5, pady=2, padx=0)
-                    Button(self.result, text="View", width=15, border=0, bg="#526345", command=self.view_details).grid(
+                    Button(self.result, text="View", width=15, border=0, bg="#0792CC", command=self.view_details).grid(
                         row=i, column=6, pady=2, padx=20)
 
             else:
@@ -103,13 +190,18 @@ class PageTwo(tk.Frame):
                     Label(self.result, text="{}".format(res), width=15, bg="red").grid(
                         row=i, column=5, pady=2, padx=0)
                     Button(self.result, text="View", width=15, border=0,
-                           bg="#526345", command=self.view_details).grid(row=i, column=6, pady=2)
+                           bg="#0792CC", command=self.view_details).grid(row=i, column=6, pady=2)
                 else:
                     Label(self.result, text="{}".format(res), width=15, bg="green").grid(
                         row=i, column=5, pady=2, padx=0)
                     Button(self.result, text="View", width=15, border=0,
-                           bg="#526345", command=self.view_details).grid(row=i, column=6, pady=2)
+                           bg="#0792CC", command=self.view_details).grid(row=i, column=6, pady=2)
             i += 1
+        
+        Button(self.result, text="Prev", width=15, border=0,
+                        bg="#ED425D", command=self.view_details).grid(row=i, column=5, pady=4, padx=4)
+        Button(self.result, text="Next", width=15, border=0,
+                        bg="#ED425D", command=self.view_details).grid(row=i, column=6, pady=4, padx=4)
 
     def view_details(self, ser="13"):
         self.controller.show_frame(PageOne)
@@ -122,13 +214,26 @@ class PageOne(tk.Frame):
         main_frame_bg = "#ffffff"  # "#010530"
         login_section_bg = "#3400f0"
         font_color = "#01011f"  # "#E1341E"
+        global server_name
+
+        w = self.winfo_screenwidth() -40
+        h = self.winfo_screenheight() -40
+
+        print("Width: ", w)
+        print("height: ", h)
+
+        fh = round((h - 330)/10)
+        print("NUmber of Row: ", fh)
+        fw = round((((w - 126)-20)/8)/2)
+        print("NUmber of col.: ", fw)
+        print("Selected Server: ", var.SERVER)
 
         self.controller = controller
         self.configure(bg=main_frame_bg)
         self.rowconfigure(0, weight=1)
         self.columnconfigure(0, weight=1)
-        font = tkFont.Font(family="Helvetica", size=16, weight="bold")
-        out_font = tkFont.Font(family="Helvetica", size=12, weight="bold")
+        font = tkFont.Font(family="Helvetica", size=10, weight="bold")
+        out_font = tkFont.Font(family="Helvetica", size=10)
         self.conn_flag = False
         self.commad_list_for = []
         self.current_command = 0
@@ -146,7 +251,7 @@ class PageOne(tk.Frame):
         # Text Area
         # Create the textbox
         self.txtbox = scrolledtext.ScrolledText(
-            self.pre_frame, width=63, height=40, wrap=WORD)
+            self.pre_frame, width=fw, height=fh, font=out_font)
         self.txtbox.grid(row=0, column=0)
 
         with open("logs\logs\server_48\pre\CPUINFO.TXT", "r") as f:
@@ -157,17 +262,17 @@ class PageOne(tk.Frame):
 
         # Create the textbox
         self.txtbox1 = scrolledtext.ScrolledText(
-            self.post_frame, width=63, height=40, wrap=WORD)
+            self.post_frame, width=fw, height=fh, font=out_font)
         self.txtbox1.grid(row=0, column=0)
 
         with open("logs\logs\server_48\post\CPUINFO.TXT", "r") as f:
             self.txtbox1.insert(END, f.read())
 
         # Controll Section
-        self.command_frame = LabelFrame(parent, text="Commands")
+        self.command_frame = LabelFrame(self, text="Commands")
         self.command_frame.grid(row=0, column=2)
         self.server_list = Listbox(self.command_frame, bg=main_frame_bg,
-                                   fg=font_color, font=font, height=22, width=20)
+                                   fg=font_color, font=font, height=fh-5, width=20)
         self.server_list.grid(row=0, column=0, sticky="w", padx=2)
 
         # Onselect Event
@@ -191,9 +296,13 @@ class PageOne(tk.Frame):
         #               fg="black", border=0)
         # next.grid(row=1, column=0)
 
-        quit = Button(self.command_frame, text="Exit", font=font, width=10, bg="#00D2ff",
+        quit = Button(self.command_frame, text="Exit", font=font, width=10, bg="#ED425D",
                       fg="black", border=0, command=self.exit_tool)
         quit.grid(row=2, column=0, pady=10)
+
+        
+        sr_name = Label(self.command_frame, text=var.SERVER)
+        sr_name.grid(row=3, column=0, pady=1)
 
     def remove_click(self):
         self.remove.config(image=self.remove_click_image)
@@ -214,6 +323,7 @@ class PageOne(tk.Frame):
             value = w.get(index)
             # value = self.server_list.get(tk.ACTIVE)
             print('You selected item "%s"' % (value))
+            print("Selected Server: ", var.SERVER)
 
             with open("logs\logs\server_48\pre\{}.TXT".format(value), "r") as f:
                 self.txtbox.delete('1.0', END)
@@ -248,7 +358,7 @@ class PageOne(tk.Frame):
         if self.confirm("Are you sure you want to exit?"):
             # my_logger("Exit Tool: Yes")
             # self.controller.destroy()
-            self.controller.show_frame(PageTwo)
+            self.controller.show_frame(PageThree)
             print("Exit Tool")
         else:
             # my_logger("Exit Tool: No")
@@ -259,11 +369,11 @@ class MainWindow(tk.Tk):
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
         # print screen size
-        w = self.winfo_screenwidth()
-        h = self.winfo_screenheight()
+        w = self.winfo_screenwidth() - 40
+        h = self.winfo_screenheight() - 40
 
         self.title("File Syatem Extender")
-        self.geometry("{}x{}+0+0".format(w, h-40))
+        self.geometry("{}x{}+0+0".format(w, h))
         self.resizable(True, True)
         container = tk.Frame(self)
         container.pack(side="top", fill="both", expand=True)
@@ -271,11 +381,11 @@ class MainWindow(tk.Tk):
         container.grid_columnconfigure(0, weight=1)
 
         self.frames = {}
-        for F in (PageOne, PageTwo):
+        for F in (PageOne, PageTwo, PageThree):
             frame = F(container, self)
             self.frames[F] = frame
             frame.grid(row=0, column=0, sticky="nsew")
-        self.show_frame(PageOne)
+        self.show_frame(PageThree)
 
     def show_frame(self, cont):
         frame = self.frames[cont]
