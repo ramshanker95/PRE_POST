@@ -97,6 +97,7 @@ class PageThree(tk.Frame):
         # self.tv.bind('<<TreeviewSelect>>', self.OnDoubleClick)
         self.tv.bind('<Double-1>', self.OnDoubleClick)
 
+        
     def OnDoubleClick(self, event):
         e = event.widget                                  # Get event controls
         iid = e.identify("item",event.x,event.y)          # Get the double-click item id
@@ -107,103 +108,6 @@ class PageThree(tk.Frame):
         var.SERVER = city[1]
         print(var.SERVER)
         # messagebox.showinfo("Double Clicked",outputStr)   
-        self.controller.show_frame(PageOne)
-
-        
-class PageTwo(tk.Frame):
-    def __init__(self, parent, controller):
-        tk.Frame.__init__(self, parent)
-
-        main_frame_bg = "#ffffff"  # "#010530"
-        login_section_bg = "#3400f0"
-        font_color = "#01011f"  # "#E1341E"
-
-        self.controller = controller
-        self.configure(bg=main_frame_bg)
-        # self.rowconfigure(0, weight=1)
-        # self.columnconfigure(0, weight=1)
-        font = tkFont.Font(family="Helvetica", size=16, weight="bold")
-        out_font = tkFont.Font(family="Helvetica", size=12, weight="bold")
-        self.conn_flag = False
-        self.commad_list_for = []
-        self.current_command = 0
-        self.ypad = 20
-        self.xpad = 30
-        self.border = "#00D2FF"
-
-        self.btn_width = 150
-        self.btn_height = 150
-
-        self.result = LabelFrame(self, text="Result of Test")
-        # self.result.grid(row=0, column=0)
-        self.result.pack()
-
-        # data table
-        stat = ["pass", "fiald"]
-        error = ["NA", "Connection Error", "Authentication Error", "Other"]
-        os_name = ["Ubuntu", "kali Linux", "Unix", "Fadora"]
-
-        serial_number = [i for i in range(1, 25)]
-        servers = ["192.16.8.{}".format(i) for i in range(1, 25)]
-        kernals = ["CTP-T56-M{}".format(randint(0, 1000))
-                   for _ in range(1, 100)]
-        Errors = ["{}".format(choice(error)) for _ in range(1, 100)]
-        os_names = ["{}".format(choice(os_name)) for _ in range(1, 100)]
-        test_results = ["{}".format(choice(stat)) for _ in range(1, 100)]
-
-        i = 1
-        for sn, ser, os, ker, err, res in zip(serial_number, servers, os_names, kernals, Errors, test_results):
-            if i % 2 == 0:
-                Label(self.result, text="{}".format(sn), width=15, bg="#c2c2c4").grid(
-                    row=i, column=0, pady=2, padx=0)
-                Label(self.result, text="{}".format(ser), width=15, bg="#c2c2c4").grid(
-                    row=i, column=1, pady=2, padx=0)
-                Label(self.result, text="{}".format(os), width=15, bg="#c2c2c4").grid(
-                    row=i, column=2, pady=2, padx=0)
-                Label(self.result, text="{}".format(ker), width=15, bg="#c2c2c4").grid(
-                    row=i, column=3, pady=2, padx=0)
-                Label(self.result, text="{}".format(err), width=15, bg="#c2c2c4").grid(
-                    row=i, column=4, pady=2, padx=0)
-                if res == "fiald":
-                    Label(self.result, text="{}".format(res), width=15, bg="red").grid(
-                        row=i, column=5, pady=2, padx=0)
-                    Button(self.result, text="View", width=15, border=0, bg="#0792CC", command=self.view_details).grid(
-                        row=i, column=6, pady=2, padx=20)
-                else:
-                    Label(self.result, text="{}".format(res), width=15, bg="green").grid(
-                        row=i, column=5, pady=2, padx=0)
-                    Button(self.result, text="View", width=15, border=0, bg="#0792CC", command=self.view_details).grid(
-                        row=i, column=6, pady=2, padx=20)
-
-            else:
-                Label(self.result, text="{}".format(sn), width=15, bg="#a3a3a3").grid(
-                    row=i, column=0, pady=2, padx=0)
-                Label(self.result, text="{}".format(ser), width=15, bg="#a3a3a3").grid(
-                    row=i, column=1, pady=2, padx=0)
-                Label(self.result, text="{}".format(os), width=15, bg="#a3a3a3").grid(
-                    row=i, column=2, pady=2, padx=0)
-                Label(self.result, text="{}".format(ker), width=15, bg="#a3a3a3").grid(
-                    row=i, column=3, pady=2, padx=0)
-                Label(self.result, text="{}".format(err), width=15, bg="#a3a3a3").grid(
-                    row=i, column=4, pady=2, padx=0)
-                if res == "fiald":
-                    Label(self.result, text="{}".format(res), width=15, bg="red").grid(
-                        row=i, column=5, pady=2, padx=0)
-                    Button(self.result, text="View", width=15, border=0,
-                           bg="#0792CC", command=self.view_details).grid(row=i, column=6, pady=2)
-                else:
-                    Label(self.result, text="{}".format(res), width=15, bg="green").grid(
-                        row=i, column=5, pady=2, padx=0)
-                    Button(self.result, text="View", width=15, border=0,
-                           bg="#0792CC", command=self.view_details).grid(row=i, column=6, pady=2)
-            i += 1
-        
-        Button(self.result, text="Prev", width=15, border=0,
-                        bg="#ED425D", command=self.view_details).grid(row=i, column=5, pady=4, padx=4)
-        Button(self.result, text="Next", width=15, border=0,
-                        bg="#ED425D", command=self.view_details).grid(row=i, column=6, pady=4, padx=4)
-
-    def view_details(self, ser="13"):
         self.controller.show_frame(PageOne)
 
 
@@ -301,21 +205,10 @@ class PageOne(tk.Frame):
         quit.grid(row=2, column=0, pady=10)
 
         
-        sr_name = Label(self.command_frame, text=var.SERVER)
-        sr_name.grid(row=3, column=0, pady=1)
+        self.sr_name = Label(self.command_frame, text=var.SERVER)
+        self.sr_name.grid(row=3, column=0, pady=1)
 
-    def remove_click(self):
-        self.remove.config(image=self.remove_click_image)
-        print("Change")
-        self.after(200, self.on_release)
-
-    def on_release(self):
-        self.remove.config(image=self.remove_image)
-        print("Relese")
-
-    def servers(self):
-        Thread(target=lambda: os.system("python server_control.py")).start()
-
+        
     def onselect(self, evt):
         w = evt.widget
         try:
@@ -324,6 +217,7 @@ class PageOne(tk.Frame):
             # value = self.server_list.get(tk.ACTIVE)
             print('You selected item "%s"' % (value))
             print("Selected Server: ", var.SERVER)
+            self.sr_name.configure(text=var.SERVER)
 
             with open("logs\logs\server_48\pre\{}.TXT".format(value), "r") as f:
                 self.txtbox.delete('1.0', END)
@@ -381,7 +275,7 @@ class MainWindow(tk.Tk):
         container.grid_columnconfigure(0, weight=1)
 
         self.frames = {}
-        for F in (PageOne, PageTwo, PageThree):
+        for F in (PageOne, PageThree):
             frame = F(container, self)
             self.frames[F] = frame
             frame.grid(row=0, column=0, sticky="nsew")

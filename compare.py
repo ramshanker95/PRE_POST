@@ -1,4 +1,3 @@
-import re
 import os
 import csv 
 import sys
@@ -6,9 +5,13 @@ import sys
 mode = input("Enter the mode: ")
 
 ROOT = ""
-PRE = r"logs\logs\session_001\pre"
-POST = r"logs\logs\session_001\post"
-RES = r"logs\logs\session_001\res"
+PRE = r"logs\session_1\192.168.5.1\pre"
+POST = r"logs\session_1\192.168.5.1\post"
+RES = r"logs\session_1\192.168.5.1\res"
+RT = r"logs\\session_1\\192.168.5.1\\"
+
+ig_cmd = [cmd.replace("\n", "") for cmd in open("cmd_ignore.txt").readlines()]
+print(ig_cmd)
 
 pre_files = [PRE + "/" + i for i in  os.listdir(ROOT + PRE)]
 post_files = [POST + "/" + i for i in  os.listdir(ROOT + POST)]
@@ -51,6 +54,7 @@ if post_files.__len__() == 0:
 if mode.lower() == "hard":
     compare_result = [["Sn", "pre test", "post test", "result", "result_2", "error"]]
     index = 0
+    success_falg = True
     for pre, post in zip(pre_files, post_files):
         with open(pre, "r") as pf:
             # pre_read = "".join(sorted(pf.read()))
@@ -67,12 +71,15 @@ if mode.lower() == "hard":
             print(f"fails in {post}")
             print("Filed")
             compare_result.append([index, pre.split("/")[-1], post.split("/")[-1], "filed", 0, 0])
+            success_falg = False if post.split(".")[0] not in ig_cmd else True
         index += 1
+        open(f"{RT}resut.txt", 'w').write("Success") if success_falg else open(f"{RT}resut.txt", 'w').write("Faild")
 
 
 elif mode.lower() == "soft":
     compare_result = [["Sn", "pre test", "post test", "result", "result_2", "error"]]
     index = 0
+    success_falg = True
     for pre, post in zip(pre_files, post_files):
         with open(pre, "r") as pf:
             # pre_read = "".join(sorted(pf.read()))
