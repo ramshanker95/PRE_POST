@@ -76,5 +76,14 @@ class CompareResult:
             index += 1
             open(f"{self.RT}resut.txt", 'w').write("Success") if success_falg else open(f"{self.RT}resut.txt", 'w').write("Faild")
 
+            
 if __name__ == "__main__":
-    obj = CompareResult()
+    ROOT = ""
+    PRE = r"logs\session_1\192.168.5.1\pre"
+    POST = r"logs\session_1\192.168.5.1\post"
+    RES = r"logs\session_1\192.168.5.1\res"
+    RT = r"logs\\session_1\\192.168.5.1\\"
+    IG = r"cmd_ignore.txt"
+    obj = CompareResult(ROOT=ROOT, PRE=PRE, POST=POST, RES=RES, RT=RT, IG_CMD_FILE=IG)
+
+    obj.bhai_check_karo()
