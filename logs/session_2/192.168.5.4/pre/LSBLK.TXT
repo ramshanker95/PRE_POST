@@ -1,0 +1,13 @@
+NAME RM SIZE RO TYPE MOUNTPOINT
+`-TEST_VG-TEST_LV 0 15G 0 lvm 
+`-TEST_VG-TEST_LV 0 15G 0 lvm 
+`-rhel_rhel7-swap 0 2G 0 lvm [SWAP]
+`-sda2 0 39G 0 part 
+sda 0 40G 0 disk 
+sdb 0 8G 0 disk 
+sdc 0 8G 0 disk 
+sdd 0 10G 0 disk 
+sde 0 7G 0 disk 
+sr0 1 1024M 0 rom 
+|-rhel_rhel7-root 0 37G 0 lvm /
+|-sda1 0 1G 0 part /boot

@@ -31,6 +31,62 @@ def my_logger(message=""):
     #     f.write("{}\t{}\n".format(datetime.today(), message))
     pass
 
+class SessionList(tk.Frame):
+    def __init__(self, parent, controller):
+        tk.Frame.__init__(self, parent)
+        font = tkFont.Font(family="Helvetica", size=76, weight="bold")
+        font_for_list = tkFont.Font(family="Helvetica", size=16, weight="bold")
+        
+        # w = self.winfo_screenwidth() -40
+        h = self.winfo_screenheight() -40
+
+        fh = round((h - 330)/10)
+        # fw = round((((w - 126)-20)/8)/2)
+        self.controller = controller
+
+        self.sessions = os.listdir("logs")
+
+        print("session: ", self.sessions)
+        
+        self.lst = Label(self, text="Sessions", font=font)
+        self.lst.grid(row=0, column=0, padx=100, pady=100)
+
+        self.banner = Label(self, text="Select Session to View ->", font=font_for_list)
+        self.banner.grid(row=1, column=0, padx=100, pady=100)
+
+        self.server_list = Listbox(self, bg="#ffffff",
+                                   fg= "#000000", font=font_for_list, height=10, width=20)
+        self.server_list.grid(row=0, column=1, padx=2, rowspan=2, sticky=E+W+N+S)
+
+        # Onselect Event
+        self.server_list.bind('<<ListboxSelect>>', self.onselect)
+
+        scr = Scrollbar(self)
+        scr.grid(row=0, column=2, sticky=E+W+N+S)
+
+        # Contecting to the listbox
+        scr.config(command=self.server_list.yview)
+        self.server_list.config(yscrollcommand=scr.set)
+        # Fetching Server List from File
+
+        for line in self.sessions*10:
+            print(line)
+            self.server_list.insert(END, line.strip())
+
+        self.next = Button(self, text="More", width=40, border=0, bg="#524136", height=20)
+        self.next.grid(row=3, column=1, padx=10, pady=10)
+
+        
+    def command_frame(self):
+        print("Clickes found")
+
+    def onselect(self, event):
+        print("on select")
+        w = event.widget
+        index = int(w.curselection()[0])
+        value = w.get(index)
+        print('You selected item "%s"' % (value))
+        var.SESSION = value
 
 class PageThree(tk.Frame):
     def __init__(self, parent, controller):
@@ -47,6 +103,8 @@ class PageThree(tk.Frame):
         # self.columnconfigure(0, weight=1)
         font = tkFont.Font(family="Helvetica", size=16, weight="bold")
         out_font = tkFont.Font(family="Helvetica", size=12, weight="bold")
+        s_font = tkFont.Font(family="Helvetica", size=26, weight="bold")
+        font_for_list = tkFont.Font(family="Helvetica", size=16, weight="bold")
         self.conn_flag = False
         self.commad_list_for = []
         self.current_command = 0
@@ -57,45 +115,51 @@ class PageThree(tk.Frame):
         self.btn_width = 150
         self.btn_height = 150
 
-        self.frame = Frame(self)
-        self.frame.pack(pady=20)
+        # Session List ============= 
+        self.sessions = os.listdir("logs")
+        self.sframe = Frame(self)
+        self.sframe.pack(pady=20, side=LEFT)
 
-        self.tv = ttk.Treeview(self.frame, columns=(1,2,3,4,5,6), show="headings", height=30)
+        self.lst = Label(self.sframe, text="Sessions", font=s_font)
+        self.lst.grid(row=0, column=0, padx=50, pady=10)
+
+        self.session_list = Listbox(self.sframe, bg="#ffffff",
+                                   fg= "#000000", font=font_for_list, height=10, width=20)
+        self.session_list.grid(row=1, column=0, padx=50, rowspan=2, sticky=E+W+N+S)
+
+        # Onselect Event
+        self.session_list.bind('<<ListboxSelect>>', self.onselect)
+
+        scr = Scrollbar(self.sframe)
+        scr.grid(row=1, column=1, sticky=E+W+N+S)
+
+        # Contecting to the listbox
+        scr.config(command=self.session_list.yview)
+        self.session_list.config(yscrollcommand=scr.set)
+        # Fetching Server List from File
+
+        for line in self.sessions*10:
+            print(line)
+            self.session_list.insert(END, line.strip())
+
+            
+        # Sessin Details ============
+        self.frame = Frame(self)
+        self.frame.pack(pady=20, side=RIGHT)
+
+        self.tv = ttk.Treeview(self.frame, columns=(1,2,3,4), show="headings", height=30)
         self.tv.pack(side=LEFT)
 
         self.tv.heading(1, text="Sn")
         self.tv.heading(2, text="IP")
-        self.tv.heading(3, text="OS")
-        self.tv.heading(4, text="MAC")
-        self.tv.heading(5, text="ST")
-        self.tv.heading(6, text="Resut")
+        self.tv.heading(3, text="ST")
+        self.tv.heading(4, text="Resut")
 
         self.sb = Scrollbar(self.frame, orient=VERTICAL)
         self.sb.pack(side=RIGHT, fill=Y)
 
         self.tv.config(yscrollcommand=self.sb.set)
         self.sb.config(command=self.tv.yview)
-
-        # data table
-        stat = ["pass", "fiald"]
-        error = ["NA", "Connection Error", "Authentication Error", "Other"]
-        os_name = ["Ubuntu", "kali Linux", "Unix", "Fadora"]
-
-        serial_number = [i for i in range(1, 255)]
-        servers = ["192.16.8.{}".format(i) for i in range(1, 255)]
-        kernals = ["CTP-T56-M{}".format(randint(0, 1000))
-                   for _ in range(1, 100)]
-        Errors = ["{}".format(choice(error)) for _ in range(1, 100)]
-        os_names = ["{}".format(choice(os_name)) for _ in range(1, 100)]
-        test_results = ["{}".format(choice(stat)) for _ in range(1, 100)]
-
-        i = 1
-        for sn, ser, os, ker, err, res in zip(serial_number, servers, os_names, kernals, Errors, test_results):
-            self.tv.insert(parent='', index=i, iid=i, values=(sn, ser, os, ker, err, res))
-            i +=1
-
-        # self.tv.bind('<<TreeviewSelect>>', self.OnDoubleClick)
-        self.tv.bind('<Double-1>', self.OnDoubleClick)
 
         
     def OnDoubleClick(self, event):
@@ -108,7 +172,35 @@ class PageThree(tk.Frame):
         var.SERVER = city[1]
         print(var.SERVER)
         # messagebox.showinfo("Double Clicked",outputStr)   
-        self.controller.show_frame(PageOne)
+        self.controller.show_frame(0)
+    
+    
+    def onselect(self, event):
+        print("on select")
+        w = event.widget
+        index = int(w.curselection()[0])
+        value = w.get(index)
+        print('You selected item "%s"' % (value))
+        var.SESSION = value
+        # data table
+        # get all server ip
+        self.server = os.listdir(f"logs\\{value}")
+
+        stat = ["pass", "fiald"]
+        error = ["NA", "Connection Error", "Authentication Error", "Other"]
+
+        serial_number = [i for i in range(1, 255)]
+        Errors = ["{}".format(choice(error)) for _ in range(1, 100)]
+
+        test_results = ["{}".format(choice(stat)) for _ in range(1, 100)]
+
+        i = 1
+        for sn, ser, err, res in zip(serial_number, self.server, Errors, test_results):
+            self.tv.insert(parent='', index=i, iid=i, values=(sn, ser, err, res))
+            i +=1
+
+        # self.tv.bind('<<TreeviewSelect>>', self.OnDoubleClick)
+        self.tv.bind('<Double-1>', self.OnDoubleClick)
 
 
 class PageOne(tk.Frame):
@@ -123,15 +215,8 @@ class PageOne(tk.Frame):
         w = self.winfo_screenwidth() -40
         h = self.winfo_screenheight() -40
 
-        print("Width: ", w)
-        print("height: ", h)
-
         fh = round((h - 330)/10)
-        print("NUmber of Row: ", fh)
         fw = round((((w - 126)-20)/8)/2)
-        print("NUmber of col.: ", fw)
-        print("Selected Server: ", var.SERVER)
-
         self.controller = controller
         self.configure(bg=main_frame_bg)
         self.rowconfigure(0, weight=1)
@@ -148,6 +233,10 @@ class PageOne(tk.Frame):
         self.btn_width = 150
         self.btn_height = 150
 
+        # get all server ip
+        self.server = os.listdir("logs\\session_1")
+
+
         # Create a main frame
         self.pre_frame = LabelFrame(self, text="PRE")
         self.pre_frame.grid(row=0, column=0)
@@ -158,8 +247,9 @@ class PageOne(tk.Frame):
             self.pre_frame, width=fw, height=fh, font=out_font)
         self.txtbox.grid(row=0, column=0)
 
-        with open("logs\logs\server_48\pre\CPUINFO.TXT", "r") as f:
-            self.txtbox.insert(END, f.read())
+        # default Result
+        # with open(r"logs\session_1\192.168.5.2\pre\CPUINFO.TXT", "r") as f:
+        #     self.txtbox.insert(END, f.read())
 
         self.post_frame = LabelFrame(self, text="POST")
         self.post_frame.grid(row=0, column=1)
@@ -169,8 +259,9 @@ class PageOne(tk.Frame):
             self.post_frame, width=fw, height=fh, font=out_font)
         self.txtbox1.grid(row=0, column=0)
 
-        with open("logs\logs\server_48\post\CPUINFO.TXT", "r") as f:
-            self.txtbox1.insert(END, f.read())
+        # Default result
+        # with open(r"logs\session_1\192.168.5.2\pre\CPUINFO.TXT", "r") as f:
+        #     self.txtbox1.insert(END, f.read())
 
         # Controll Section
         self.command_frame = LabelFrame(self, text="Commands")
@@ -191,7 +282,7 @@ class PageOne(tk.Frame):
         # Fetching Server List from File
 
         cmd = [i.replace(".TXT", "")
-               for i in os.listdir("logs\logs\server_48\post")]
+               for i in os.listdir(r"logs\session_1\192.168.5.2\post")]
 
         for line in cmd:
             self.server_list.insert(END, line.strip())
@@ -219,14 +310,14 @@ class PageOne(tk.Frame):
             print("Selected Server: ", var.SERVER)
             self.sr_name.configure(text=var.SERVER)
 
-            with open("logs\logs\server_48\pre\{}.TXT".format(value), "r") as f:
+            with open(r"logs\session_1\{}\pre\{}.TXT".format(var.SERVER, value), "r") as f:
                 self.txtbox.delete('1.0', END)
                 self.txtbox.insert(END, f.read())
                 self.txtbox.tag_add("start", "1.11", "1.27")
                 self.txtbox.tag_config(
                     "start", background="red", foreground="white")
 
-            with open("logs\logs\server_48\post\{}.TXT".format(value), "r") as f:
+            with open(r"logs\session_1\{}\post\{}.TXT".format(var.SERVER, value), "r") as f:
                 self.txtbox1.delete('1.0', END)
                 self.txtbox1.insert(END, f.read())
         except Exception as e:
@@ -252,7 +343,7 @@ class PageOne(tk.Frame):
         if self.confirm("Are you sure you want to exit?"):
             # my_logger("Exit Tool: Yes")
             # self.controller.destroy()
-            self.controller.show_frame(PageThree)
+            self.controller.show_frame(1)
             print("Exit Tool")
         else:
             # my_logger("Exit Tool: No")
@@ -275,14 +366,21 @@ class MainWindow(tk.Tk):
         container.grid_columnconfigure(0, weight=1)
 
         self.frames = {}
-        for F in (PageOne, PageThree):
+        self.fl = []
+        for F in (PageOne, PageThree, SessionList):
             frame = F(container, self)
-            self.frames[F] = frame
+            # self.frames[F] = frame
+            self.fl.append(frame)
             frame.grid(row=0, column=0, sticky="nsew")
-        self.show_frame(PageThree)
+        # self.show_frame(PageThree)
+        self.show_frame(1)
 
     def show_frame(self, cont):
-        frame = self.frames[cont]
+        print("Frame: ", cont)
+        print(self.frames)
+        print(self.fl)
+        # frame = self.frames[cont]
+        frame = self.fl[cont]
         frame.tkraise()
 
 

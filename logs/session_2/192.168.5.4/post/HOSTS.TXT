@@ -1,0 +1,115 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+192.168.1.99    rhel7.example.com       rhel7
+
+
+#### ==========================================
+##  New DNS Entries
+
+10.11.80.84		tmprorasapl01.txuer.net		tmprorasapl01						
+10.47.11.135	vsnfsprd1.txuer.net			vsnfsprd1		
+10.47.11.140	tvprsapispl01.txuer.net		tvprsapispl01	
+10.47.11.141	tvprsapispl02.txuer.net		tvprsapispl02	
+10.47.11.142	tvprsapispl10.txuer.net		tvprsapispl10	
+10.47.11.143	tvprsapispl11.txuer.net		tvprsapispl11	
+10.47.11.144	tvprsapispl12.txuer.net		tvprsapispl12	
+10.47.11.145	tvprsapispl13.txuer.net		tvprsapispl13	
+10.47.11.146	tvprsapispl14.txuer.net		tvprsapispl14	
+10.47.11.147	tvprsapispl15.txuer.net		tvprsapispl15	
+10.47.11.148	tvprsapispl16.txuer.net		tvprsapispl16	
+10.47.11.149	tvprsapispl17.txuer.net		tvprsapispl17	
+10.47.11.150	tvprsapispl18.txuer.net		tvprsapispl18	
+10.47.11.151	tvprsapispl19.txuer.net		tvprsapispl19	
+10.47.11.152	tvproraispl01.txuer.net		tvproraispl01	
+10.47.11.153	tvprsapxipl01.txuer.net		tvprsapxipl01	
+10.47.11.154	tvprsapxipl02.txuer.net		tvprsapxipl02		
+10.47.11.155	tvprsapxipl10.txuer.net		tvprsapxipl10	
+10.47.11.156	tvprsapxipl11.txuer.net		tvprsapxipl11	
+10.47.11.157	tvprsapxipl12.txuer.net		tvprsapxipl12	
+10.47.11.158	tvproraxipl01.txuer.net		tvproraxipl01	
+10.47.11.159	tvprsapeppl01.txuer.net		tvprsapeppl01	
+10.47.11.160	tvprsapeppl02.txuer.net		tvprsapeppl02	
+10.47.11.161	tvprsapeppl10.txuer.net		tvprsapeppl10	
+10.47.11.162	tvprsapeppl11.txuer.net		tvprsapeppl11	
+10.47.11.163	tvprsapeppl12.txuer.net		tvprsapeppl12	tvprsapgrpl01.txuer.net	tvprsapgrpl01	
+10.47.11.164	tnprsaps1pl01.txuer.net		tnprsaps1pl01	tvprsapeppl13.txuer.net	tvprsapeppl13	
+10.47.11.165	tvproraeppl01.txuer.net		tvproraeppl01	tvproragrpl01.txuer.net	tvproragrpl01	
+10.47.11.166	tvprsapsmpl01.txuer.net		tvprsapsmpl01	
+10.47.11.167	tvprsapsmpl02.txuer.net		tvprsapsmpl02	
+10.47.11.168	tvprorasmpl01.txuer.net		tvprorasmpl01	
+10.47.11.169	tvprsaps1pl01.txuer.net		tvprsaps1pl01	
+10.47.11.170	tvprsaps1pl02.txuer.net		tvprsaps1pl02	
+10.47.11.171	tvprsaps1pl10.txuer.net		tvprsaps1pl10	
+10.47.11.172	tvproras1pl01.txuer.net		tvproras1pl01	
+10.47.11.173	tmprsaphapl01.txuer.net		tmprsaphapl01	
+10.47.11.174	tmprsaphapl02.txuer.net		tmprsaphapl02	
+10.47.11.175	tmprsaphapl03.txuer.net		tmprsaphapl03	
+10.47.11.176	tmprsaphapl04.txuer.net		tmprsaphapl04	
+10.47.11.178	tnproras1pl01.txuer.net		tnproras1pl01	tvprsapwx1l02.txuer.net	tvprsapwx1l02	
+10.47.11.179	tvprsapgwpl01.txuer.net		tvprsapgwpl01	
+10.47.11.180	tvproragwpl01.txuer.net		tvproragwpl01	
+10.47.11.181	tvprsapx1pw01.txuer.net		tvprsapx1pw01	sapx1p01.txuer.net	sapx1p01		
+10.47.11.182	tvprsapx1pw02.txuer.net		tvprsapx1pw02	sapx1p02.txuer.net	
+10.47.11.183	tvprsapx1pw10.txuer.net		tvprsapx1pw10	sapx1p10.txuer.net	
+10.47.11.184	tvprsqlx1pw01.txuer.net		tvprsqlx1pw01	sapx1pdb.txuer.net
+10.47.11.189	tvprsaphcpl01.txuer.net		tvprsaphcpl01
+10.47.11.190	tvprsaphcpl02.txuer.net		tvprsaphcpl02
+10.47.11.191	tvprsaphcpl03.txuer.net		tvprsaphcpl03
+10.47.11.192	tvprsaphcpl04.txuer.net		tvprsaphcpl04
+10.47.11.193	tvprsaphcpl05.txuer.net		tvprsaphcpl05
+10.47.11.194	tvprsaphcpl06.txuer.net		tvprsaphcpl06
+10.47.11.195	tvprsapcmpl01.txuer.net		tvprsapcmpl01
+10.47.11.196	tvprsapcmpl02.txuer.net		tvprsapcmpl02
+10.47.11.197	tvprsapcmpl10.txuer.net		tvprsapcmpl10
+10.47.11.198	tvprsapcmpl11.txuer.net		tvprsapcmpl11
+10.47.11.199	tvprsapcmpl12.txuer.net		tvprsapcmpl12
+10.47.11.200	tvprsapcmpl13.txuer.net		tvprsapcmpl13
+10.47.11.201	tvprsapcmpl14.txuer.net		tvprsapcmpl14
+10.47.11.202	tvprsapcmpl15.txuer.net		tvprsapcmpl15
+10.47.11.203	tvprsapcmpl16.txuer.net		tvprsapcmpl16
+10.47.11.204	tvprsapcmpl17.txuer.net		tvprsapcmpl17
+10.47.11.205	tvprsapcmpl18.txuer.net		tvprsapcmpl18
+10.47.11.206	tvprsapcmpl19.txuer.net		tvprsapcmpl19
+10.47.11.207	tvproracmpl01.txuer.net		tvproracmpl01
+10.47.11.208	tvprsqlhcpw01.txuer.net		tvprsqlhcpw01
+10.47.11.209	tvprsapwx1l01.txuer.net		tvprsapwx1l01
+10.47.11.210	tvprorabipl01.txuer.net		tvprorabipl01
+10.47.11.211	tvprsapbipl02.txuer.net		tvprsapbipl02
+10.47.11.212	tvprsapbipl01.txuer.net		tvprsapbipl01
+10.47.11.214	tvprsapbipl10.txuer.net		tvprsapbipl10
+10.47.11.215	tvprsapbipl11.txuer.net		tvprsapbipl11
+10.47.11.216	tvprsapbipl12.txuer.net		tvprsapbipl12
+10.47.11.217	tvprsapbipl13.txuer.net		tvprsapbipl13
+10.47.11.219	tvprsapb3pl01.txuer.net		tvprsapb3pl01
+10.47.11.220	tvprsapb3pl02.txuer.net		tvprsapb3pl02
+10.47.11.221	tvprsapb3pl10.txuer.net		tvprsapb3pl10
+10.47.11.222	tvprsapb3pl11.txuer.net		tvprsapb3pl11
+10.47.11.223	tvprorab3pl01.txuer.net		tvprorab3pl01
+10.47.11.224	tvprsapb3pl12.txuer.net		tvprsapb3pl12
+10.47.11.225	tvprsapb3pl13.txuer.net		tvprsapb3pl13
+10.47.11.226	tvprsapgwpl10.txuer.net		tvprsapgwpl10
+10.47.11.227	tvprsapgwpl11.txuer.net		tvprsapgwpl11
+10.47.11.231	tvproras2pl01.txuer.net		tvproras2pl01
+10.47.11.232	tvprsaps2pl01.txuer.net		tvprsaps2pl01
+10.47.11.233	tvprsapsjpl01.txuer.net		tvprsapsjpl01
+10.47.11.234	tvproraospl01.txuer.net		tvproraospl01
+10.47.11.238	tvprsapospl01.txuer.net		tvprsapospl01
+10.47.11.239	tvprsapospl02.txuer.net		tvprsapospl02
+10.47.11.252	tvprsapospl10.txuer.net		tvprsapospl10
+10.47.11.46		tnpporas1cl01.txuer.net		tnpporas1cl01
+10.47.11.68		tvppsapgppl01.txuer.net		tvppsapgppl01
+10.47.11.70		tvprsapispl01_upg.txuer.net	tvprsapispl01_upg
+10.47.12.119	tvqaoraosql01.txuer.net		tvqaoraosql01
+10.47.12.11		tvdoras2dl01.txuer.net		tvdoras2dl01
+10.47.12.124	tvqasaposql01.txuer.net		tvqasaposql01
+10.47.12.125	tvqasaposql02.txuer.net		tvqasaposql02
+10.47.12.126	tvqasaposql10.txuer.net		tvqasaposql10
+10.47.12.12		tvdsaps2dl01.txuer.net		tvdsaps2dl01
+10.47.12.13		tvdsapsjdl01.txuer.net		tvdsapsjdl01
+10.47.12.16		tvdvoraosdl01.txuer.net		tvdvoraosdl01
+10.47.12.19		tvdvsapgrdl01.txuer.net		tvdvsapgrdl01
+10.47.12.24		tndvsaps1dl01.txuer.net		tndvsaps1dl01
+10.47.12.34		tvdvsapisdl10.txuer.net		tvdvsapisdl10
+10.47.12.7		tvdvsaposdl01.txuer.net		tvdvsaposdl01
+10.47.12.92		tvqasapgrql01.txuer.net		tvqasapgrql01

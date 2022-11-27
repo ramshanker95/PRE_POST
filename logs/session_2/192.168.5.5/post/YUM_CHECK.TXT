@@ -1,0 +1,6 @@
+Loaded plugins: product-id, search-disabled-repos, subscription-manager
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+repo id             repo name                                             status
+InstallMedia        Red Hat Enterprise Linux 7.9                           5230
+!epel/x86_64        Extra Packages for Enterprise Linux 7 - x86_64        13756
+repolist: 18986

@@ -87,3 +87,4 @@ if __name__ == "__main__":
     obj = CompareResult(ROOT=ROOT, PRE=PRE, POST=POST, RES=RES, RT=RT, IG_CMD_FILE=IG)
 
     obj.bhai_check_karo()
+    
