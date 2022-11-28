@@ -1,0 +1,7 @@
+/dev/mapper/TEST_VG-TEST_LV: UUID="ab12d7b9-7583-470f-bf09-6ad97126f5f2" TYPE="xfs" 
+/dev/mapper/rhel_rhel7-root: UUID="eb86b7eb-c7f9-4dd7-874b-1171e16ee629" TYPE="xfs" 
+/dev/mapper/rhel_rhel7-swap: UUID="477ab588-e589-4892-bd6a-5474c282bf83" TYPE="swap" 
+/dev/sda1: UUID="0d591821-a17b-4d96-82e0-9284080f4193" TYPE="xfs" 
+/dev/sda2: UUID="RyQo1h-rgVP-Vh9l-NvbJ-waIK-Azme-gL21SX" TYPE="LVM2_member" 
+/dev/sdb: UUID="h1fuTe-3451-H4dE-TUMe-OuuS-R5uP-k6bAtP" TYPE="LVM2_member" 
+/dev/sdc: UUID="et5jvd-RyUI-C1Cx-UGRi-k8ew-Kvge-LMJMe4" TYPE="LVM2_member" 

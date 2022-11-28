@@ -118,14 +118,14 @@ class PageThree(tk.Frame):
         # Session List ============= 
         self.sessions = os.listdir("logs")
         self.sframe = Frame(self)
-        self.sframe.pack(pady=20, side=LEFT)
+        self.sframe.pack(pady=20, padx=50, side=LEFT)
 
         self.lst = Label(self.sframe, text="Sessions", font=s_font)
         self.lst.grid(row=0, column=0, padx=50, pady=10)
 
         self.session_list = Listbox(self.sframe, bg="#ffffff",
-                                   fg= "#000000", font=font_for_list, height=10, width=20)
-        self.session_list.grid(row=1, column=0, padx=50, rowspan=2, sticky=E+W+N+S)
+                                   fg= "#000000", font=font_for_list, height=20, width=20)
+        self.session_list.grid(row=1, column=0, padx=5, pady=20, rowspan=2, sticky=E+W+N+S)
 
         # Onselect Event
         self.session_list.bind('<<ListboxSelect>>', self.onselect)
@@ -138,10 +138,9 @@ class PageThree(tk.Frame):
         self.session_list.config(yscrollcommand=scr.set)
         # Fetching Server List from File
 
-        for line in self.sessions*10:
+        for line in self.sessions:
             print(line)
             self.session_list.insert(END, line.strip())
-
             
         # Sessin Details ============
         self.frame = Frame(self)
@@ -156,7 +155,7 @@ class PageThree(tk.Frame):
         self.tv.heading(4, text="Resut")
 
         self.sb = Scrollbar(self.frame, orient=VERTICAL)
-        self.sb.pack(side=RIGHT, fill=Y)
+        self.sb.pack(side=LEFT, fill=Y)
 
         self.tv.config(yscrollcommand=self.sb.set)
         self.sb.config(command=self.tv.yview)
@@ -193,11 +192,18 @@ class PageThree(tk.Frame):
         Errors = ["{}".format(choice(error)) for _ in range(1, 100)]
 
         test_results = ["{}".format(choice(stat)) for _ in range(1, 100)]
+        # Clear list of server
+        for item in self.tv.get_children():
+            self.tv.delete(item)
 
         i = 1
         for sn, ser, err, res in zip(serial_number, self.server, Errors, test_results):
-            self.tv.insert(parent='', index=i, iid=i, values=(sn, ser, err, res))
-            i +=1
+            try:
+                self.tv.insert(parent='', index=i, iid=i, values=(sn, ser, err, res))
+                i +=1
+            except TclError:
+                print("Error: ")
+                pass
 
         # self.tv.bind('<<TreeviewSelect>>', self.OnDoubleClick)
         self.tv.bind('<Double-1>', self.OnDoubleClick)
@@ -233,8 +239,11 @@ class PageOne(tk.Frame):
         self.btn_width = 150
         self.btn_height = 150
 
+        # All session list
+        self.session_list = os.listdir("logs")
+
         # get all server ip
-        self.server = os.listdir("logs\\session_1")
+        self.server = os.listdir("logs\\{}".format(self.session_list[0]))
 
 
         # Create a main frame
@@ -247,10 +256,6 @@ class PageOne(tk.Frame):
             self.pre_frame, width=fw, height=fh, font=out_font)
         self.txtbox.grid(row=0, column=0)
 
-        # default Result
-        # with open(r"logs\session_1\192.168.5.2\pre\CPUINFO.TXT", "r") as f:
-        #     self.txtbox.insert(END, f.read())
-
         self.post_frame = LabelFrame(self, text="POST")
         self.post_frame.grid(row=0, column=1)
 
@@ -258,10 +263,6 @@ class PageOne(tk.Frame):
         self.txtbox1 = scrolledtext.ScrolledText(
             self.post_frame, width=fw, height=fh, font=out_font)
         self.txtbox1.grid(row=0, column=0)
-
-        # Default result
-        # with open(r"logs\session_1\192.168.5.2\pre\CPUINFO.TXT", "r") as f:
-        #     self.txtbox1.insert(END, f.read())
 
         # Controll Section
         self.command_frame = LabelFrame(self, text="Commands")
@@ -271,7 +272,7 @@ class PageOne(tk.Frame):
         self.server_list.grid(row=0, column=0, sticky="w", padx=2)
 
         # Onselect Event
-        self.server_list.bind('<<ListboxSelect>>', self.onselect)
+        self.server_list.bind('<<ListboxSelect>>', self.cmd_onselect)
 
         scr = Scrollbar(self.command_frame)
         scr.grid(row=0, column=1, sticky=E+W+N+S)
@@ -282,7 +283,7 @@ class PageOne(tk.Frame):
         # Fetching Server List from File
 
         cmd = [i.replace(".TXT", "")
-               for i in os.listdir(r"logs\session_1\192.168.5.2\post")]
+               for i in os.listdir(r"logs\{}\{}\pre".format(self.session_list[0], self.server[0]))]
 
         for line in cmd:
             self.server_list.insert(END, line.strip())
@@ -296,30 +297,39 @@ class PageOne(tk.Frame):
         quit.grid(row=2, column=0, pady=10)
 
         
-        self.sr_name = Label(self.command_frame, text=var.SERVER)
+        self.sr_name = Label(self.command_frame, text="", font=font)
         self.sr_name.grid(row=3, column=0, pady=1)
 
         
-    def onselect(self, evt):
+    def cmd_onselect(self, evt):
         w = evt.widget
         try:
             index = int(w.curselection()[0])
             value = w.get(index)
             # value = self.server_list.get(tk.ACTIVE)
-            print('You selected item "%s"' % (value))
+            print('You selected command "%s"' % (value))
             print("Selected Server: ", var.SERVER)
             self.sr_name.configure(text=var.SERVER)
 
-            with open(r"logs\session_1\{}\pre\{}.TXT".format(var.SERVER, value), "r") as f:
-                self.txtbox.delete('1.0', END)
-                self.txtbox.insert(END, f.read())
-                self.txtbox.tag_add("start", "1.11", "1.27")
-                self.txtbox.tag_config(
-                    "start", background="red", foreground="white")
+            if not os.path.exists(r"logs\{}\{}\pre\{}.TXT".format(var.SESSION, var.SERVER, value)):
+                self.txtbox.delete("1.0", END)
+                self.txtbox.insert(END, "No Record Found")
+            else:
+                with open(r"logs\{}\{}\pre\{}.TXT".format(var.SESSION, var.SERVER, value), "r") as f:
+                    self.txtbox.delete('1.0', END)
+                    self.txtbox.insert(END, f.read())
+                    # self.txtbox.tag_add("start", "1.11", "3.27")
+                    self.txtbox.tag_config(
+                        "start", background="red", foreground="white")
+                    
+            if not os.path.exists(r"logs\{}\{}\post\{}.TXT".format(var.SESSION, var.SERVER, value)):
+                self.txtbox1.delete("1.0", END)
+                self.txtbox1.insert(END, "No Record Found")
+            else:
+                with open(r"logs\{}\{}\post\{}.TXT".format(var.SESSION, var.SERVER, value), "r") as f:
+                    self.txtbox1.delete('1.0', END)
+                    self.txtbox1.insert(END, f.read())
 
-            with open(r"logs\session_1\{}\post\{}.TXT".format(var.SERVER, value), "r") as f:
-                self.txtbox1.delete('1.0', END)
-                self.txtbox1.insert(END, f.read())
         except Exception as e:
             print("Error", e)
     

@@ -1,0 +1,4 @@
+  /dev/sda2  rhel_rhel7 lvm2 a--  <39.00g    4.00m
+  /dev/sdb   TEST_VG    lvm2 a--   <8.00g       0 
+  /dev/sdc   TEST_VG    lvm2 a--   <8.00g 1020.00m
+  PV         VG         Fmt  Attr PSize   PFree   

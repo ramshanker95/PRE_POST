@@ -1,0 +1,4472 @@
+/etc:
+total 1172
+drwxr-xr-x.  2 root root     79 Sep 14 05:47 nitish
+drwxr-xr-x.  2 root root     79 Sep 14 05:47 nitish/sharma
+drwxr-xr-x.  2 root root     79 Sep 14 05:47 gssproxy
+drwxr-xr-x.  2 root root     99 Sep 14 05:47 modprobe.d
+drwxr-xr-x.  2 root root     30 Sep 14 05:47 request-key.d
+drwxr-xr-x.  7 root root   4096 Sep 14 05:47 sysconfig
+-rw-r--r--.  1 root root   1855 Sep 14 05:47 passwd
+----------.  1 root root    687 Sep 14 05:47 gshadow
+-rw-r--r--.  1 root root    886 Sep 14 05:47 group
+-rw-r--r--.  1 root root    113 Sep 26 18:14 resolv.conf
+----------.  1 root root   2559 Sep 22 19:04 shadow
+-rw-r--r--.  1 root root   6071 Sep 16 16:17 hosts
+-rw-r--r--.  1 root root    276 Sep 16 16:17 hosts_2022-09-16
+-rw-r--r--.  1 root root  28960 Sep 14 05:48 ld.so.cache
+drwxr-xr-x.  2 root root     35 Sep 14 05:48 python
+drwxr-xr-x.  2 root root     39 Sep 14 05:47 rwtab.d
+-rw-r--r--.  1 root root    867 Sep 14 05:47 group-
+----------.  1 root root    673 Sep 14 05:47 gshadow-
+-rw-r--r--.  1 root root   1785 Sep 14 05:47 passwd-
+----------.  1 root root   2534 Sep 14 05:47 shadow-
+drwxr-xr-x.  2 root root    125 Sep 14 05:46 yum.repos.d
+-rw-r--r--.  1 root root    749 Sep 14 05:24 fstab
+-rw-r--r--.  1 root root   3151 Sep  5 02:33 bashrc
+drwxr-xr-x.  3 root root     54 Aug 17 02:36 udev
+drwxr-xr-x.  3 root root     76 Jun 28 20:24 davfs2
+-rw-r--r--.  1 root root     42 Jun  7 18:14 chrony.conf
+drwxr-xr-x.  2 root root   4096 May 19 05:34 pam.d
+drwxr-xr-x.  6 root root   4096 May 19 05:34 security
+drwxr-xr-x.  2 root root    225 Aug 20  2021 ssh
+-rw-r--r--.  1 root root   4038 Aug 16  2021 hosts_DR_2021-08-16-06-28-26-EDT
+-rw-r--r--.  1 root root   4018 Aug 16  2021 hosts_DR_2021-08-16-06-28-12-EDT
+-rw-r--r--.  1 root root   3998 Aug 16  2021 hosts_DR_2021-08-16-06-27-45-EDT
+-rw-r--r--.  1 root root   3909 Aug 16  2021 hosts_DR_2021-08-16-06-24-22-EDT
+-rw-r--r--.  1 root root   3820 Aug 16  2021 hosts_DR_2021-08-16-06-23-05-EDT
+-rw-r--r--.  1 root root   3800 Aug 16  2021 hosts_DR_2021-08-16-06-19-05-EDT
+-rw-r--r--.  1 root root   3780 Aug 16  2021 hosts_DR_2021-08-16-06-17-25-EDT
+-rw-r--r--.  1 root root   3760 Aug 16  2021 hosts_DR_2021-08-16-06-12-34-EDT
+-rw-r--r--.  1 root root   3740 Aug 16  2021 hosts_DR_2021-08-16-06-11-20-EDT
+-rw-r--r--.  1 root root   3651 Aug 16  2021 hosts_DR_2021-08-16-06-06-00-EDT
+-rw-r--r--.  1 root root   3631 Aug 16  2021 hosts_DR_2021-08-16-06-03-37-EDT
+-rw-r--r--.  1 root root   3611 Aug 16  2021 hosts_DR_2021-08-16-06-01-34-EDT
+-rw-r--r--.  1 root root   3591 Aug 16  2021 hosts_DR_2021-08-16-05-57-24-EDT
+drwxr-xr-x. 10 root root    127 Aug  3  2021 rc.d
+drwxr-x---.  2 root root     23 Mar 19  2021 sudoers.d
+drwxr-xr-x.  4 root root   4096 Feb  3  2021 systemd
+-r--r-----.  1 root root   4409 Jan 23  2021 sudoers
+-rw-r--r--.  1 root root    205 Jan  1  2021 hosts_DR_2021-08-16-05-56-03-EDT
+-rw-r--r--.  1 root root   2134 Dec 29  2020 profile
+-rwxrwxrwx.  1 root root   3956 Dec 29  2020 REASON_FOR_LOGIN.txt
+drwxr-x---.  3 root root    107 Aug 16  2020 audit
+drwxr-xr-x. 14 root root    189 Jul  8  2020 pki
+-rw-r--r--.  1 root root  12288 Jul  4  2020 aliases.db
+-rw-r--r--.  1 root root     18 Jul  4  2020 hostname
+-rw-r--r--.  1 root root     16 Jul  4  2020 adjtime
+-rw-r--r--.  1 root root     19 Jul  4  2020 locale.conf
+lrwxrwxrwx.  1 root root     34 Jul  4  2020 localtime -> ../usr/share/zoneinfo/Asia/Kolkata
+-rw-r--r--.  1 root root     37 Jul  4  2020 vconsole.conf
+drwxr-xr-x.  2 root root     44 Jul  4  2020 default
+drwx------.  2 root root    182 Jul  4  2020 grub.d
+drwxr-xr-x.  3 root root     41 Jul  4  2020 latrace.d
+drwxr-xr-x.  2 root root    194 Jul  4  2020 bash_completion.d
+drwxr-xr-x.  2 root root     55 Jul  4  2020 cron.daily
+drwxr-xr-x.  3 root root     24 Jul  4  2020 kernel
+drwxr-xr-x.  3 root root     50 Jul  4  2020 qemu-ga
+drwxr-xr-x.  2 root root    111 Jul  4  2020 logrotate.d
+drwxr-xr-x.  2 root root    236 Jul  4  2020 alternatives
+drwxr-xr-x.  2 root root     24 Jul  4  2020 sasl2
+drwxr-xr-x.  2 root root    154 Jul  4  2020 postfix
+drwxr-x---.  3 root root     43 Jul  4  2020 audisp
+drwxr-xr-x.  2 root root    101 Jul  4  2020 ld.so.conf.d
+drwxr-xr-x.  6 root root    100 Jul  4  2020 lvm
+drwxr-xr-x.  5 root root     86 Jul  4  2020 rhsm
+drwxr-xr-x.  3 root root     21 Jul  4  2020 dnf
+drwxr-xr-x.  3 root root    109 Jul  4  2020 tuned
+drwxr-x---.  7 root root    133 Jul  4  2020 firewalld
+drwxr-xr-x.  2 root root    230 Jul  4  2020 rpm
+drwxr-xr-x.  6 root root    187 Jul  4  2020 libreport
+drwxr-xr-x.  3 root root    101 Jul  4  2020 abrt
+-rw-r--r--.  1 root root   7265 Jul  4  2020 kdump.conf
+drwxr-x---.  4 root root     53 Jul  4  2020 dhcp
+drwxr-xr-x.  2 root root     28 Jul  4  2020 plymouth
+drwxr-xr-x.  2 root root     33 Jul  4  2020 wpa_supplicant
+drwxr-xr-x.  5 root root     81 Jul  4  2020 selinux
+lrwxrwxrwx.  1 root root     22 Jul  4  2020 grub2.cfg -> ../boot/grub2/grub.cfg
+drwxr-xr-x.  2 root root     21 Jul  4  2020 cron.d
+drwxr-xr-x.  2 root root     22 Jul  4  2020 cron.hourly
+drwxr-xr-x.  2 root root     78 Jul  4  2020 prelink.conf.d
+drwxr-xr-x.  2 root root     28 Jul  4  2020 sysctl.d
+drwxr-xr-x.  3 root root    123 Jul  4  2020 ppp
+drwxr-xr-x.  2 root root    251 Jul  4  2020 profile.d
+drwxr-xr-x.  5 root root     72 Jul  4  2020 polkit-1
+drwxr-xr-x.  4 root root     78 Jul  4  2020 dbus-1
+-rw-r--r--.  1 root root   1746 Jul  4  2020 nsswitch.conf
+-r--r--r--.  1 root root     33 Jul  4  2020 machine-id
+drwxr-xr-x.  4 root root     38 Jul  4  2020 xdg
+lrwxrwxrwx.  1 root root     13 Jul  4  2020 rc.local -> rc.d/rc.local
+drwxr-xr-x.  5 root root     57 Jul  4  2020 X11
+drwxr-xr-x.  2 root root     23 Jul  4  2020 depmod.d
+drwxr-xr-x.  6 root root    100 Jul  4  2020 yum
+drwxr-xr-x.  3 root root     36 Jul  4  2020 openldap
+lrwxrwxrwx.  1 root root     56 Jul  4  2020 favicon.png -> /usr/share/icons/hicolor/16x16/apps/fedora-logo-icon.png
+drwxr-xr-x.  2 root root     31 Jul  4  2020 my.cnf.d
+drwxr-xr-x.  3 root root     20 Jul  4  2020 gss
+drwxr-xr-x.  2 root root     21 Jul  4  2020 xml
+drwxr-xr-x.  3 root root     21 Jul  4  2020 sgml
+drwxr-xr-x.  2 root root    159 Jul  4  2020 iproute2
+drwxr-xr-x.  2 root root     19 Jul  4  2020 ssl
+drwxr-xr-x.  4 root root     40 Jul  4  2020 groff
+drwxr-xr-x.  3 root root     21 Jul  4  2020 pkcs11
+drwxr-xr-x.  2 root root     35 Jul  4  2020 libnl
+lrwxrwxrwx.  1 root root     10 Jul  4  2020 rc1.d -> rc.d/rc1.d
+lrwxrwxrwx.  1 root root     10 Jul  4  2020 rc2.d -> rc.d/rc2.d
+lrwxrwxrwx.  1 root root     10 Jul  4  2020 rc3.d -> rc.d/rc3.d
+lrwxrwxrwx.  1 root root     10 Jul  4  2020 rc4.d -> rc.d/rc4.d
+lrwxrwxrwx.  1 root root     10 Jul  4  2020 rc5.d -> rc.d/rc5.d
+lrwxrwxrwx.  1 root root     10 Jul  4  2020 rc6.d -> rc.d/rc6.d
+lrwxrwxrwx.  1 root root     11 Jul  4  2020 init.d -> rc.d/init.d
+lrwxrwxrwx.  1 root root     10 Jul  4  2020 rc0.d -> rc.d/rc0.d
+drwxr-xr-x.  2 root root     62 Jul  4  2020 skel
+drwxr-xr-x.  5 root root     52 Jul  4  2020 pm
+lrwxrwxrwx.  1 root root     14 Jul  4  2020 system-release -> redhat-release
+lrwxrwxrwx.  1 root root     17 Jul  4  2020 mtab -> /proc/self/mounts
+-rw-------.  1 root root      0 Jul  4  2020 crypttab
+drwxr-xr-x.  2 root root      6 Jun  8  2020 exports.d
+-rw-r--r--.  1 root root   1023 Jun  8  2020 nfs.conf
+-rw-r--r--.  1 root root   3391 Jun  8  2020 nfsmount.conf
+-rw-r--r--.  1 root root   4479 Apr  6  2019 wgetrc
+-rw-r--r--.  1 root root    767 Dec 17  2018 netconfig
+-rw-r--r--.  1 root root   1285 Sep 27  2018 dracut.conf
+drwxr-xr-x.  2 root root      6 Sep 27  2018 dracut.conf.d
+-rw-r-----.  1 root root   3181 Sep 25  2018 sudo-ldap.conf
+-rw-r-----.  1 root root   1786 Sep 25  2018 sudo.conf
+-rw-r--r--.  1 root root     23 Sep 21  2018 issue
+-rw-r--r--.  1 root root     22 Sep 21  2018 issue.net
+-rw-r--r--.  1 root root    532 Sep 21  2018 os-release
+-rw-r--r--.  1 root root     52 Sep 21  2018 redhat-release
+-rw-r--r--.  1 root root     45 Sep 21  2018 system-release-cpe
+-rw-r--r--.  1 root root    216 Sep 18  2018 sestatus.conf
+-rw-r--r--.  1 root root    100 Sep 15  2018 sos.conf
+drwxr-xr-x.  2 root root      6 Sep  7  2018 binfmt.d
+drwxr-xr-x.  2 root root      6 Sep  7  2018 modules-load.d
+drwxr-xr-x.  2 root root      6 Sep  7  2018 tmpfiles.d
+drwxr-xr-x.  2 root root     25 Aug 30  2018 rsyslog.d
+-rw-r--r--.  1 root root   3232 Aug 30  2018 rsyslog.conf
+-rw-r--r--.  1 root root   5122 Aug 30  2018 makedumpfile.conf.sample
+-rw-r--r--.  1 root root    511 Aug 24  2018 inittab
+-rw-r--r--.  1 root root     58 Aug 24  2018 networks
+-rw-r--r--.  1 root root    966 Aug 24  2018 rwtab
+-rw-r--r--.  1 root root    212 Aug 24  2018 statetab
+drwxr-xr-x.  2 root root      6 Aug 24  2018 statetab.d
+-rw-r--r--.  1 root root    449 Aug 24  2018 sysctl.conf
+-rw-r--r--.  1 root root    813 Aug 15  2018 yum.conf
+drwxr-xr-x.  2 root root      6 Aug  2  2018 krb5.conf.d
+-rw-r--r--.  1 root root    641 Aug  2  2018 krb5.conf
+-rw-r--r--.  1 root root    842 Jul 31  2018 GeoIP.conf
+-rw-r--r--.  1 root root    858 Jul 31  2018 GeoIP.conf.default
+-rw-r--r--.  1 root root   5171 Jul 10  2018 man_db.conf
+-rw-r--r--.  1 root root    265 Jun 29  2018 gdbinit
+drwxr-xr-x.  2 root root      6 Jun 29  2018 gdbinit.d
+-rw-r--r--.  1 root root   1735 Jun 28  2018 nsswitch.conf.bak
+-rw-r--r--.  1 root root   1982 Jun 22  2018 virc
+drwxr-xr-x.  2 root root      6 Jun 21  2018 gnupg
+-rw-r--r--.  1 root root   1620 Jun 21  2018 csh.cshrc
+-rw-r--r--.  1 root root    866 Jun 21  2018 csh.login
+-rw-r--r--.  1 root root      0 Jun 21  2018 environment
+-rw-r--r--.  1 root root     70 Jun 21  2018 filesystems
+-rw-r--r--.  1 root root   6545 Jun 21  2018 protocols
+-rw-------.  1 root root    221 Jun 21  2018 securetty
+-rw-r--r--.  1 root root     44 Jun 21  2018 shells
+-rw-r--r--.  1 root root      0 Jun 21  2018 subgid
+-rw-r--r--.  1 root root      0 Jun 21  2018 subuid
+-rw-r-----.  1 root root    191 Jun 19  2018 libaudit.conf
+-rw-r--r--.  1 root root   5090 Jun 15  2018 DIR_COLORS
+-rw-r--r--.  1 root root   5725 Jun 15  2018 DIR_COLORS.256color
+-rw-r--r--.  1 root root   4669 Jun 15  2018 DIR_COLORS.lightbgcolor
+-rw-r--r--.  1 root root    936 Jun 13  2018 mke2fs.conf
+-rw-r--r--.  1 root root    112 Jun 13  2018 e2fsck.conf
+-rw-r--r--.  1 root root    111 Jun  6  2018 magic
+-rw-r--r--.  1 root root    570 Jun  5  2018 my.cnf
+-rw-r--r--.  1 root root     55 May 23  2018 asound.conf
+-rw-r--r--.  1 root root   2028 Apr 26  2018 login.defs
+drwxr-xr-x.  7 root root    134 Apr 24  2018 NetworkManager
+-rw-r--r--.  1 root root   1968 Feb  7  2018 mail.rc
+drwxr-xr-x.  2 root root      6 Dec 14  2017 opt
+drwxr-xr-x.  2 root root      6 Dec 14  2017 xinetd.d
+-rw-r--r--.  1 root root   4849 Nov 18  2017 idmapd.conf
+-rw-r--r--.  1 root root   1317 Oct 25  2017 ethertypes
+drwxr-xr-x.  2 root root      6 Oct 25  2017 subversion
+-rw-r--r--.  1 root root    458 Oct 18  2017 rsyncd.conf
+-rw-------.  1 root root    541 Oct 16  2017 anacrontab
+-rw-------.  1 root root      0 Oct 16  2017 cron.deny
+drwxr-xr-x.  2 root root      6 Aug 15  2017 terminfo
+drwxr-xr-x.  2 root root      6 Jun  6  2017 chkconfig.d
+-rw-------.  1 tss  tss    7046 Apr  4  2017 tcsd.conf
+-rw-r--r--.  1 root root     94 Mar 24  2017 GREP_COLORS
+drwxr-xr-x.  2 root root      6 Feb 28  2017 gcrypt
+drwxr-xr-x.  2 root root      6 Jan 27  2014 popt.d
+-rw-r--r--.  1 root root   1787 Jan 26  2014 request-key.conf
+drwxr-xr-x.  2 root root      6 Dec 28  2013 cron.monthly
+drwxr-xr-x.  2 root root      6 Dec 28  2013 cron.weekly
+-rw-r--r--.  1 root root    451 Dec 28  2013 crontab
+-rw-r--r--.  1 root root   2391 Oct 13  2013 libuser.conf
+-rw-r--r--.  1 root root    662 Jul 31  2013 logrotate.conf
+-rw-r--r--.  1 root root   1518 Jun  7  2013 aliases
+-rw-r--r--.  1 root root      0 Jun  7  2013 exports
+-rw-r--r--.  1 root root      9 Jun  7  2013 host.conf
+-rw-r--r--.  1 root root    370 Jun  7  2013 hosts.allow
+-rw-r--r--.  1 root root    460 Jun  7  2013 hosts.deny
+-rw-r--r--.  1 root root    942 Jun  7  2013 inputrc
+-rw-r--r--.  1 root root      0 Jun  7  2013 motd
+-rw-r--r--.  1 root root    233 Jun  7  2013 printcap
+-rw-r--r--.  1 root root 670293 Jun  7  2013 services
+-rw-r--r--.  1 root root     28 Feb 28  2013 ld.so.conf
+-rw-r--r--.  1 root root   1634 Dec 25  2012 rpc
+
+/etc/python:
+total 4
+-rw-r--r--. 1 root root 381 Mar 21  2020 cert-verification.cfg
+
+/etc/gssproxy:
+total 12
+-rw-------. 1 root root 152 Jun  8  2020 24-nfs-server.conf
+-rw-------. 1 root root 276 Apr  7  2020 99-nfs-client.conf
+-rw-------. 1 root root  11 Apr  7  2020 gssproxy.conf
+
+/etc/modprobe.d:
+total 16
+-rw-r--r--. 1 root root 746 Jun  8  2020 lockd.conf
+-rw-r--r--. 1 root root 215 Oct  5  2018 dccp-blacklist.conf
+-rw-r--r--. 1 root root 166 Aug 17  2018 firewalld-sysctls.conf
+-rw-r--r--. 1 root root 674 Jul  5  2018 tuned.conf
+
+/etc/request-key.d:
+total 4
+-rw-r--r--. 1 root root 354 Jun  8  2020 id_resolver.conf
+
+/etc/sysconfig:
+total 120
+drwxr-xr-x. 2 root root 4096 Mar 13  2021 network-scripts
+-rw-r--r--. 1 root root 5340 Jul  7  2020 iptables
+-rw-r--r--. 1 root root  365 Jul  4  2020 anaconda
+-rw-r--r--. 1 root root   22 Jul  4  2020 network
+-rw-r--r--. 1 root root  483 Jul  4  2020 authconfig
+-rw-r--r--. 1 root root  180 Jul  4  2020 kernel
+drwxr-xr-x. 4 root root   77 Jul  4  2020 rhn
+lrwxrwxrwx. 1 root root   17 Jul  4  2020 selinux -> ../selinux/config
+lrwxrwxrwx. 1 root root   15 Jul  4  2020 grub -> ../default/grub
+drwxr-xr-x. 2 root root   43 Jul  4  2020 cbq
+-rw-r--r--. 1 root root 1679 Jun  8  2020 nfs
+-rw-r--r--. 1 root root   73 Oct 22  2019 rpcbind
+-rw-r--r--. 1 root root  395 May  9  2019 rpc-rquotad
+-rw-r--r--. 1 root root  150 Oct  5  2018 cpupower
+-rw-r--r--. 1 root root  196 Aug 30  2018 rsyslog
+-rw-r--r--. 1 root root 1722 Aug 30  2018 kdump
+-rw-r--r--. 1 root root  610 Aug 28  2018 wpa_supplicant
+drwxr-xr-x. 2 root root    6 Aug 24  2018 console
+-rw-r--r--. 1 root root  798 Aug 24  2018 init
+drwxr-xr-x. 2 root root    6 Aug 24  2018 modules
+-rw-r--r--. 1 root root  634 Aug 24  2018 netconsole
+-rw-r--r--. 1 root root  905 Aug 24  2018 readonly-root
+-rw-r--r--. 1 root root   73 Aug 17  2018 firewalld
+-rw-r--r--. 1 root root  911 Jul 24  2018 qemu-ga
+-rw-r--r--. 1 root root  200 Jul 10  2018 man-db
+-rw-------. 1 root root 2393 Jun  5  2018 ip6tables-config
+-rw-------. 1 root root 2374 Jun  5  2018 iptables-config
+-rw-r--r--. 1 root root  903 Feb  6  2018 irqbalance
+-rw-r-----. 1 root root  506 Nov 24  2017 sshd
+-rw-r--r--. 1 root root  211 Nov  6  2017 trace-cmd.conf
+-rw-------. 1 root root 1390 Oct 25  2017 ebtables-config
+-rw-r--r--. 1 root root  138 Oct 25  2017 svnserve
+-rw-r--r--. 1 root root   12 Oct 18  2017 rsyncd
+-rw-------. 1 root root  110 Oct 16  2017 crond
+-rw-r--r--. 1 root root   15 May 22  2017 rdisc
+-rw-r--r--. 1 root root    0 Dec 28  2013 run-parts
+
+/etc/sysconfig/network-scripts:
+total 236
+-rw-------. 1 root root   371 Mar 13  2021 ifcfg-enp0s3
+-rw-r--r--. 1 root root   312 Jul  4  2020 ifcfg-enp0s3.bak
+lrwxrwxrwx. 1 root root     9 Jul  4  2020 ifup-isdn -> ifup-ippp
+lrwxrwxrwx. 1 root root    22 Jul  4  2020 ifup -> ../../../usr/sbin/ifup
+lrwxrwxrwx. 1 root root    11 Jul  4  2020 ifdown-isdn -> ifdown-ippp
+lrwxrwxrwx. 1 root root    24 Jul  4  2020 ifdown -> ../../../usr/sbin/ifdown
+-rw-r--r--. 1 root root   254 Aug 24  2018 ifcfg-lo
+-rwxr-xr-x. 1 root root   654 Aug 24  2018 ifdown-bnep
+-rwxr-xr-x. 1 root root  6532 Aug 24  2018 ifdown-eth
+-rwxr-xr-x. 1 root root   781 Aug 24  2018 ifdown-ippp
+-rwxr-xr-x. 1 root root  4540 Aug 24  2018 ifdown-ipv6
+-rwxr-xr-x. 1 root root  2130 Aug 24  2018 ifdown-post
+-rwxr-xr-x. 1 root root  1068 Aug 24  2018 ifdown-ppp
+-rwxr-xr-x. 1 root root   870 Aug 24  2018 ifdown-routes
+-rwxr-xr-x. 1 root root  1456 Aug 24  2018 ifdown-sit
+-rwxr-xr-x. 1 root root  1462 Aug 24  2018 ifdown-tunnel
+-rwxr-xr-x. 1 root root 12415 Aug 24  2018 ifup-aliases
+-rwxr-xr-x. 1 root root   910 Aug 24  2018 ifup-bnep
+-rwxr-xr-x. 1 root root 13475 Aug 24  2018 ifup-eth
+-rwxr-xr-x. 1 root root 12075 Aug 24  2018 ifup-ippp
+-rwxr-xr-x. 1 root root 11893 Aug 24  2018 ifup-ipv6
+-rwxr-xr-x. 1 root root   650 Aug 24  2018 ifup-plip
+-rwxr-xr-x. 1 root root  1064 Aug 24  2018 ifup-plusb
+-rwxr-xr-x. 1 root root  4997 Aug 24  2018 ifup-post
+-rwxr-xr-x. 1 root root  4154 Aug 24  2018 ifup-ppp
+-rwxr-xr-x. 1 root root  2001 Aug 24  2018 ifup-routes
+-rwxr-xr-x. 1 root root  3303 Aug 24  2018 ifup-sit
+-rwxr-xr-x. 1 root root  2711 Aug 24  2018 ifup-tunnel
+-rwxr-xr-x. 1 root root  1836 Aug 24  2018 ifup-wireless
+-rwxr-xr-x. 1 root root  5419 Aug 24  2018 init.ipv6-global
+-rw-r--r--. 1 root root 20671 Aug 24  2018 network-functions
+-rw-r--r--. 1 root root 31027 Aug 24  2018 network-functions-ipv6
+-rwxr-xr-x. 1 root root  1621 Mar 17  2017 ifdown-Team
+-rwxr-xr-x. 1 root root  1556 Mar 17  2017 ifdown-TeamPort
+-rwxr-xr-x. 1 root root  1755 Mar 17  2017 ifup-Team
+-rwxr-xr-x. 1 root root  1876 Mar 17  2017 ifup-TeamPort
+
+/etc/sysconfig/rhn:
+total 8
+drwxr-xr-x. 4 root root   39 Jul  4  2020 allowed-actions
+drwxr-xr-x. 2 root root    6 Sep  6  2018 clientCaps.d
+-rw-r--r--. 1 root root 1912 Dec  9  2013 up2date
+-rw-r--r--. 1 root root   13 Jun 17  2013 rhnsd
+
+/etc/sysconfig/rhn/allowed-actions:
+total 0
+drwxr-xr-x. 2 root root 6 Sep  6  2018 configfiles
+drwxr-xr-x. 2 root root 6 Sep  6  2018 script
+
+/etc/sysconfig/rhn/allowed-actions/configfiles:
+total 0
+
+/etc/sysconfig/rhn/allowed-actions/script:
+total 0
+
+/etc/sysconfig/rhn/clientCaps.d:
+total 0
+
+/etc/sysconfig/cbq:
+total 8
+-rw-r--r--. 1 root root 11 Mar  6  2018 avpkt
+-rw-r--r--. 1 root root 79 Mar  6  2018 cbq-0000.example
+
+/etc/sysconfig/console:
+total 0
+
+/etc/sysconfig/modules:
+total 0
+
+/etc/rwtab.d:
+total 8
+-rw-r--r--. 1 root root 23 Apr  7  2020 gssproxy
+-rw-r--r--. 1 root root 24 Jun 15  2018 logrotate
+
+/etc/yum.repos.d:
+total 28
+-rw-r--r--. 1 root root   168 Sep 14 05:46 rhel7.repo
+-rw-r--r--. 1 root root 15608 Aug 11 18:46 epel-release-latest-7.noarch.rpm
+-rw-r--r--. 1 root root     0 Jan 12  2022 redhat.repo
+-rw-r--r--. 1 root root  1457 Sep  4  2021 epel-testing.repo
+-rw-r--r--. 1 root root  1358 Sep  4  2021 epel.repo
+
+/etc/udev:
+total 7764
+-r--r--r--. 1 root root 7942570 Aug 17 02:36 hwdb.bin
+drwxr-xr-x. 2 root root       6 Sep  7  2018 rules.d
+-rw-r--r--. 1 root root      49 Sep  7  2018 udev.conf
+
+/etc/udev/rules.d:
+total 0
+
+/etc/davfs2:
+total 12
+-rw-r--r--. 1 root root 2171 Jun 28 20:24 davfs2.conf
+-rw-r--r--. 1 root root 2108 Jun 28 20:23 davfs2.conf_bkp
+drwxr-xr-x. 3 root root   21 Jun 28 20:19 certs
+-rw-------. 1 root root 2648 Oct 13  2014 secrets
+
+/etc/davfs2/certs:
+total 0
+drwx------. 2 root root 6 Oct 13  2014 private
+
+/etc/davfs2/certs/private:
+total 0
+
+/etc/pam.d:
+total 104
+-rw-r--r--. 1 root root 1167 May 19 05:19 password-auth-ac
+-rw-r--r--. 1 root root 1166 May 19 05:18 system-auth-ac
+lrwxrwxrwx. 1 root root   17 Jul  4  2020 smartcard-auth -> smartcard-auth-ac
+-rw-r--r--. 1 root root  752 Jul  4  2020 smartcard-auth-ac
+lrwxrwxrwx. 1 root root   19 Jul  4  2020 fingerprint-auth -> fingerprint-auth-ac
+-rw-r--r--. 1 root root  702 Jul  4  2020 fingerprint-auth-ac
+lrwxrwxrwx. 1 root root   16 Jul  4  2020 password-auth -> password-auth-ac
+lrwxrwxrwx. 1 root root   12 Jul  4  2020 postlogin -> postlogin-ac
+-rw-r--r--. 1 root root  330 Jul  4  2020 postlogin-ac
+lrwxrwxrwx. 1 root root   14 Jul  4  2020 system-auth -> system-auth-ac
+lrwxrwxrwx. 1 root root   25 Jul  4  2020 smtp -> /etc/alternatives/mta-pam
+-rw-r--r--. 1 root root  238 Sep 25  2018 sudo
+-rw-r--r--. 1 root root  216 Sep 25  2018 sudo-i
+-rw-r--r--. 1 root root  129 Sep  7  2018 systemd-user
+-rw-r--r--. 1 root root   97 Sep  5  2018 subscription-manager
+-rw-r--r--. 1 root root  192 Aug 20  2018 chfn
+-rw-r--r--. 1 root root  192 Aug 20  2018 chsh
+-rw-r--r--. 1 root root  796 Aug 20  2018 login
+-rw-r--r--. 1 root root  681 Aug 20  2018 remote
+-rw-r--r--. 1 root root  143 Aug 20  2018 runuser
+-rw-r--r--. 1 root root  138 Aug 20  2018 runuser-l
+-rw-r--r--. 1 root root  540 Aug 20  2018 su
+-rw-r--r--. 1 root root  137 Aug 20  2018 su-l
+-rw-r--r--. 1 root root   84 Aug 13  2018 vlock
+-rw-r--r--. 1 root root  155 Aug  7  2018 polkit-1
+-rw-r--r--. 1 root root   76 May  9  2018 smtp.postfix
+-rw-r--r--. 1 root root  904 Nov 24  2017 sshd
+-rw-r--r--. 1 root root  232 Nov  3  2017 config-util
+-rw-r--r--. 1 root root  154 Nov  3  2017 other
+-rw-r--r--. 1 root root  293 Oct 16  2017 crond
+-rw-r--r--. 1 root root  188 Jan 30  2014 passwd
+-rw-r--r--. 1 root root   97 Dec  9  2013 rhn_register
+
+/etc/security:
+total 52
+-rw-r--r--. 1 root root 1729 May 19 05:20 pwquality.conf
+-rw-r--r--. 1 root root 2443 Mar 26  2022 limits.conf
+drwxr-xr-x. 2 root root   73 Jul  4  2020 console.apps
+drwxr-xr-x. 2 root root   27 Jul  4  2020 limits.d
+-rw-------. 1 root root    0 Nov  3  2017 opasswd
+-rw-r--r--. 1 root root 2179 Nov  3  2017 time.conf
+-rw-r--r--. 1 root root  419 Nov  3  2017 sepermit.conf
+-rw-r--r--. 1 root root 1440 Nov  3  2017 namespace.conf
+drwxr-xr-x. 2 root root    6 Nov  3  2017 namespace.d
+-rwxr-xr-x. 1 root root 1019 Nov  3  2017 namespace.init
+-rw-r--r--. 1 root root 3635 Nov  3  2017 group.conf
+-rw-r--r--. 1 root root 2972 Nov  3  2017 pam_env.conf
+-rw-r--r--. 1 root root 4564 Nov  3  2017 access.conf
+-rw-r--r--. 1 root root   82 Nov  3  2017 chroot.conf
+-rw-r--r--. 1 root root  604 Nov  3  2017 console.handlers
+-rw-r--r--. 1 root root  939 Nov  3  2017 console.perms
+drwxr-xr-x. 2 root root    6 Nov  3  2017 console.perms.d
+
+/etc/security/console.apps:
+total 12
+-rw-r--r--. 1 root root 62 Sep  5  2018 subscription-manager
+-rw-r--r--. 1 root root 24 Jan 28  2014 config-util
+-rw-r--r--. 1 root root 95 Dec  9  2013 rhn_register
+
+/etc/security/limits.d:
+total 4
+-rw-r--r--. 1 root root 191 Nov  3  2017 20-nproc.conf
+
+/etc/security/namespace.d:
+total 0
+
+/etc/security/console.perms.d:
+total 0
+
+/etc/ssh:
+total 608
+-rw-------. 1 root root       4275 Aug 20  2021 sshd_config
+-rw-r-----. 1 root ssh_keys    387 Jul  4  2020 ssh_host_ed25519_key
+-rw-r--r--. 1 root root         82 Jul  4  2020 ssh_host_ed25519_key.pub
+-rw-r-----. 1 root ssh_keys    227 Jul  4  2020 ssh_host_ecdsa_key
+-rw-r--r--. 1 root root        162 Jul  4  2020 ssh_host_ecdsa_key.pub
+-rw-r-----. 1 root ssh_keys   1675 Jul  4  2020 ssh_host_rsa_key
+-rw-r--r--. 1 root root        382 Jul  4  2020 ssh_host_rsa_key.pub
+-rw-r--r--. 1 root root     581843 Nov 24  2017 moduli
+-rw-r--r--. 1 root root       2276 Nov 24  2017 ssh_config
+
+/etc/rc.d:
+total 4
+-rwxr-xr-x. 1 root root 473 Aug  3  2021 rc.local
+drwxr-xr-x. 2 root root  61 Jul  4  2020 rc0.d
+drwxr-xr-x. 2 root root  61 Jul  4  2020 rc1.d
+drwxr-xr-x. 2 root root  61 Jul  4  2020 rc2.d
+drwxr-xr-x. 2 root root  61 Jul  4  2020 rc3.d
+drwxr-xr-x. 2 root root  61 Jul  4  2020 rc4.d
+drwxr-xr-x. 2 root root  61 Jul  4  2020 rc5.d
+drwxr-xr-x. 2 root root  61 Jul  4  2020 rc6.d
+drwxr-xr-x. 2 root root  83 Jul  4  2020 init.d
+
+/etc/rc.d/rc0.d:
+total 0
+lrwxrwxrwx. 1 root root 15 Jul  4  2020 K03rhnsd -> ../init.d/rhnsd
+lrwxrwxrwx. 1 root root 20 Jul  4  2020 K50netconsole -> ../init.d/netconsole
+lrwxrwxrwx. 1 root root 17 Jul  4  2020 K90network -> ../init.d/network
+
+/etc/rc.d/rc1.d:
+total 0
+lrwxrwxrwx. 1 root root 15 Jul  4  2020 K03rhnsd -> ../init.d/rhnsd
+lrwxrwxrwx. 1 root root 20 Jul  4  2020 K50netconsole -> ../init.d/netconsole
+lrwxrwxrwx. 1 root root 17 Jul  4  2020 K90network -> ../init.d/network
+
+/etc/rc.d/rc2.d:
+total 0
+lrwxrwxrwx. 1 root root 15 Jul  4  2020 S97rhnsd -> ../init.d/rhnsd
+lrwxrwxrwx. 1 root root 20 Jul  4  2020 K50netconsole -> ../init.d/netconsole
+lrwxrwxrwx. 1 root root 17 Jul  4  2020 S10network -> ../init.d/network
+
+/etc/rc.d/rc3.d:
+total 0
+lrwxrwxrwx. 1 root root 15 Jul  4  2020 S97rhnsd -> ../init.d/rhnsd
+lrwxrwxrwx. 1 root root 20 Jul  4  2020 K50netconsole -> ../init.d/netconsole
+lrwxrwxrwx. 1 root root 17 Jul  4  2020 S10network -> ../init.d/network
+
+/etc/rc.d/rc4.d:
+total 0
+lrwxrwxrwx. 1 root root 15 Jul  4  2020 S97rhnsd -> ../init.d/rhnsd
+lrwxrwxrwx. 1 root root 20 Jul  4  2020 K50netconsole -> ../init.d/netconsole
+lrwxrwxrwx. 1 root root 17 Jul  4  2020 S10network -> ../init.d/network
+
+/etc/rc.d/rc5.d:
+total 0
+lrwxrwxrwx. 1 root root 15 Jul  4  2020 S97rhnsd -> ../init.d/rhnsd
+lrwxrwxrwx. 1 root root 20 Jul  4  2020 K50netconsole -> ../init.d/netconsole
+lrwxrwxrwx. 1 root root 17 Jul  4  2020 S10network -> ../init.d/network
+
+/etc/rc.d/rc6.d:
+total 0
+lrwxrwxrwx. 1 root root 15 Jul  4  2020 K03rhnsd -> ../init.d/rhnsd
+lrwxrwxrwx. 1 root root 20 Jul  4  2020 K50netconsole -> ../init.d/netconsole
+lrwxrwxrwx. 1 root root 17 Jul  4  2020 K90network -> ../init.d/network
+
+/etc/rc.d/init.d:
+total 44
+-rw-r--r--. 1 root root  1160 Sep  7  2018 README
+-rw-r--r--. 1 root root 18281 Aug 24  2018 functions
+-rwxr-xr-x. 1 root root  4569 Aug 24  2018 netconsole
+-rwxr-xr-x. 1 root root  7923 Aug 24  2018 network
+-rwxr-xr-x. 1 root root  2437 Oct 19  2017 rhnsd
+
+/etc/sudoers.d:
+total 0
+-r--r--r--. 1 root root 0 Jun  4  2021 vsavantra
+
+/etc/systemd:
+total 48
+drwxr-xr-x. 15 root root 4096 Sep 15 02:34 system
+-rw-r--r--.  1 root root 1543 Jan 27  2021 system.conf
+-rw-r--r--.  1 root root 1543 Jan 27  2021 system.conf_2021-01-27
+-rw-r--r--.  1 root root 1543 Jan 27  2021 system.conf_2021-02-03
+-rw-r--r--.  1 root root 1543 Jan 25  2021 system.conf_2021-01-25
+-rw-r--r--.  1 root root 1543 Jan 25  2021 system.conf_2021-01-26
+-rw-r--r--.  1 root root 1543 Dec 30  2020 system.conf_2021-01-23
+-rw-r--r--.  1 root root  720 Sep  7  2018 bootchart.conf
+-rw-r--r--.  1 root root  615 Sep  7  2018 coredump.conf
+-rw-r--r--.  1 root root  983 Sep  7  2018 journald.conf
+-rw-r--r--.  1 root root  957 Sep  7  2018 logind.conf
+drwxr-xr-x.  2 root root    6 Sep  7  2018 user
+-rw-r--r--.  1 root root 1127 Sep  7  2018 user.conf
+
+/etc/systemd/system:
+total 8
+-rw-r--r--. 1 root root  251 Sep 15 02:34 cyber.service
+drwxr-xr-x. 2 root root    6 Sep 14 21:49 cyber.service.d
+drwxr-xr-x. 2 root root 4096 Sep 14 05:47 multi-user.target.wants
+drwxr-xr-x. 2 root root   31 Sep 14 05:47 remote-fs.target.wants
+drwxr-xr-x. 2 root root   51 Sep 14 05:47 sockets.target.wants
+lrwxrwxrwx. 1 root root   46 Mar 13  2021 dbus-org.freedesktop.NetworkManager.service -> /usr/lib/systemd/system/NetworkManager.service
+lrwxrwxrwx. 1 root root   57 Mar 13  2021 dbus-org.freedesktop.nm-dispatcher.service -> /usr/lib/systemd/system/NetworkManager-dispatcher.service
+drwxr-xr-x. 2 root root   48 Mar 13  2021 network-online.target.wants
+lrwxrwxrwx. 1 root root    9 Feb  3  2021 ctrl-alt-del.target -> /dev/null
+lrwxrwxrwx. 1 root root    9 Jan 23  2021 graphical.target -> /dev/null
+drwxr-xr-x. 2 root root   23 Aug 20  2020 sapinit.service.d
+lrwxrwxrwx. 1 root root   37 Jul  4  2020 default.target -> /lib/systemd/system/multi-user.target
+drwxr-xr-x. 2 root root   57 Jul  4  2020 basic.target.wants
+drwxr-xr-x. 2 root root   38 Jul  4  2020 dev-virtio\x2dports-org.qemu.guest_agent.0.device.wants
+drwxr-xr-x. 2 root root  254 Jul  4  2020 sysinit.target.wants
+lrwxrwxrwx. 1 root root   41 Jul  4  2020 dbus-org.fedoraproject.FirewallD1.service -> /usr/lib/systemd/system/firewalld.service
+drwxr-xr-x. 2 root root   35 Jul  4  2020 local-fs.target.wants
+drwxr-xr-x. 2 root root   87 Jul  4  2020 default.target.wants
+drwxr-xr-x. 2 root root   32 Jul  4  2020 getty.target.wants
+drwxr-xr-x. 2 root root   44 Jul  4  2020 system-update.target.wants
+
+/etc/systemd/system/cyber.service.d:
+total 0
+
+/etc/systemd/system/multi-user.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 41 Sep 14 05:47 nfs-client.target -> /usr/lib/systemd/system/nfs-client.target
+lrwxrwxrwx. 1 root root 39 Sep 14 05:47 rpcbind.service -> /usr/lib/systemd/system/rpcbind.service
+lrwxrwxrwx. 1 root root 33 Sep 14 04:29 cyber.service -> /etc/systemd/system/cyber.service
+lrwxrwxrwx. 1 root root 37 Aug  3  2021 crond.service -> /usr/lib/systemd/system/crond.service
+lrwxrwxrwx. 1 root root 46 Mar 13  2021 NetworkManager.service -> /usr/lib/systemd/system/NetworkManager.service
+lrwxrwxrwx. 1 root root 42 Jul  4  2020 irqbalance.service -> /usr/lib/systemd/system/irqbalance.service
+lrwxrwxrwx. 1 root root 39 Jul  4  2020 rsyslog.service -> /usr/lib/systemd/system/rsyslog.service
+lrwxrwxrwx. 1 root root 39 Jul  4  2020 postfix.service -> /usr/lib/systemd/system/postfix.service
+lrwxrwxrwx. 1 root root 38 Jul  4  2020 auditd.service -> /usr/lib/systemd/system/auditd.service
+lrwxrwxrwx. 1 root root 36 Jul  4  2020 sshd.service -> /usr/lib/systemd/system/sshd.service
+lrwxrwxrwx. 1 root root 41 Jul  4  2020 rhsmcertd.service -> /usr/lib/systemd/system/rhsmcertd.service
+lrwxrwxrwx. 1 root root 37 Jul  4  2020 tuned.service -> /usr/lib/systemd/system/tuned.service
+lrwxrwxrwx. 1 root root 41 Jul  4  2020 firewalld.service -> /usr/lib/systemd/system/firewalld.service
+lrwxrwxrwx. 1 root root 41 Jul  4  2020 abrt-ccpp.service -> /usr/lib/systemd/system/abrt-ccpp.service
+lrwxrwxrwx. 1 root root 41 Jul  4  2020 abrt-xorg.service -> /usr/lib/systemd/system/abrt-xorg.service
+lrwxrwxrwx. 1 root root 43 Jul  4  2020 abrt-vmcore.service -> /usr/lib/systemd/system/abrt-vmcore.service
+lrwxrwxrwx. 1 root root 41 Jul  4  2020 abrt-oops.service -> /usr/lib/systemd/system/abrt-oops.service
+lrwxrwxrwx. 1 root root 37 Jul  4  2020 abrtd.service -> /usr/lib/systemd/system/abrtd.service
+lrwxrwxrwx. 1 root root 46 Jul  4  2020 rhel-configure.service -> /usr/lib/systemd/system/rhel-configure.service
+lrwxrwxrwx. 1 root root 37 Jul  4  2020 brandbot.path -> /usr/lib/systemd/system/brandbot.path
+lrwxrwxrwx. 1 root root 40 Jul  4  2020 remote-fs.target -> /usr/lib/systemd/system/remote-fs.target
+
+/etc/systemd/system/remote-fs.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 41 Sep 14 05:47 nfs-client.target -> /usr/lib/systemd/system/nfs-client.target
+
+/etc/systemd/system/sockets.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 38 Sep 14 05:47 rpcbind.socket -> /usr/lib/systemd/system/rpcbind.socket
+lrwxrwxrwx. 1 root root 39 Jul  4  2020 dm-event.socket -> /usr/lib/systemd/system/dm-event.socket
+
+/etc/systemd/system/network-online.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 58 Mar 13  2021 NetworkManager-wait-online.service -> /usr/lib/systemd/system/NetworkManager-wait-online.service
+
+/etc/systemd/system/sapinit.service.d:
+total 4
+-rw-r--r--. 1 root root 24 Aug 20  2020 type.conf
+
+/etc/systemd/system/basic.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 41 Jul  4  2020 microcode.service -> /usr/lib/systemd/system/microcode.service
+lrwxrwxrwx. 1 root root 42 Jul  4  2020 rhel-dmesg.service -> /usr/lib/systemd/system/rhel-dmesg.service
+
+/etc/systemd/system/dev-virtio\x2dports-org.qemu.guest_agent.0.device.wants:
+total 0
+lrwxrwxrwx. 1 root root 48 Jul  4  2020 qemu-guest-agent.service -> /usr/lib/systemd/system/qemu-guest-agent.service
+
+/etc/systemd/system/sysinit.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 44 Jul  4  2020 lvm2-lvmpolld.socket -> /usr/lib/systemd/system/lvm2-lvmpolld.socket
+lrwxrwxrwx. 1 root root 43 Jul  4  2020 lvm2-lvmetad.socket -> /usr/lib/systemd/system/lvm2-lvmetad.socket
+lrwxrwxrwx. 1 root root 44 Jul  4  2020 lvm2-monitor.service -> /usr/lib/systemd/system/lvm2-monitor.service
+lrwxrwxrwx. 1 root root 53 Jul  4  2020 rhel-autorelabel-mark.service -> /usr/lib/systemd/system/rhel-autorelabel-mark.service
+lrwxrwxrwx. 1 root root 48 Jul  4  2020 rhel-autorelabel.service -> /usr/lib/systemd/system/rhel-autorelabel.service
+lrwxrwxrwx. 1 root root 47 Jul  4  2020 rhel-domainname.service -> /usr/lib/systemd/system/rhel-domainname.service
+lrwxrwxrwx. 1 root root 49 Jul  4  2020 rhel-import-state.service -> /usr/lib/systemd/system/rhel-import-state.service
+lrwxrwxrwx. 1 root root 48 Jul  4  2020 rhel-loadmodules.service -> /usr/lib/systemd/system/rhel-loadmodules.service
+
+/etc/systemd/system/local-fs.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 45 Jul  4  2020 rhel-readonly.service -> /usr/lib/systemd/system/rhel-readonly.service
+
+/etc/systemd/system/default.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 57 Jul  4  2020 systemd-readahead-collect.service -> /usr/lib/systemd/system/systemd-readahead-collect.service
+lrwxrwxrwx. 1 root root 56 Jul  4  2020 systemd-readahead-replay.service -> /usr/lib/systemd/system/systemd-readahead-replay.service
+
+/etc/systemd/system/getty.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 38 Jul  4  2020 getty@tty1.service -> /usr/lib/systemd/system/getty@.service
+
+/etc/systemd/system/system-update.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 54 Jul  4  2020 systemd-readahead-drop.service -> /usr/lib/systemd/system/systemd-readahead-drop.service
+
+/etc/systemd/user:
+total 0
+
+/etc/audit:
+total 16
+-rw-r-----. 1 root root 108 Aug 20 05:42 audit.rules.prev
+-rw-r-----. 1 root root 108 Aug 16  2020 audit.rules
+drwxr-x---. 2 root root  25 Aug 16  2020 rules.d
+-rw-r-----. 1 root root 127 Jul 17  2018 audit-stop.rules
+-rw-r-----. 1 root root 805 Jul 17  2018 auditd.conf
+
+/etc/audit/rules.d:
+total 4
+-rw-------. 1 root root 190 Aug 16  2020 audit.rules
+
+/etc/pki:
+total 0
+drwxr-xr-x. 2 root root  20 Sep 14 05:47 product
+drwxr-xr-x. 2 root root 215 Aug 11 18:47 rpm-gpg
+drwxr-xr-x. 2 root root 103 Nov 13  2020 nssdb
+drwxr-xr-x. 2 root root  30 Jul  4  2020 nss-legacy
+drwxr-xr-x. 6 root root  61 Jul  4  2020 CA
+drwxr-xr-x. 5 root root  81 Jul  4  2020 tls
+drwxr-xr-x. 4 root root  73 Jul  4  2020 ca-trust
+drwxr-xr-x. 2 root root  21 Jul  4  2020 java
+drwxr-xr-x. 2 root root  20 Jul  4  2020 product-default
+drwxr-xr-x. 2 root root   6 Sep  5  2018 consumer
+drwxr-xr-x. 2 root root   6 Sep  5  2018 entitlement
+drwx------. 2 root root   6 Aug 30  2018 rsyslog
+
+/etc/pki/product:
+total 4
+-rw-r--r--. 1 root root 2159 Sep 14 05:47 69.pem
+
+/etc/pki/rpm-gpg:
+total 24
+-rw-r--r--. 1 root root 1662 Sep  4  2021 RPM-GPG-KEY-EPEL-7
+-rw-r--r--. 1 root root 3375 Sep 21  2018 RPM-GPG-KEY-redhat-beta
+-rw-r--r--. 1 root root 1990 Sep 21  2018 RPM-GPG-KEY-redhat-legacy-former
+-rw-r--r--. 1 root root 1164 Sep 21  2018 RPM-GPG-KEY-redhat-legacy-release
+-rw-r--r--. 1 root root  885 Sep 21  2018 RPM-GPG-KEY-redhat-legacy-rhx
+-rw-r--r--. 1 root root 3211 Sep 21  2018 RPM-GPG-KEY-redhat-release
+
+/etc/pki/nssdb:
+total 124
+-rw-r--r--. 1 root root 11264 Nov 13  2020 key4.db
+-rw-r--r--. 1 root root  9216 Nov 13  2020 cert9.db
+-rw-r--r--. 1 root root   451 Aug 31  2018 pkcs11.txt
+-rw-r--r--. 1 root root 16384 Jan 13  2010 key3.db
+-rw-r--r--. 1 root root 16384 Jan 13  2010 secmod.db
+-rw-r--r--. 1 root root 65536 Jan 13  2010 cert8.db
+
+/etc/pki/nss-legacy:
+total 4
+-rw-r--r--. 1 root root 230 Aug 31  2018 nss-rhel7.config
+
+/etc/pki/CA:
+total 0
+drwxr-xr-x. 2 root root 6 Aug 14  2018 certs
+drwxr-xr-x. 2 root root 6 Aug 14  2018 crl
+drwxr-xr-x. 2 root root 6 Aug 14  2018 newcerts
+drwx------. 2 root root 6 Aug 14  2018 private
+
+/etc/pki/CA/certs:
+total 0
+
+/etc/pki/CA/crl:
+total 0
+
+/etc/pki/CA/newcerts:
+total 0
+
+/etc/pki/CA/private:
+total 0
+
+/etc/pki/tls:
+total 12
+drwxr-xr-x. 2 root root    74 Jul  4  2020 misc
+drwxr-xr-x. 2 root root   117 Jul  4  2020 certs
+lrwxrwxrwx. 1 root root    49 Jul  4  2020 cert.pem -> /etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+drwxr-xr-x. 2 root root     6 Aug 14  2018 private
+-rw-r--r--. 1 root root 10923 Aug 14  2018 openssl.cnf
+
+/etc/pki/tls/misc:
+total 24
+-rwxr-xr-x. 1 root root 5178 Aug 14  2018 CA
+-rwxr-xr-x. 1 root root  119 Aug 14  2018 c_hash
+-rwxr-xr-x. 1 root root  152 Aug 14  2018 c_info
+-rwxr-xr-x. 1 root root  112 Aug 14  2018 c_issuer
+-rwxr-xr-x. 1 root root  110 Aug 14  2018 c_name
+
+/etc/pki/tls/certs:
+total 12
+lrwxrwxrwx. 1 root root   49 Jul  4  2020 ca-bundle.crt -> /etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+lrwxrwxrwx. 1 root root   55 Jul  4  2020 ca-bundle.trust.crt -> /etc/pki/ca-trust/extracted/openssl/ca-bundle.trust.crt
+-rw-r--r--. 1 root root 2516 Aug 14  2018 Makefile
+-rwxr-xr-x. 1 root root  610 Aug 14  2018 make-dummy-cert
+-rwxr-xr-x. 1 root root  829 Aug 14  2018 renew-dummy-cert
+
+/etc/pki/tls/private:
+total 0
+
+/etc/pki/ca-trust:
+total 8
+drwxr-xr-x. 4 root root  80 Jul  4  2020 source
+drwxr-xr-x. 5 root root  58 Jul  4  2020 extracted
+-rw-r--r--. 1 root root 166 Mar 14  2018 README
+-rw-r--r--. 1 root root 980 Mar 14  2018 ca-legacy.conf
+
+/etc/pki/ca-trust/source:
+total 4
+lrwxrwxrwx. 1 root root  59 Jul  4  2020 ca-bundle.legacy.crt -> /usr/share/pki/ca-trust-legacy/ca-bundle.legacy.default.crt
+drwxr-xr-x. 2 root root   6 Mar 14  2018 anchors
+drwxr-xr-x. 2 root root   6 Mar 14  2018 blacklist
+-rw-r--r--. 1 root root 932 Mar 14  2018 README
+
+/etc/pki/ca-trust/source/anchors:
+total 0
+
+/etc/pki/ca-trust/source/blacklist:
+total 0
+
+/etc/pki/ca-trust/extracted:
+total 4
+drwxr-xr-x. 2 root root  35 Jul  4  2020 java
+drwxr-xr-x. 2 root root 101 Jul  4  2020 pem
+drwxr-xr-x. 2 root root  47 Jul  4  2020 openssl
+-rw-r--r--. 1 root root 560 Mar 14  2018 README
+
+/etc/pki/ca-trust/extracted/java:
+total 156
+-r--r--r--. 1 root root 154279 Jul  4  2020 cacerts
+-rw-r--r--. 1 root root    726 Mar 14  2018 README
+
+/etc/pki/ca-trust/extracted/pem:
+total 388
+-r--r--r--. 1 root root      0 Jul  4  2020 objsign-ca-bundle.pem
+-r--r--r--. 1 root root 177221 Jul  4  2020 email-ca-bundle.pem
+-r--r--r--. 1 root root 211658 Jul  4  2020 tls-ca-bundle.pem
+-rw-r--r--. 1 root root    898 Mar 14  2018 README
+
+/etc/pki/ca-trust/extracted/openssl:
+total 256
+-r--r--r--. 1 root root 257889 Jul  4  2020 ca-bundle.trust.crt
+-rw-r--r--. 1 root root    787 Mar 14  2018 README
+
+/etc/pki/java:
+total 0
+lrwxrwxrwx. 1 root root 40 Jul  4  2020 cacerts -> /etc/pki/ca-trust/extracted/java/cacerts
+
+/etc/pki/product-default:
+total 4
+-rw-r--r--. 1 root root 2159 Sep 21  2018 69.pem
+
+/etc/pki/consumer:
+total 0
+
+/etc/pki/entitlement:
+total 0
+
+/etc/pki/rsyslog:
+total 0
+
+/etc/default:
+total 12
+-rw-r--r--. 1 root root  270 Jul  4  2020 grub
+-rw-r--r--. 1 root root 1756 Jun 28  2018 nss
+-rw-r--r--. 1 root root  119 Apr 26  2018 useradd
+
+/etc/grub.d:
+total 72
+-rwxr-xr-x. 1 root root  8702 Sep 18  2018 00_header
+-rwxr-xr-x. 1 root root   232 Sep 18  2018 01_users
+-rwxr-xr-x. 1 root root 10781 Sep 18  2018 10_linux
+-rwxr-xr-x. 1 root root 10275 Sep 18  2018 20_linux_xen
+-rwxr-xr-x. 1 root root  2559 Sep 18  2018 20_ppc_terminfo
+-rwxr-xr-x. 1 root root 11169 Sep 18  2018 30_os-prober
+-rwxr-xr-x. 1 root root   214 Sep 18  2018 40_custom
+-rwxr-xr-x. 1 root root   216 Sep 18  2018 41_custom
+-rw-r--r--. 1 root root   483 Sep 18  2018 README
+-rwxr-xr-x. 1 root root  1043 Jul  5  2018 00_tuned
+
+/etc/latrace.d:
+total 8
+drwxr-xr-x. 3 root root 4096 Jul  4  2020 headers
+-rw-r--r--. 1 root root 2059 Sep 10  2014 latrace.conf
+
+/etc/latrace.d/headers:
+total 148
+drwxr-xr-x. 3 root root    20 Jul  4  2020 sysdeps
+-rw-r--r--. 1 root root   392 Sep 10  2014 ctype.h
+-rw-r--r--. 1 root root   825 Sep 10  2014 dirent.h
+-rw-r--r--. 1 root root   417 Sep 10  2014 dlfcn.h
+-rw-r--r--. 1 root root   643 Sep 10  2014 fcntl.h
+-rw-r--r--. 1 root root   273 Sep 10  2014 getopt.h
+-rw-r--r--. 1 root root   655 Sep 10  2014 inet.h
+-rw-r--r--. 1 root root    68 Sep 10  2014 ioctl.h
+-rw-r--r--. 1 root root  1563 Sep 10  2014 latrace.h
+-rw-r--r--. 1 root root   651 Sep 10  2014 libintl.h
+-rw-r--r--. 1 root root   646 Sep 10  2014 libio.h
+-rw-r--r--. 1 root root   286 Sep 10  2014 locale.h
+-rw-r--r--. 1 root root   292 Sep 10  2014 misc.h
+-rw-r--r--. 1 root root   976 Sep 10  2014 mman.h
+-rw-r--r--. 1 root root 11026 Sep 10  2014 ncurses.h
+-rw-r--r--. 1 root root  3937 Sep 10  2014 netdb.h
+-rw-r--r--. 1 root root  7686 Sep 10  2014 pthread.h
+-rw-r--r--. 1 root root   869 Sep 10  2014 pwd.h
+-rw-r--r--. 1 root root  2289 Sep 10  2014 resource.h
+-rw-r--r--. 1 root root  2626 Sep 10  2014 signal.h
+-rw-r--r--. 1 root root  3363 Sep 10  2014 socket.h
+-rw-r--r--. 1 root root  1642 Sep 10  2014 stat.h
+-rw-r--r--. 1 root root  3943 Sep 10  2014 stdio.h
+-rw-r--r--. 1 root root  6327 Sep 10  2014 stdlib.h
+-rw-r--r--. 1 root root  2837 Sep 10  2014 string.h
+-rw-r--r--. 1 root root   198 Sep 10  2014 syslog.h
+-rw-r--r--. 1 root root   934 Sep 10  2014 term.h
+-rw-r--r--. 1 root root   671 Sep 10  2014 termios.h
+-rw-r--r--. 1 root root  1642 Sep 10  2014 time.h
+-rw-r--r--. 1 root root   472 Sep 10  2014 typedefs.h
+-rw-r--r--. 1 root root  4399 Sep 10  2014 unistd.h
+-rw-r--r--. 1 root root   564 Sep 10  2014 utmp.h
+-rw-r--r--. 1 root root   419 Sep 10  2014 wait.h
+
+/etc/latrace.d/headers/sysdeps:
+total 0
+drwxr-xr-x. 2 root root 40 Jul  4  2020 x86_64
+
+/etc/latrace.d/headers/sysdeps/x86_64:
+total 12
+-rw-r--r--. 1 root root 6342 Sep 10  2014 syscall.h
+-rw-r--r--. 1 root root   71 Sep 10  2014 latrace.h
+
+/etc/bash_completion.d:
+total 100
+-rw-r--r--. 1 root root  1525 Sep  5  2018 rct
+-rw-r--r--. 1 root root   759 Sep  5  2018 rhn-migrate-classic-to-rhsm
+-rw-r--r--. 1 root root   817 Sep  5  2018 rhsm-debug
+-rw-r--r--. 1 root root   601 Sep  5  2018 rhsm-icon
+-rw-r--r--. 1 root root   614 Sep  5  2018 rhsmcertd
+-rw-r--r--. 1 root root  7559 Sep  5  2018 subscription-manager
+-rw-r--r--. 1 root root 56178 Aug 30  2018 git
+-rw-r--r--. 1 root root  4470 Aug 23  2018 oscap
+-rw-r--r--. 1 root root   829 Jun 19  2018 iprutils
+-rw-r--r--. 1 root root  1659 Nov  6  2017 trace-cmd.bash
+
+/etc/cron.daily:
+total 12
+-rwx------. 1 root root 256 Sep  5  2018 rhsmd
+-rwxr-xr-x. 1 root root 618 Jul 10  2018 man-db.cron
+-rwx------. 1 root root 219 Jun 15  2018 logrotate
+
+/etc/kernel:
+total 0
+drwxr-xr-x. 2 root root 42 Jul  4  2020 postinst.d
+
+/etc/kernel/postinst.d:
+total 4
+-rwxr-xr-x. 1 root root 1676 Sep 27  2018 51-dracut-rescue-postinst.sh
+
+/etc/qemu-ga:
+total 4
+drwxr-xr-x. 2 root root    6 Jul 24  2018 fsfreeze-hook.d
+-rwxr-xr-x. 1 root root 1176 Apr 24  2018 fsfreeze-hook
+
+/etc/qemu-ga/fsfreeze-hook.d:
+total 0
+
+/etc/logrotate.d:
+total 24
+-rw-r--r--. 1 root root  71 Sep  5  2018 subscription-manager
+-rw-r--r--. 1 root root 224 Aug 30  2018 syslog
+-rw-r--r--. 1 root root 100 Aug 28  2018 wpa_supplicant
+-rw-r--r--. 1 root root 103 Aug 15  2018 yum
+-rw-r--r--. 1 root root  91 Jan  8  2018 bootlog
+-rw-r--r--. 1 root root  32 Dec  9  2013 up2date
+
+/etc/alternatives:
+total 0
+lrwxrwxrwx. 1 root root 26 Jul  4  2020 mta -> /usr/sbin/sendmail.postfix
+lrwxrwxrwx. 1 root root 40 Jul  4  2020 mta-aliasesman -> /usr/share/man/man5/aliases.postfix.5.gz
+lrwxrwxrwx. 1 root root 22 Jul  4  2020 mta-mailq -> /usr/bin/mailq.postfix
+lrwxrwxrwx. 1 root root 38 Jul  4  2020 mta-mailqman -> /usr/share/man/man1/mailq.postfix.1.gz
+lrwxrwxrwx. 1 root root 27 Jul  4  2020 mta-newaliases -> /usr/bin/newaliases.postfix
+lrwxrwxrwx. 1 root root 43 Jul  4  2020 mta-newaliasesman -> /usr/share/man/man1/newaliases.postfix.1.gz
+lrwxrwxrwx. 1 root root 23 Jul  4  2020 mta-pam -> /etc/pam.d/smtp.postfix
+lrwxrwxrwx. 1 root root 22 Jul  4  2020 mta-rmail -> /usr/bin/rmail.postfix
+lrwxrwxrwx. 1 root root 25 Jul  4  2020 mta-sendmail -> /usr/lib/sendmail.postfix
+lrwxrwxrwx. 1 root root 41 Jul  4  2020 mta-sendmailman -> /usr/share/man/man1/sendmail.postfix.1.gz
+lrwxrwxrwx. 1 root root 34 Jul  4  2020 libnssckbi.so.x86_64 -> /usr/lib64/pkcs11/p11-kit-trust.so
+lrwxrwxrwx. 1 root root 15 Jul  4  2020 ld -> /usr/bin/ld.bfd
+
+/etc/sasl2:
+total 4
+-rw-r--r--. 1 root root 49 May  9  2018 smtpd.conf
+
+/etc/postfix:
+total 148
+-rw-r--r--. 1 root root 27176 May  9  2018 main.cf
+-rw-r--r--. 1 root root 20876 May  9  2018 access
+-rw-r--r--. 1 root root 11883 May  9  2018 canonical
+-rw-r--r--. 1 root root 10106 May  9  2018 generic
+-rw-r--r--. 1 root root 21545 May  9  2018 header_checks
+-rw-r--r--. 1 root root  6105 May  9  2018 master.cf
+-rw-r--r--. 1 root root  6816 May  9  2018 relocated
+-rw-r--r--. 1 root root 12549 May  9  2018 transport
+-rw-r--r--. 1 root root 12696 May  9  2018 virtual
+
+/etc/audisp:
+total 4
+drwxr-x---. 2 root root  45 Jul  4  2020 plugins.d
+-rw-r-----. 1 root root 246 Jul 17  2018 audispd.conf
+
+/etc/audisp/plugins.d:
+total 8
+-rw-r-----. 1 root root 358 Jul 17  2018 af_unix.conf
+-rw-r-----. 1 root root 517 Jul 17  2018 syslog.conf
+
+/etc/ld.so.conf.d:
+total 12
+-r--r--r--. 1 root root 63 Oct  5  2018 kernel-3.10.0-957.el7.x86_64.conf
+-rw-r--r--. 1 root root 19 Jun  9  2018 dyninst-x86_64.conf
+-rw-r--r--. 1 root root 17 Jun  5  2018 mariadb-x86_64.conf
+
+/etc/lvm:
+total 100
+drwx------. 2 root root    39 Sep 13 17:09 backup
+drwx------. 2 root root  4096 Sep 13 17:09 archive
+drwxr-xr-x. 2 root root   220 Jul  4  2020 profile
+drwx------. 2 root root     6 Sep 10  2018 cache
+-rw-r--r--. 1 root root 94109 Sep 10  2018 lvm.conf
+-rw-r--r--. 1 root root  2301 Sep 10  2018 lvmlocal.conf
+
+/etc/lvm/backup:
+total 8
+-rw-------. 1 root root 1740 Sep 13 17:09 TEST_VG
+-rw-------. 1 root root 1742 Jul  4  2020 rhel_rhel7
+
+/etc/lvm/archive:
+total 44
+-rw-------. 1 root root 1571 Sep 13 17:09 TEST_VG_00068-1180827247.vg
+-rw-------. 1 root root 1325 Sep 13 17:08 TEST_VG_00067-1944371043.vg
+-rw-------. 1 root root  905 Sep 13 17:03 TEST_VG_00066-1427071734.vg
+-rw-------. 1 root root  890 Sep 13 17:03 TEST_VG_00065-1311729697.vg
+-rw-------. 1 root root 1352 Sep 13 16:55 TEST_VG_00064-1508509836.vg
+-rw-------. 1 root root 2159 Sep 13 16:55 TEST_VG_00063-866104210.vg
+-rw-------. 1 root root 1996 Aug  9 16:32 TEST_VG_00062-4348855.vg
+-rw-------. 1 root root 1736 Aug  9 16:32 TEST_VG_00061-2003740224.vg
+-rw-------. 1 root root 1584 Aug  9 16:22 TEST_VG_00060-392500327.vg
+-rw-------. 1 root root 1325 Aug  9 16:21 TEST_VG_00059-1419020592.vg
+-rw-------. 1 root root 1743 Jul  4  2020 rhel_rhel7_00000-2109435746.vg
+
+/etc/lvm/profile:
+total 28
+-r--r--r--. 1 root root 3020 Sep 10  2018 command_profile_template.profile
+-r--r--r--. 1 root root  828 Sep 10  2018 metadata_profile_template.profile
+-r--r--r--. 1 root root  531 Jul 19  2018 cache-mq.profile
+-r--r--r--. 1 root root  339 Jul 19  2018 cache-smq.profile
+-r--r--r--. 1 root root 2309 Jul 19  2018 lvmdbusd.profile
+-r--r--r--. 1 root root   76 Jul 19  2018 thin-generic.profile
+-r--r--r--. 1 root root   80 Jul 19  2018 thin-performance.profile
+
+/etc/lvm/cache:
+total 0
+
+/etc/rhsm:
+total 8
+drwxr-xr-x. 2 root root   28 Jul  4  2020 ca
+drwxr-xr-x. 2 root root    6 Sep  5  2018 facts
+-rw-r--r--. 1 root root 1662 Sep  5  2018 logging.conf
+drwxr-xr-x. 2 root root    6 Sep  5  2018 pluginconf.d
+-rw-r--r--. 1 root root 2594 Sep  5  2018 rhsm.conf
+
+/etc/rhsm/ca:
+total 8
+-rw-r--r--. 1 root root 7732 Sep  5  2018 redhat-uep.pem
+
+/etc/rhsm/facts:
+total 0
+
+/etc/rhsm/pluginconf.d:
+total 0
+
+/etc/dnf:
+total 0
+drwxr-xr-x. 2 root root 96 Jul  4  2020 plugins
+
+/etc/dnf/plugins:
+total 12
+-rw-r--r--. 1 root root  17 Sep  5  2018 product-id.conf
+-rw-r--r--. 1 root root 858 Sep  5  2018 search-disabled-repos.conf
+-rw-r--r--. 1 root root  17 Sep  5  2018 subscription-manager.conf
+
+/etc/tuned:
+total 16
+-rw-r--r--. 1 root root    5 Sep 26 18:14 profile_mode
+-rw-r--r--. 1 root root   14 Sep 26 18:14 active_profile
+drwxr-xr-x. 2 root root    6 Sep  7  2018 recommend.d
+-rw-r--r--. 1 root root 1197 Sep  7  2018 tuned-main.conf
+-rw-r--r--. 1 root root 1111 Jul  5  2018 bootcmdline
+
+/etc/tuned/recommend.d:
+total 0
+
+/etc/firewalld:
+total 8
+drwxr-x---. 2 root root   46 Jul  4  2020 zones
+-rw-r--r--. 1 root root 2006 Aug 17  2018 firewalld.conf
+drwxr-x---. 2 root root    6 Aug 17  2018 helpers
+drwxr-x---. 2 root root    6 Aug 17  2018 icmptypes
+drwxr-x---. 2 root root    6 Aug 17  2018 ipsets
+-rw-r--r--. 1 root root  271 Aug 17  2018 lockdown-whitelist.xml
+drwxr-x---. 2 root root    6 Aug 17  2018 services
+
+/etc/firewalld/zones:
+total 8
+-rw-r--r--. 1 root root 863 Jul  8  2020 public.xml
+-rw-r--r--. 1 root root 735 Jul  8  2020 public.xml.old
+
+/etc/firewalld/helpers:
+total 0
+
+/etc/firewalld/icmptypes:
+total 0
+
+/etc/firewalld/ipsets:
+total 0
+
+/etc/firewalld/services:
+total 0
+
+/etc/rpm:
+total 44
+-rw-r--r--. 1 root root   42 Sep 21  2018 macros.dist
+-rw-r--r--. 1 root root 1806 Sep 17  2018 macros.dwz
+-rw-r--r--. 1 root root  215 Sep 17  2018 macros.ghc-srpm
+-rw-r--r--. 1 root root  227 Sep 17  2018 macros.gnat-srpm
+-rw-r--r--. 1 root root  121 Sep 17  2018 macros.mono-srpm
+-rw-r--r--. 1 root root  228 Sep 17  2018 macros.nodejs-srpm
+-rw-r--r--. 1 root root  115 Sep 17  2018 macros.ocaml-srpm
+-rw-r--r--. 1 root root 5134 Jun 13  2018 macros.perl
+-rw-r--r--. 1 root root  794 Dec 29  2013 macros.perl-srpm
+-rw-r--r--. 1 root root   28 Dec  9  2013 macros.up2date
+
+/etc/libreport:
+total 20
+drwxr-xr-x. 2 root root  115 Jul  4  2020 workflows.d
+drwxr-xr-x. 2 root root  274 Jul  4  2020 events.d
+drwxr-xr-x. 2 root root   67 Jul  4  2020 plugins
+-rw-r--r--. 1 root root  212 Aug  8  2018 forbidden_words.conf
+-rw-r--r--. 1 root root  115 Aug  8  2018 ignored_words.conf
+-rw-------. 1 root root 4586 Aug  8  2018 cert-api.access.redhat.com.pem
+drwxr-xr-x. 2 root root    6 Aug  8  2018 events
+-rw-r--r--. 1 root root 2295 Aug  8  2018 report_event.conf
+
+/etc/libreport/workflows.d:
+total 16
+-rw-r--r--. 1 root root  218 Aug  8  2018 report_mailx.conf
+-rw-r--r--. 1 root root 1001 Aug  8  2018 report_rhel.conf
+-rw-r--r--. 1 root root 1026 Aug  8  2018 report_rhel_add_data.conf
+-rw-r--r--. 1 root root  120 Aug  8  2018 report_uReport.conf
+
+/etc/libreport/events.d:
+total 52
+-rw-r--r--. 1 root root 4971 Aug 20  2018 abrt_event.conf
+-rw-r--r--. 1 root root 4818 Aug 20  2018 ccpp_event.conf
+-rw-r--r--. 1 root root  476 Aug 20  2018 gconf_event.conf
+-rw-r--r--. 1 root root 1652 Aug 20  2018 koops_event.conf
+-rw-r--r--. 1 root root 1221 Aug 20  2018 python_event.conf
+-rw-r--r--. 1 root root  969 Aug 20  2018 smart_event.conf
+-rw-r--r--. 1 root root 1471 Aug 20  2018 vimrc_event.conf
+-rw-r--r--. 1 root root 2373 Aug 20  2018 vmcore_event.conf
+-rw-r--r--. 1 root root  974 Aug 20  2018 xorg_event.conf
+-rw-r--r--. 1 root root  203 Aug  8  2018 mailx_event.conf
+-rw-r--r--. 1 root root  235 Aug  8  2018 rhtsupport_event.conf
+
+/etc/libreport/plugins:
+total 12
+-rw-r--r--. 1 root root  331 Aug  8  2018 mailx.conf
+-rw-r--r--. 1 root root  417 Aug  8  2018 rhtsupport.conf
+-rw-r--r--. 1 root root 1290 Aug  8  2018 ureport.conf
+
+/etc/libreport/events:
+total 0
+
+/etc/abrt:
+total 12
+drwxr-xr-x. 2 root root   95 Jul  4  2020 plugins
+-rw-r--r--. 1 root root  850 Aug 20  2018 abrt-action-save-package-data.conf
+-rw-r--r--. 1 root root 2118 Aug 20  2018 abrt.conf
+-rw-r--r--. 1 root root   31 Aug 20  2018 gpg_keys.conf
+
+/etc/abrt/plugins:
+total 20
+-rw-r--r--. 1 root root 1692 Aug 20  2018 CCpp.conf
+-rw-r--r--. 1 root root  263 Aug 20  2018 oops.conf
+-rw-r--r--. 1 root root  204 Aug 20  2018 python.conf
+-rw-r--r--. 1 root root  158 Aug 20  2018 vmcore.conf
+-rw-r--r--. 1 root root  175 Aug 20  2018 xorg.conf
+
+/etc/dhcp:
+total 0
+drwxr-xr-x. 2 root root 28 Jul  4  2020 dhclient-exit-hooks.d
+drwxr-xr-x. 2 root root  6 Apr 24  2018 dhclient.d
+
+/etc/dhcp/dhclient-exit-hooks.d:
+total 4
+-rw-r--r--. 1 root root 594 Apr 24  2018 azure-cloud.sh
+
+/etc/dhcp/dhclient.d:
+total 0
+
+/etc/plymouth:
+total 4
+-rw-r--r--. 1 root root 72 Jan  8  2018 plymouthd.conf
+
+/etc/wpa_supplicant:
+total 4
+-rw-------. 1 root root 67 Aug 28  2018 wpa_supplicant.conf
+
+/etc/selinux:
+total 8
+drwxr-xr-x. 7 root root  215 Jul  4  2020 targeted
+drwx------. 2 root root    6 Jul  4  2020 final
+-rw-r--r--. 1 root root  543 Jul  4  2020 config
+-rw-r--r--. 1 root root 2321 Sep 12  2018 semanage.conf
+drwxr-xr-x. 2 root root    6 Sep 12  2018 tmp
+
+/etc/selinux/targeted:
+total 16
+drwxr-xr-x. 2 root root   23 Jul  4  2020 policy
+drwxr-xr-x. 4 root root 4096 Jul  4  2020 contexts
+drwx------. 3 root root  152 Jul  4  2020 active
+drwxr-xr-x. 3 root root   20 Jul  4  2020 modules
+-rw-r--r--. 1 root root  106 Sep 26  2018 seusers
+-rw-r--r--. 1 root root 2623 Sep 26  2018 booleans.subs_dist
+drwxr-xr-x. 2 root root    6 Sep 26  2018 logins
+-rw-r--r--. 1 root root  607 Sep 26  2018 setrans.conf
+-rw-------. 1 root root    0 Sep 26  2018 semanage.read.LOCK
+-rw-------. 1 root root    0 Sep 26  2018 semanage.trans.LOCK
+
+/etc/selinux/targeted/policy:
+total 3808
+-rw-r--r--. 1 root root 3896194 Sep 26  2018 policy.31
+
+/etc/selinux/targeted/contexts:
+total 64
+drwxr-xr-x. 2 root root  114 Jul  4  2020 users
+drwxr-xr-x. 2 root root  186 Jul  4  2020 files
+-rw-r--r--. 1 root root  262 Sep 26  2018 customizable_types
+-rw-r--r--. 1 root root   74 Sep 26  2018 securetty_types
+-rw-r--r--. 1 root root  195 Sep 26  2018 dbus_contexts
+-rw-r--r--. 1 root root  254 Sep 26  2018 default_contexts
+-rw-r--r--. 1 root root  148 Sep 26  2018 default_type
+-rw-r--r--. 1 root root   29 Sep 26  2018 failsafe_context
+-rw-r--r--. 1 root root   30 Sep 26  2018 initrc_context
+-rw-r--r--. 1 root root  333 Sep 26  2018 lxc_contexts
+-rw-r--r--. 1 root root   33 Sep 26  2018 removable_context
+-rw-r--r--. 1 root root 1170 Sep 26  2018 sepgsql_contexts
+-rw-r--r--. 1 root root   53 Sep 26  2018 snapperd_contexts
+-rw-r--r--. 1 root root   57 Sep 26  2018 systemd_contexts
+-rw-r--r--. 1 root root   35 Sep 26  2018 userhelper_context
+-rw-r--r--. 1 root root   62 Sep 26  2018 virtual_domain_context
+-rw-r--r--. 1 root root   71 Sep 26  2018 virtual_image_context
+-rw-r--r--. 1 root root 2920 Sep 26  2018 x_contexts
+
+/etc/selinux/targeted/contexts/users:
+total 28
+-rw-r--r--. 1 root root 253 Sep 26  2018 guest_u
+-rw-r--r--. 1 root root 389 Sep 26  2018 root
+-rw-r--r--. 1 root root 514 Sep 26  2018 staff_u
+-rw-r--r--. 1 root root 496 Sep 26  2018 sysadm_u
+-rw-r--r--. 1 root root 578 Sep 26  2018 unconfined_u
+-rw-r--r--. 1 root root 353 Sep 26  2018 user_u
+-rw-r--r--. 1 root root 307 Sep 26  2018 xguest_u
+
+/etc/selinux/targeted/contexts/files:
+total 1780
+-rw-r--r--. 1 root root 1364258 Sep 26  2018 file_contexts.bin
+-rw-r--r--. 1 root root  383681 Sep 26  2018 file_contexts
+-rw-r--r--. 1 root root   13338 Sep 26  2018 file_contexts.homedirs
+-rw-r--r--. 1 root root   43840 Sep 26  2018 file_contexts.homedirs.bin
+-rw-r--r--. 1 root root       0 Sep 26  2018 file_contexts.subs
+-rw-r--r--. 1 root root     514 Sep 26  2018 file_contexts.subs_dist
+-rw-r--r--. 1 root root     139 Sep 26  2018 media
+
+/etc/selinux/targeted/active:
+total 4220
+drwx------. 4 root root      33 Jul  4  2020 modules
+-rw-------. 1 root root      32 Sep 26  2018 commit_num
+-rw-------. 1 root root  383681 Sep 26  2018 file_contexts
+-rw-------. 1 root root   13338 Sep 26  2018 file_contexts.homedirs
+-rw-------. 1 root root   11946 Sep 26  2018 homedir_template
+-rw-------. 1 root root 3896194 Sep 26  2018 policy.kern
+-rw-------. 1 root root     101 Sep 26  2018 users_extra
+
+/etc/selinux/targeted/active/modules:
+total 16
+drwx------. 406 root root 12288 Jul  4  2020 100
+drwx------.   2 root root     6 Sep 26  2018 disabled
+
+/etc/selinux/targeted/active/modules/100:
+total 0
+drwx------. 2 root root 44 Jul  4  2020 zosremote
+drwx------. 2 root root 44 Jul  4  2020 zoneminder
+drwx------. 2 root root 44 Jul  4  2020 zebra
+drwx------. 2 root root 44 Jul  4  2020 zarafa
+drwx------. 2 root root 44 Jul  4  2020 zabbix
+drwx------. 2 root root 44 Jul  4  2020 xserver
+drwx------. 2 root root 44 Jul  4  2020 xguest
+drwx------. 2 root root 44 Jul  4  2020 xen
+drwx------. 2 root root 44 Jul  4  2020 wireshark
+drwx------. 2 root root 44 Jul  4  2020 wine
+drwx------. 2 root root 44 Jul  4  2020 webalizer
+drwx------. 2 root root 44 Jul  4  2020 webadm
+drwx------. 2 root root 44 Jul  4  2020 wdmd
+drwx------. 2 root root 44 Jul  4  2020 watchdog
+drwx------. 2 root root 44 Jul  4  2020 w3c
+drwx------. 2 root root 44 Jul  4  2020 vpn
+drwx------. 2 root root 44 Jul  4  2020 vnstatd
+drwx------. 2 root root 44 Jul  4  2020 vmware
+drwx------. 2 root root 44 Jul  4  2020 vmtools
+drwx------. 2 root root 44 Jul  4  2020 virt
+drwx------. 2 root root 44 Jul  4  2020 vlock
+drwx------. 2 root root 44 Jul  4  2020 vhostmd
+drwx------. 2 root root 44 Jul  4  2020 vdagent
+drwx------. 2 root root 44 Jul  4  2020 uuidd
+drwx------. 2 root root 44 Jul  4  2020 varnishd
+drwx------. 2 root root 44 Jul  4  2020 uucp
+drwx------. 2 root root 44 Jul  4  2020 usernetctl
+drwx------. 2 root root 44 Jul  4  2020 usermanage
+drwx------. 2 root root 44 Jul  4  2020 userhelper
+drwx------. 2 root root 44 Jul  4  2020 userdomain
+drwx------. 2 root root 44 Jul  4  2020 usbmuxd
+drwx------. 2 root root 44 Jul  4  2020 usbmodules
+drwx------. 2 root root 44 Jul  4  2020 updfstab
+drwx------. 2 root root 44 Jul  4  2020 unprivuser
+drwx------. 2 root root 44 Jul  4  2020 unlabelednet
+drwx------. 2 root root 44 Jul  4  2020 unconfineduser
+drwx------. 2 root root 44 Jul  4  2020 unconfined
+drwx------. 2 root root 44 Jul  4  2020 uml
+drwx------. 2 root root 44 Jul  4  2020 ulogd
+drwx------. 2 root root 44 Jul  4  2020 udev
+drwx------. 2 root root 44 Jul  4  2020 tvtime
+drwx------. 2 root root 44 Jul  4  2020 tuned
+drwx------. 2 root root 44 Jul  4  2020 tor
+drwx------. 2 root root 44 Jul  4  2020 tomcat
+drwx------. 2 root root 44 Jul  4  2020 tmpreaper
+drwx------. 2 root root 44 Jul  4  2020 tlp
+drwx------. 2 root root 44 Jul  4  2020 thumb
+drwx------. 2 root root 44 Jul  4  2020 thin
+drwx------. 2 root root 44 Jul  4  2020 tgtd
+drwx------. 2 root root 44 Jul  4  2020 tftp
+drwx------. 2 root root 44 Jul  4  2020 telnet
+drwx------. 2 root root 44 Jul  4  2020 telepathy
+drwx------. 2 root root 44 Jul  4  2020 tcsd
+drwx------. 2 root root 44 Jul  4  2020 tcpd
+drwx------. 2 root root 44 Jul  4  2020 targetd
+drwx------. 2 root root 44 Jul  4  2020 tangd
+drwx------. 2 root root 44 Jul  4  2020 systemd
+drwx------. 2 root root 44 Jul  4  2020 sysstat
+drwx------. 2 root root 44 Jul  4  2020 sysnetwork
+drwx------. 2 root root 44 Jul  4  2020 sysadm_secadm
+drwx------. 2 root root 44 Jul  4  2020 sysadm
+drwx------. 2 root root 44 Jul  4  2020 swift
+drwx------. 2 root root 44 Jul  4  2020 svnserve
+drwx------. 2 root root 44 Jul  4  2020 sudo
+drwx------. 2 root root 44 Jul  4  2020 su
+drwx------. 2 root root 44 Jul  4  2020 stunnel
+drwx------. 2 root root 44 Jul  4  2020 stapserver
+drwx------. 2 root root 44 Jul  4  2020 staff
+drwx------. 2 root root 44 Jul  4  2020 sssd
+drwx------. 2 root root 44 Jul  4  2020 ssh
+drwx------. 2 root root 44 Jul  4  2020 squid
+drwx------. 2 root root 44 Jul  4  2020 speech-dispatcher
+drwx------. 2 root root 44 Jul  4  2020 spamassassin
+drwx------. 2 root root 44 Jul  4  2020 soundserver
+drwx------. 2 root root 44 Jul  4  2020 sosreport
+drwx------. 2 root root 44 Jul  4  2020 snort
+drwx------. 2 root root 44 Jul  4  2020 snmp
+drwx------. 2 root root 44 Jul  4  2020 snapper
+drwx------. 2 root root 44 Jul  4  2020 smsd
+drwx------. 2 root root 44 Jul  4  2020 smoltclient
+drwx------. 2 root root 44 Jul  4  2020 smokeping
+drwx------. 2 root root 44 Jul  4  2020 smartmon
+drwx------. 2 root root 44 Jul  4  2020 slpd
+drwx------. 2 root root 44 Jul  4  2020 slocate
+drwx------. 2 root root 44 Jul  4  2020 shorewall
+drwx------. 2 root root 44 Jul  4  2020 sge
+drwx------. 2 root root 44 Jul  4  2020 seunshare
+drwx------. 2 root root 44 Jul  4  2020 setroubleshoot
+drwx------. 2 root root 44 Jul  4  2020 setrans
+drwx------. 2 root root 44 Jul  4  2020 sensord
+drwx------. 2 root root 44 Jul  4  2020 sendmail
+drwx------. 2 root root 44 Jul  4  2020 selinuxutil
+drwx------. 2 root root 44 Jul  4  2020 sectoolm
+drwx------. 2 root root 44 Jul  4  2020 secadm
+drwx------. 2 root root 44 Jul  4  2020 screen
+drwx------. 2 root root 44 Jul  4  2020 sblim
+drwx------. 2 root root 44 Jul  4  2020 sbd
+drwx------. 2 root root 44 Jul  4  2020 sasl
+drwx------. 2 root root 44 Jul  4  2020 sanlock
+drwx------. 2 root root 44 Jul  4  2020 sandboxX
+drwx------. 2 root root 44 Jul  4  2020 sambagui
+drwx------. 2 root root 44 Jul  4  2020 samba
+drwx------. 2 root root 44 Jul  4  2020 rwho
+drwx------. 2 root root 44 Jul  4  2020 rtkit
+drwx------. 2 root root 44 Jul  4  2020 rtas
+drwx------. 2 root root 44 Jul  4  2020 rsync
+drwx------. 2 root root 44 Jul  4  2020 rssh
+drwx------. 2 root root 44 Jul  4  2020 rshd
+drwx------. 2 root root 44 Jul  4  2020 rpm
+drwx------. 2 root root 44 Jul  4  2020 rpcbind
+drwx------. 2 root root 44 Jul  4  2020 rpc
+drwx------. 2 root root 44 Jul  4  2020 roundup
+drwx------. 2 root root 44 Jul  4  2020 rngd
+drwx------. 2 root root 44 Jul  4  2020 rlogin
+drwx------. 2 root root 44 Jul  4  2020 rkhunter
+drwx------. 2 root root 44 Jul  4  2020 ricci
+drwx------. 2 root root 44 Jul  4  2020 rhsmcertd
+drwx------. 2 root root 44 Jul  4  2020 rhnsd
+drwx------. 2 root root 44 Jul  4  2020 rhgb
+drwx------. 2 root root 44 Jul  4  2020 rhev
+drwx------. 2 root root 44 Jul  4  2020 rhcs
+drwx------. 2 root root 44 Jul  4  2020 remotelogin
+drwx------. 2 root root 44 Jul  4  2020 redis
+drwx------. 2 root root 44 Jul  4  2020 realmd
+drwx------. 2 root root 44 Jul  4  2020 readahead
+drwx------. 2 root root 44 Jul  4  2020 rasdaemon
+drwx------. 2 root root 44 Jul  4  2020 rdisc
+drwx------. 2 root root 44 Jul  4  2020 raid
+drwx------. 2 root root 44 Jul  4  2020 radvd
+drwx------. 2 root root 44 Jul  4  2020 radius
+drwx------. 2 root root 44 Jul  4  2020 rabbitmq
+drwx------. 2 root root 44 Jul  4  2020 quota
+drwx------. 2 root root 44 Jul  4  2020 quantum
+drwx------. 2 root root 44 Jul  4  2020 qpid
+drwx------. 2 root root 44 Jul  4  2020 qmail
+drwx------. 2 root root 44 Jul  4  2020 pwauth
+drwx------. 2 root root 44 Jul  4  2020 puppet
+drwx------. 2 root root 44 Jul  4  2020 pulseaudio
+drwx------. 2 root root 44 Jul  4  2020 publicfile
+drwx------. 2 root root 44 Jul  4  2020 ptchown
+drwx------. 2 root root 44 Jul  4  2020 psad
+drwx------. 2 root root 44 Jul  4  2020 prosody
+drwx------. 2 root root 44 Jul  4  2020 procmail
+drwx------. 2 root root 44 Jul  4  2020 privoxy
+drwx------. 2 root root 44 Jul  4  2020 prelude
+drwx------. 2 root root 44 Jul  4  2020 prelink
+drwx------. 2 root root 44 Jul  4  2020 ppp
+drwx------. 2 root root 44 Jul  4  2020 postgrey
+drwx------. 2 root root 44 Jul  4  2020 postgresql
+drwx------. 2 root root 44 Jul  4  2020 postfix
+drwx------. 2 root root 44 Jul  4  2020 portreserve
+drwx------. 2 root root 44 Jul  4  2020 portmap
+drwx------. 2 root root 44 Jul  4  2020 polipo
+drwx------. 2 root root 44 Jul  4  2020 policykit
+drwx------. 2 root root 44 Jul  4  2020 podsleuth
+drwx------. 2 root root 44 Jul  4  2020 plymouthd
+drwx------. 2 root root 44 Jul  4  2020 pki
+drwx------. 2 root root 44 Jul  4  2020 pkcs
+drwx------. 2 root root 44 Jul  4  2020 piranha
+drwx------. 2 root root 44 Jul  4  2020 pingd
+drwx------. 2 root root 44 Jul  4  2020 pesign
+drwx------. 2 root root 44 Jul  4  2020 pegasus
+drwx------. 2 root root 33 Jul  4  2020 permissivedomains
+drwx------. 2 root root 44 Jul  4  2020 pcscd
+drwx------. 2 root root 44 Jul  4  2020 pcp
+drwx------. 2 root root 44 Jul  4  2020 pcmcia
+drwx------. 2 root root 44 Jul  4  2020 passenger
+drwx------. 2 root root 44 Jul  4  2020 pads
+drwx------. 2 root root 44 Jul  4  2020 osad
+drwx------. 2 root root 44 Jul  4  2020 oracleasm
+drwx------. 2 root root 44 Jul  4  2020 openwsman
+drwx------. 2 root root 44 Jul  4  2020 openvswitch
+drwx------. 2 root root 44 Jul  4  2020 openvpn
+drwx------. 2 root root 44 Jul  4  2020 opensm
+drwx------. 2 root root 44 Jul  4  2020 openshift
+drwx------. 2 root root 44 Jul  4  2020 openshift-origin
+drwx------. 2 root root 44 Jul  4  2020 openhpid
+drwx------. 2 root root 44 Jul  4  2020 opendnssec
+drwx------. 2 root root 44 Jul  4  2020 openct
+drwx------. 2 root root 44 Jul  4  2020 oddjob
+drwx------. 2 root root 44 Jul  4  2020 obex
+drwx------. 2 root root 44 Jul  4  2020 nx
+drwx------. 2 root root 44 Jul  4  2020 nut
+drwx------. 2 root root 44 Jul  4  2020 numad
+drwx------. 2 root root 44 Jul  4  2020 ntp
+drwx------. 2 root root 44 Jul  4  2020 ntop
+drwx------. 2 root root 44 Jul  4  2020 nslcd
+drwx------. 2 root root 44 Jul  4  2020 nsd
+drwx------. 2 root root 44 Jul  4  2020 nscd
+drwx------. 2 root root 44 Jul  4  2020 nova
+drwx------. 2 root root 44 Jul  4  2020 nis
+drwx------. 2 root root 44 Jul  4  2020 ninfod
+drwx------. 2 root root 44 Jul  4  2020 networkmanager
+drwx------. 2 root root 44 Jul  4  2020 netutils
+drwx------. 2 root root 44 Jul  4  2020 netlabel
+drwx------. 2 root root 44 Jul  4  2020 ncftool
+drwx------. 2 root root 44 Jul  4  2020 namespace
+drwx------. 2 root root 44 Jul  4  2020 nagios
+drwx------. 2 root root 44 Jul  4  2020 mythtv
+drwx------. 2 root root 44 Jul  4  2020 mysql
+drwx------. 2 root root 44 Jul  4  2020 munin
+drwx------. 2 root root 44 Jul  4  2020 mta
+drwx------. 2 root root 44 Jul  4  2020 mrtg
+drwx------. 2 root root 44 Jul  4  2020 mplayer
+drwx------. 2 root root 44 Jul  4  2020 mozilla
+drwx------. 2 root root 44 Jul  4  2020 mpd
+drwx------. 2 root root 44 Jul  4  2020 mount
+drwx------. 2 root root 44 Jul  4  2020 motion
+drwx------. 2 root root 44 Jul  4  2020 mongodb
+drwx------. 2 root root 44 Jul  4  2020 mojomojo
+drwx------. 2 root root 44 Jul  4  2020 mon_statd
+drwx------. 2 root root 44 Jul  4  2020 modutils
+drwx------. 2 root root 44 Jul  4  2020 modemmanager
+drwx------. 2 root root 44 Jul  4  2020 mock
+drwx------. 2 root root 44 Jul  4  2020 miscfiles
+drwx------. 2 root root 44 Jul  4  2020 mirrormanager
+drwx------. 2 root root 44 Jul  4  2020 mip6d
+drwx------. 2 root root 44 Jul  4  2020 minissdpd
+drwx------. 2 root root 44 Jul  4  2020 minidlna
+drwx------. 2 root root 44 Jul  4  2020 milter
+drwx------. 2 root root 44 Jul  4  2020 memcached
+drwx------. 2 root root 44 Jul  4  2020 mediawiki
+drwx------. 2 root root 44 Jul  4  2020 mcelog
+drwx------. 2 root root 44 Jul  4  2020 mandb
+drwx------. 2 root root 44 Jul  4  2020 man2html
+drwx------. 2 root root 44 Jul  4  2020 mailscanner
+drwx------. 2 root root 44 Jul  4  2020 mailman
+drwx------. 2 root root 44 Jul  4  2020 lvm
+drwx------. 2 root root 44 Jul  4  2020 lttng-tools
+drwx------. 2 root root 44 Jul  4  2020 lsm
+drwx------. 2 root root 44 Jul  4  2020 lpd
+drwx------. 2 root root 44 Jul  4  2020 logwatch
+drwx------. 2 root root 44 Jul  4  2020 logrotate
+drwx------. 2 root root 44 Jul  4  2020 logging
+drwx------. 2 root root 44 Jul  4  2020 logadm
+drwx------. 2 root root 44 Jul  4  2020 lockdev
+drwx------. 2 root root 44 Jul  4  2020 locallogin
+drwx------. 2 root root 44 Jul  4  2020 loadkeys
+drwx------. 2 root root 44 Jul  4  2020 lldpad
+drwx------. 2 root root 44 Jul  4  2020 livecd
+drwx------. 2 root root 44 Jul  4  2020 lircd
+drwx------. 2 root root 44 Jul  4  2020 linuxptp
+drwx------. 2 root root 44 Jul  4  2020 likewise
+drwx------. 2 root root 44 Jul  4  2020 libraries
+drwx------. 2 root root 44 Jul  4  2020 ldap
+drwx------. 2 root root 44 Jul  4  2020 l2tp
+drwx------. 2 root root 44 Jul  4  2020 ktalk
+drwx------. 2 root root 44 Jul  4  2020 ksmtuned
+drwx------. 2 root root 44 Jul  4  2020 kmscon
+drwx------. 2 root root 44 Jul  4  2020 kismet
+drwx------. 2 root root 44 Jul  4  2020 keystone
+drwx------. 2 root root 44 Jul  4  2020 keyboardd
+drwx------. 2 root root 44 Jul  4  2020 kerberos
+drwx------. 2 root root 44 Jul  4  2020 keepalived
+drwx------. 2 root root 44 Jul  4  2020 kdumpgui
+drwx------. 2 root root 44 Jul  4  2020 kdump
+drwx------. 2 root root 44 Jul  4  2020 journalctl
+drwx------. 2 root root 44 Jul  4  2020 jockey
+drwx------. 2 root root 44 Jul  4  2020 jetty
+drwx------. 2 root root 44 Jul  4  2020 jabber
+drwx------. 2 root root 44 Jul  4  2020 isns
+drwx------. 2 root root 44 Jul  4  2020 iscsi
+drwx------. 2 root root 44 Jul  4  2020 irqbalance
+drwx------. 2 root root 44 Jul  4  2020 irc
+drwx------. 2 root root 44 Jul  4  2020 iptables
+drwx------. 2 root root 44 Jul  4  2020 ipsec
+drwx------. 2 root root 44 Jul  4  2020 ipmievd
+drwx------. 2 root root 44 Jul  4  2020 ipa
+drwx------. 2 root root 44 Jul  4  2020 iotop
+drwx------. 2 root root 44 Jul  4  2020 iodine
+drwx------. 2 root root 44 Jul  4  2020 init
+drwx------. 2 root root 44 Jul  4  2020 inn
+drwx------. 2 root root 44 Jul  4  2020 inetd
+drwx------. 2 root root 44 Jul  4  2020 icecast
+drwx------. 2 root root 44 Jul  4  2020 hypervkvp
+drwx------. 2 root root 44 Jul  4  2020 hwloc
+drwx------. 2 root root 44 Jul  4  2020 hsqldb
+drwx------. 2 root root 44 Jul  4  2020 hostname
+drwx------. 2 root root 44 Jul  4  2020 hddtemp
+drwx------. 2 root root 44 Jul  4  2020 guest
+drwx------. 2 root root 44 Jul  4  2020 gssproxy
+drwx------. 2 root root 44 Jul  4  2020 gpsd
+drwx------. 2 root root 44 Jul  4  2020 gpm
+drwx------. 2 root root 44 Jul  4  2020 gpg
+drwx------. 2 root root 44 Jul  4  2020 gnome
+drwx------. 2 root root 44 Jul  4  2020 glusterd
+drwx------. 2 root root 44 Jul  4  2020 glance
+drwx------. 2 root root 44 Jul  4  2020 gitosis
+drwx------. 2 root root 44 Jul  4  2020 git
+drwx------. 2 root root 44 Jul  4  2020 getty
+drwx------. 2 root root 44 Jul  4  2020 geoclue
+drwx------. 2 root root 44 Jul  4  2020 gdomap
+drwx------. 2 root root 44 Jul  4  2020 games
+drwx------. 2 root root 44 Jul  4  2020 ftp
+drwx------. 2 root root 44 Jul  4  2020 fstools
+drwx------. 2 root root 44 Jul  4  2020 freqset
+drwx------. 2 root root 44 Jul  4  2020 freeipmi
+drwx------. 2 root root 44 Jul  4  2020 firstboot
+drwx------. 2 root root 44 Jul  4  2020 fprintd
+drwx------. 2 root root 44 Jul  4  2020 firewallgui
+drwx------. 2 root root 44 Jul  4  2020 firewalld
+drwx------. 2 root root 44 Jul  4  2020 finger
+drwx------. 2 root root 44 Jul  4  2020 fetchmail
+drwx------. 2 root root 44 Jul  4  2020 fcoe
+drwx------. 2 root root 44 Jul  4  2020 fail2ban
+drwx------. 2 root root 44 Jul  4  2020 exim
+drwx------. 2 root root 44 Jul  4  2020 entropyd
+drwx------. 2 root root 44 Jul  4  2020 dspam
+drwx------. 2 root root 44 Jul  4  2020 drbd
+drwx------. 2 root root 44 Jul  4  2020 dovecot
+drwx------. 2 root root 44 Jul  4  2020 dnssec
+drwx------. 2 root root 44 Jul  4  2020 dnsmasq
+drwx------. 2 root root 44 Jul  4  2020 dmidecode
+drwx------. 2 root root 44 Jul  4  2020 dmesg
+drwx------. 2 root root 44 Jul  4  2020 dirsrv
+drwx------. 2 root root 44 Jul  4  2020 dirsrv-admin
+drwx------. 2 root root 44 Jul  4  2020 dictd
+drwx------. 2 root root 44 Jul  4  2020 devicekit
+drwx------. 2 root root 44 Jul  4  2020 dhcp
+drwx------. 2 root root 44 Jul  4  2020 denyhosts
+drwx------. 2 root root 44 Jul  4  2020 ddclient
+drwx------. 2 root root 44 Jul  4  2020 dcc
+drwx------. 2 root root 44 Jul  4  2020 dbus
+drwx------. 2 root root 44 Jul  4  2020 dbskk
+drwx------. 2 root root 44 Jul  4  2020 daemontools
+drwx------. 2 root root 44 Jul  4  2020 dbadm
+drwx------. 2 root root 44 Jul  4  2020 cyrus
+drwx------. 2 root root 44 Jul  4  2020 cyphesis
+drwx------. 2 root root 44 Jul  4  2020 cvs
+drwx------. 2 root root 44 Jul  4  2020 cups
+drwx------. 2 root root 44 Jul  4  2020 ctdb
+drwx------. 2 root root 44 Jul  4  2020 cron
+drwx------. 2 root root 44 Jul  4  2020 cpuplug
+drwx------. 2 root root 44 Jul  4  2020 cpufreqselector
+drwx------. 2 root root 44 Jul  4  2020 cpucontrol
+drwx------. 2 root root 44 Jul  4  2020 courier
+drwx------. 2 root root 44 Jul  4  2020 couchdb
+drwx------. 2 root root 44 Jul  4  2020 container
+drwx------. 2 root root 44 Jul  4  2020 consolekit
+drwx------. 2 root root 44 Jul  4  2020 conman
+drwx------. 2 root root 44 Jul  4  2020 condor
+drwx------. 2 root root 44 Jul  4  2020 comsat
+drwx------. 2 root root 44 Jul  4  2020 colord
+drwx------. 2 root root 44 Jul  4  2020 collectd
+drwx------. 2 root root 44 Jul  4  2020 cockpit
+drwx------. 2 root root 44 Jul  4  2020 cobbler
+drwx------. 2 root root 44 Jul  4  2020 cmirrord
+drwx------. 2 root root 44 Jul  4  2020 cloudform
+drwx------. 2 root root 44 Jul  4  2020 clogd
+drwx------. 2 root root 44 Jul  4  2020 clock
+drwx------. 2 root root 44 Jul  4  2020 cipe
+drwx------. 2 root root 44 Jul  4  2020 cinder
+drwx------. 2 root root 44 Jul  4  2020 chronyd
+drwx------. 2 root root 44 Jul  4  2020 chrome
+drwx------. 2 root root 44 Jul  4  2020 cgroup
+drwx------. 2 root root 44 Jul  4  2020 cgdcbxd
+drwx------. 2 root root 44 Jul  4  2020 cfengine
+drwx------. 2 root root 44 Jul  4  2020 certwatch
+drwx------. 2 root root 44 Jul  4  2020 certmonger
+drwx------. 2 root root 44 Jul  4  2020 certmaster
+drwx------. 2 root root 44 Jul  4  2020 cdrecord
+drwx------. 2 root root 44 Jul  4  2020 ccs
+drwx------. 2 root root 44 Jul  4  2020 canna
+drwx------. 2 root root 44 Jul  4  2020 callweaver
+drwx------. 2 root root 44 Jul  4  2020 calamaris
+drwx------. 2 root root 44 Jul  4  2020 cachefilesd
+drwx------. 2 root root 44 Jul  4  2020 bumblebee
+drwx------. 2 root root 44 Jul  4  2020 bugzilla
+drwx------. 2 root root 44 Jul  4  2020 brltty
+drwx------. 2 root root 44 Jul  4  2020 bootloader
+drwx------. 2 root root 44 Jul  4  2020 brctl
+drwx------. 2 root root 44 Jul  4  2020 boinc
+drwx------. 2 root root 44 Jul  4  2020 bluetooth
+drwx------. 2 root root 44 Jul  4  2020 blueman
+drwx------. 2 root root 44 Jul  4  2020 bitlbee
+drwx------. 2 root root 44 Jul  4  2020 blkmapd
+drwx------. 2 root root 44 Jul  4  2020 bcfg2
+drwx------. 2 root root 44 Jul  4  2020 bind
+drwx------. 2 root root 44 Jul  4  2020 base
+drwx------. 2 root root 44 Jul  4  2020 bacula
+drwx------. 2 root root 44 Jul  4  2020 awstats
+drwx------. 2 root root 44 Jul  4  2020 avahi
+drwx------. 2 root root 44 Jul  4  2020 automount
+drwx------. 2 root root 44 Jul  4  2020 authlogin
+drwx------. 2 root root 44 Jul  4  2020 authconfig
+drwx------. 2 root root 44 Jul  4  2020 auditadm
+drwx------. 2 root root 44 Jul  4  2020 asterisk
+drwx------. 2 root root 44 Jul  4  2020 arpwatch
+drwx------. 2 root root 44 Jul  4  2020 application
+drwx------. 2 root root 44 Jul  4  2020 apm
+drwx------. 2 root root 44 Jul  4  2020 apcupsd
+drwx------. 2 root root 44 Jul  4  2020 apache
+drwx------. 2 root root 44 Jul  4  2020 antivirus
+drwx------. 2 root root 44 Jul  4  2020 anaconda
+drwx------. 2 root root 44 Jul  4  2020 amtu
+drwx------. 2 root root 44 Jul  4  2020 amanda
+drwx------. 2 root root 44 Jul  4  2020 alsa
+drwx------. 2 root root 44 Jul  4  2020 ajaxterm
+drwx------. 2 root root 44 Jul  4  2020 aide
+drwx------. 2 root root 44 Jul  4  2020 aiccu
+drwx------. 2 root root 44 Jul  4  2020 afs
+drwx------. 2 root root 44 Jul  4  2020 acct
+drwx------. 2 root root 44 Jul  4  2020 accountsd
+drwx------. 2 root root 44 Jul  4  2020 abrt
+
+/etc/selinux/targeted/active/modules/100/zosremote:
+total 20
+-rw-------. 1 root root  706 Sep 26  2018 cil
+-rw-------. 1 root root 8270 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/zoneminder:
+total 20
+-rw-------. 1 root root  3056 Sep 26  2018 cil
+-rw-------. 1 root root 11237 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/zebra:
+total 20
+-rw-------. 1 root root  2421 Sep 26  2018 cil
+-rw-------. 1 root root 10379 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/zarafa:
+total 20
+-rw-------. 1 root root  3294 Sep 26  2018 cil
+-rw-------. 1 root root 11558 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/zabbix:
+total 28
+-rw-------. 1 root root  5143 Sep 26  2018 cil
+-rw-------. 1 root root 13743 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/xserver:
+total 56
+-rw-------. 1 root root 18545 Sep 26  2018 cil
+-rw-------. 1 root root 32052 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/xguest:
+total 40
+-rw-------. 1 root root 11400 Sep 26  2018 cil
+-rw-------. 1 root root 22382 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/xen:
+total 28
+-rw-------. 1 root root  4430 Sep 26  2018 cil
+-rw-------. 1 root root 13176 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/wireshark:
+total 20
+-rw-------. 1 root root  2851 Sep 26  2018 cil
+-rw-------. 1 root root 11288 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/wine:
+total 20
+-rw-------. 1 root root  3132 Sep 26  2018 cil
+-rw-------. 1 root root 11181 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/webalizer:
+total 20
+-rw-------. 1 root root  2690 Sep 26  2018 cil
+-rw-------. 1 root root 10638 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/webadm:
+total 24
+-rw-------. 1 root root  4038 Sep 26  2018 cil
+-rw-------. 1 root root 12354 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/wdmd:
+total 20
+-rw-------. 1 root root 1337 Sep 26  2018 cil
+-rw-------. 1 root root 9081 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/watchdog:
+total 28
+-rw-------. 1 root root  4325 Sep 26  2018 cil
+-rw-------. 1 root root 12565 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/w3c:
+total 20
+-rw-------. 1 root root 1912 Sep 26  2018 cil
+-rw-------. 1 root root 9693 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/vpn:
+total 20
+-rw-------. 1 root root  2166 Sep 26  2018 cil
+-rw-------. 1 root root 10156 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/vnstatd:
+total 20
+-rw-------. 1 root root 1235 Sep 26  2018 cil
+-rw-------. 1 root root 9028 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/vmware:
+total 28
+-rw-------. 1 root root  7066 Sep 26  2018 cil
+-rw-------. 1 root root 15949 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/vmtools:
+total 28
+-rw-------. 1 root root  4986 Sep 26  2018 cil
+-rw-------. 1 root root 12790 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/virt:
+total 56
+-rw-------. 1 root root 18853 Sep 26  2018 cil
+-rw-------. 1 root root 30546 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/vlock:
+total 20
+-rw-------. 1 root root  2373 Sep 26  2018 cil
+-rw-------. 1 root root 10681 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/vhostmd:
+total 20
+-rw-------. 1 root root 1661 Sep 26  2018 cil
+-rw-------. 1 root root 9576 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/vdagent:
+total 20
+-rw-------. 1 root root 1495 Sep 26  2018 cil
+-rw-------. 1 root root 9377 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/uuidd:
+total 20
+-rw-------. 1 root root  968 Sep 26  2018 cil
+-rw-------. 1 root root 8597 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/varnishd:
+total 20
+-rw-------. 1 root root 1827 Sep 26  2018 cil
+-rw-------. 1 root root 9565 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/uucp:
+total 20
+-rw-------. 1 root root  2874 Sep 26  2018 cil
+-rw-------. 1 root root 11030 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/usernetctl:
+total 20
+-rw-------. 1 root root  2057 Sep 26  2018 cil
+-rw-------. 1 root root 10018 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/usermanage:
+total 32
+-rw-------. 1 root root  8131 Sep 26  2018 cil
+-rw-------. 1 root root 16726 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/userhelper:
+total 20
+-rw-------. 1 root root 1875 Sep 26  2018 cil
+-rw-------. 1 root root 9786 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/userdomain:
+total 28
+-rw-------. 1 root root  6507 Sep 26  2018 cil
+-rw-------. 1 root root 15836 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/usbmuxd:
+total 20
+-rw-------. 1 root root 1316 Sep 26  2018 cil
+-rw-------. 1 root root 8927 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/usbmodules:
+total 20
+-rw-------. 1 root root  792 Sep 26  2018 cil
+-rw-------. 1 root root 8552 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/updfstab:
+total 20
+-rw-------. 1 root root  2142 Sep 26  2018 cil
+-rw-------. 1 root root 10377 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/unprivuser:
+total 60
+-rw-------. 1 root root 17942 Sep 26  2018 cil
+-rw-------. 1 root root 32823 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/unlabelednet:
+total 16
+-rw-------. 1 root root  178 Sep 26  2018 cil
+-rw-------. 1 root root 7816 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/unconfineduser:
+total 36
+-rw-------. 1 root root  9275 Sep 26  2018 cil
+-rw-------. 1 root root 18910 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/unconfined:
+total 20
+-rw-------. 1 root root  2320 Sep 26  2018 cil
+-rw-------. 1 root root 10042 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/uml:
+total 20
+-rw-------. 1 root root  2300 Sep 26  2018 cil
+-rw-------. 1 root root 10432 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ulogd:
+total 20
+-rw-------. 1 root root 1858 Sep 26  2018 cil
+-rw-------. 1 root root 9729 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/udev:
+total 36
+-rw-------. 1 root root  9038 Sep 26  2018 cil
+-rw-------. 1 root root 19299 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/tvtime:
+total 20
+-rw-------. 1 root root  2579 Sep 26  2018 cil
+-rw-------. 1 root root 10747 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/tuned:
+total 20
+-rw-------. 1 root root  3851 Sep 26  2018 cil
+-rw-------. 1 root root 12211 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/tor:
+total 20
+-rw-------. 1 root root 1796 Sep 26  2018 cil
+-rw-------. 1 root root 9609 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/tomcat:
+total 20
+-rw-------. 1 root root  2916 Sep 26  2018 cil
+-rw-------. 1 root root 11328 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/tmpreaper:
+total 20
+-rw-------. 1 root root 1892 Sep 26  2018 cil
+-rw-------. 1 root root 9903 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/tlp:
+total 20
+-rw-------. 1 root root 1819 Sep 26  2018 cil
+-rw-------. 1 root root 9888 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/thumb:
+total 20
+-rw-------. 1 root root  2797 Sep 26  2018 cil
+-rw-------. 1 root root 11044 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/thin:
+total 20
+-rw-------. 1 root root 1619 Sep 26  2018 cil
+-rw-------. 1 root root 9411 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/tgtd:
+total 20
+-rw-------. 1 root root 1658 Sep 26  2018 cil
+-rw-------. 1 root root 9331 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/tftp:
+total 20
+-rw-------. 1 root root 2103 Sep 26  2018 cil
+-rw-------. 1 root root 9939 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/telnet:
+total 20
+-rw-------. 1 root root  2401 Sep 26  2018 cil
+-rw-------. 1 root root 10401 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/telepathy:
+total 24
+-rw-------. 1 root root  4043 Sep 26  2018 cil
+-rw-------. 1 root root 12568 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/tcsd:
+total 20
+-rw-------. 1 root root 1051 Sep 26  2018 cil
+-rw-------. 1 root root 8702 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/tcpd:
+total 20
+-rw-------. 1 root root 1461 Sep 26  2018 cil
+-rw-------. 1 root root 9069 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/targetd:
+total 20
+-rw-------. 1 root root 1850 Sep 26  2018 cil
+-rw-------. 1 root root 9839 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/tangd:
+total 20
+-rw-------. 1 root root  989 Sep 26  2018 cil
+-rw-------. 1 root root 8553 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/systemd:
+total 36
+-rw-------. 1 root root  9635 Sep 26  2018 cil
+-rw-------. 1 root root 18955 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sysstat:
+total 20
+-rw-------. 1 root root 1481 Sep 26  2018 cil
+-rw-------. 1 root root 9354 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sysnetwork:
+total 28
+-rw-------. 1 root root  6084 Sep 26  2018 cil
+-rw-------. 1 root root 15203 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sysadm_secadm:
+total 20
+-rw-------. 1 root root  2099 Sep 26  2018 cil
+-rw-------. 1 root root 10104 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sysadm:
+total 92
+-rw-------. 1 root root 33629 Sep 26  2018 cil
+-rw-------. 1 root root 49882 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/swift:
+total 20
+-rw-------. 1 root root 1834 Sep 26  2018 cil
+-rw-------. 1 root root 9808 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/svnserve:
+total 20
+-rw-------. 1 root root  2356 Sep 26  2018 cil
+-rw-------. 1 root root 10457 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sudo:
+total 20
+-rw-------. 1 root root  2270 Sep 26  2018 cil
+-rw-------. 1 root root 10032 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/su:
+total 20
+-rw-------. 1 root root 1846 Sep 26  2018 cil
+-rw-------. 1 root root 9749 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/stunnel:
+total 20
+-rw-------. 1 root root  2331 Sep 26  2018 cil
+-rw-------. 1 root root 10312 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/stapserver:
+total 20
+-rw-------. 1 root root 1765 Sep 26  2018 cil
+-rw-------. 1 root root 9695 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/staff:
+total 68
+-rw-------. 1 root root 22158 Sep 26  2018 cil
+-rw-------. 1 root root 39018 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sssd:
+total 24
+-rw-------. 1 root root  4003 Sep 26  2018 cil
+-rw-------. 1 root root 12594 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ssh:
+total 36
+-rw-------. 1 root root  9902 Sep 26  2018 cil
+-rw-------. 1 root root 20239 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/squid:
+total 28
+-rw-------. 1 root root  4414 Sep 26  2018 cil
+-rw-------. 1 root root 12978 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/speech-dispatcher:
+total 20
+-rw-------. 1 root root 1134 Sep 26  2018 cil
+-rw-------. 1 root root 8807 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/spamassassin:
+total 28
+-rw-------. 1 root root  6124 Sep 26  2018 cil
+-rw-------. 1 root root 15041 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/soundserver:
+total 20
+-rw-------. 1 root root 1818 Sep 26  2018 cil
+-rw-------. 1 root root 9620 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sosreport:
+total 28
+-rw-------. 1 root root  5094 Sep 26  2018 cil
+-rw-------. 1 root root 13864 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/snort:
+total 20
+-rw-------. 1 root root  2215 Sep 26  2018 cil
+-rw-------. 1 root root 10174 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/snmp:
+total 20
+-rw-------. 1 root root  2690 Sep 26  2018 cil
+-rw-------. 1 root root 10993 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/snapper:
+total 20
+-rw-------. 1 root root 1975 Sep 26  2018 cil
+-rw-------. 1 root root 9938 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/smsd:
+total 20
+-rw-------. 1 root root 1844 Sep 26  2018 cil
+-rw-------. 1 root root 9581 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/smoltclient:
+total 20
+-rw-------. 1 root root 1560 Sep 26  2018 cil
+-rw-------. 1 root root 9595 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/smokeping:
+total 20
+-rw-------. 1 root root  2544 Sep 26  2018 cil
+-rw-------. 1 root root 10492 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/smartmon:
+total 20
+-rw-------. 1 root root  2838 Sep 26  2018 cil
+-rw-------. 1 root root 10920 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/slpd:
+total 20
+-rw-------. 1 root root 1713 Sep 26  2018 cil
+-rw-------. 1 root root 9498 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/slocate:
+total 20
+-rw-------. 1 root root 1365 Sep 26  2018 cil
+-rw-------. 1 root root 9055 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/shorewall:
+total 20
+-rw-------. 1 root root 1895 Sep 26  2018 cil
+-rw-------. 1 root root 9890 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sge:
+total 28
+-rw-------. 1 root root  5857 Sep 26  2018 cil
+-rw-------. 1 root root 14102 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/seunshare:
+total 20
+-rw-------. 1 root root 1122 Sep 26  2018 cil
+-rw-------. 1 root root 8850 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/setroubleshoot:
+total 20
+-rw-------. 1 root root  3158 Sep 26  2018 cil
+-rw-------. 1 root root 11503 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/setrans:
+total 20
+-rw-------. 1 root root 1395 Sep 26  2018 cil
+-rw-------. 1 root root 9108 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sensord:
+total 20
+-rw-------. 1 root root 1003 Sep 26  2018 cil
+-rw-------. 1 root root 8605 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sendmail:
+total 28
+-rw-------. 1 root root  5282 Sep 26  2018 cil
+-rw-------. 1 root root 14152 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/selinuxutil:
+total 36
+-rw-------. 1 root root  9772 Sep 26  2018 cil
+-rw-------. 1 root root 18761 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sectoolm:
+total 20
+-rw-------. 1 root root  2339 Sep 26  2018 cil
+-rw-------. 1 root root 10158 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/secadm:
+total 28
+-rw-------. 1 root root  5995 Sep 26  2018 cil
+-rw-------. 1 root root 15391 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/screen:
+total 20
+-rw-------. 1 root root 1602 Sep 26  2018 cil
+-rw-------. 1 root root 9226 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sblim:
+total 20
+-rw-------. 1 root root  2944 Sep 26  2018 cil
+-rw-------. 1 root root 11466 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sbd:
+total 20
+-rw-------. 1 root root 1448 Sep 26  2018 cil
+-rw-------. 1 root root 9152 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sasl:
+total 20
+-rw-------. 1 root root  3299 Sep 26  2018 cil
+-rw-------. 1 root root 11820 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sanlock:
+total 20
+-rw-------. 1 root root  2127 Sep 26  2018 cil
+-rw-------. 1 root root 10049 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sandboxX:
+total 28
+-rw-------. 1 root root  6707 Sep 26  2018 cil
+-rw-------. 1 root root 16015 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/sambagui:
+total 20
+-rw-------. 1 root root 1944 Sep 26  2018 cil
+-rw-------. 1 root root 9915 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/samba:
+total 44
+-rw-------. 1 root root 12293 Sep 26  2018 cil
+-rw-------. 1 root root 21256 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rwho:
+total 20
+-rw-------. 1 root root 1694 Sep 26  2018 cil
+-rw-------. 1 root root 9466 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rtkit:
+total 20
+-rw-------. 1 root root 1145 Sep 26  2018 cil
+-rw-------. 1 root root 8746 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rtas:
+total 20
+-rw-------. 1 root root  3202 Sep 26  2018 cil
+-rw-------. 1 root root 11237 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rsync:
+total 20
+-rw-------. 1 root root  3079 Sep 26  2018 cil
+-rw-------. 1 root root 11024 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rssh:
+total 20
+-rw-------. 1 root root 1949 Sep 26  2018 cil
+-rw-------. 1 root root 9738 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rshd:
+total 20
+-rw-------. 1 root root  3484 Sep 26  2018 cil
+-rw-------. 1 root root 11978 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rpm:
+total 36
+-rw-------. 1 root root  8965 Sep 26  2018 cil
+-rw-------. 1 root root 17713 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rpcbind:
+total 20
+-rw-------. 1 root root  2181 Sep 26  2018 cil
+-rw-------. 1 root root 10026 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rpc:
+total 28
+-rw-------. 1 root root  4510 Sep 26  2018 cil
+-rw-------. 1 root root 13450 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/roundup:
+total 20
+-rw-------. 1 root root 1955 Sep 26  2018 cil
+-rw-------. 1 root root 9942 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rngd:
+total 20
+-rw-------. 1 root root  990 Sep 26  2018 cil
+-rw-------. 1 root root 8743 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rlogin:
+total 24
+-rw-------. 1 root root  3873 Sep 26  2018 cil
+-rw-------. 1 root root 12659 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rkhunter:
+total 16
+-rw-------. 1 root root  229 Sep 26  2018 cil
+-rw-------. 1 root root 7909 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ricci:
+total 28
+-rw-------. 1 root root  6031 Sep 26  2018 cil
+-rw-------. 1 root root 14881 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rhsmcertd:
+total 20
+-rw-------. 1 root root  3127 Sep 26  2018 cil
+-rw-------. 1 root root 11642 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rhnsd:
+total 20
+-rw-------. 1 root root 1139 Sep 26  2018 cil
+-rw-------. 1 root root 8845 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rhgb:
+total 20
+-rw-------. 1 root root  2611 Sep 26  2018 cil
+-rw-------. 1 root root 10650 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rhev:
+total 28
+-rw-------. 1 root root  4450 Sep 26  2018 cil
+-rw-------. 1 root root 13055 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rhcs:
+total 36
+-rw-------. 1 root root  9942 Sep 26  2018 cil
+-rw-------. 1 root root 19773 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/remotelogin:
+total 20
+-rw-------. 1 root root  3192 Sep 26  2018 cil
+-rw-------. 1 root root 11671 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/redis:
+total 20
+-rw-------. 1 root root 2004 Sep 26  2018 cil
+-rw-------. 1 root root 9866 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/realmd:
+total 32
+-rw-------. 1 root root  7994 Sep 26  2018 cil
+-rw-------. 1 root root 17060 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/readahead:
+total 20
+-rw-------. 1 root root 1883 Sep 26  2018 cil
+-rw-------. 1 root root 9722 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rasdaemon:
+total 20
+-rw-------. 1 root root 1102 Sep 26  2018 cil
+-rw-------. 1 root root 8776 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rdisc:
+total 20
+-rw-------. 1 root root 1077 Sep 26  2018 cil
+-rw-------. 1 root root 8780 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/raid:
+total 20
+-rw-------. 1 root root  3281 Sep 26  2018 cil
+-rw-------. 1 root root 11717 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/radvd:
+total 20
+-rw-------. 1 root root 1447 Sep 26  2018 cil
+-rw-------. 1 root root 9234 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/radius:
+total 20
+-rw-------. 1 root root  3301 Sep 26  2018 cil
+-rw-------. 1 root root 11805 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/rabbitmq:
+total 20
+-rw-------. 1 root root  3534 Sep 26  2018 cil
+-rw-------. 1 root root 12276 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/quota:
+total 20
+-rw-------. 1 root root  2050 Sep 26  2018 cil
+-rw-------. 1 root root 10099 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/quantum:
+total 28
+-rw-------. 1 root root  4229 Sep 26  2018 cil
+-rw-------. 1 root root 13118 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/qpid:
+total 20
+-rw-------. 1 root root  2315 Sep 26  2018 cil
+-rw-------. 1 root root 10317 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/qmail:
+total 20
+-rw-------. 1 root root  3955 Sep 26  2018 cil
+-rw-------. 1 root root 12218 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/pwauth:
+total 20
+-rw-------. 1 root root  968 Sep 26  2018 cil
+-rw-------. 1 root root 8555 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/puppet:
+total 28
+-rw-------. 1 root root  5600 Sep 26  2018 cil
+-rw-------. 1 root root 14147 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/pulseaudio:
+total 28
+-rw-------. 1 root root  4401 Sep 26  2018 cil
+-rw-------. 1 root root 13287 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/publicfile:
+total 20
+-rw-------. 1 root root  780 Sep 26  2018 cil
+-rw-------. 1 root root 8534 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ptchown:
+total 20
+-rw-------. 1 root root  639 Sep 26  2018 cil
+-rw-------. 1 root root 8242 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/psad:
+total 20
+-rw-------. 1 root root 1807 Sep 26  2018 cil
+-rw-------. 1 root root 9604 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/prosody:
+total 20
+-rw-------. 1 root root 1606 Sep 26  2018 cil
+-rw-------. 1 root root 9367 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/procmail:
+total 20
+-rw-------. 1 root root  2711 Sep 26  2018 cil
+-rw-------. 1 root root 10939 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/privoxy:
+total 20
+-rw-------. 1 root root 1599 Sep 26  2018 cil
+-rw-------. 1 root root 9468 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/prelude:
+total 28
+-rw-------. 1 root root  4118 Sep 26  2018 cil
+-rw-------. 1 root root 12386 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/prelink:
+total 28
+-rw-------. 1 root root  4499 Sep 26  2018 cil
+-rw-------. 1 root root 12703 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ppp:
+total 28
+-rw-------. 1 root root  4161 Sep 26  2018 cil
+-rw-------. 1 root root 12944 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/postgrey:
+total 20
+-rw-------. 1 root root 1991 Sep 26  2018 cil
+-rw-------. 1 root root 9910 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/postgresql:
+total 28
+-rw-------. 1 root root  6179 Sep 26  2018 cil
+-rw-------. 1 root root 15667 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/postfix:
+total 32
+-rw-------. 1 root root  7894 Sep 26  2018 cil
+-rw-------. 1 root root 17418 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/portreserve:
+total 20
+-rw-------. 1 root root 1219 Sep 26  2018 cil
+-rw-------. 1 root root 8781 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/portmap:
+total 20
+-rw-------. 1 root root 1851 Sep 26  2018 cil
+-rw-------. 1 root root 9766 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/polipo:
+total 20
+-rw-------. 1 root root 1774 Sep 26  2018 cil
+-rw-------. 1 root root 9658 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/policykit:
+total 28
+-rw-------. 1 root root  4337 Sep 26  2018 cil
+-rw-------. 1 root root 12846 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/podsleuth:
+total 20
+-rw-------. 1 root root 2008 Sep 26  2018 cil
+-rw-------. 1 root root 9844 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/plymouthd:
+total 20
+-rw-------. 1 root root 1954 Sep 26  2018 cil
+-rw-------. 1 root root 9943 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/pki:
+total 28
+-rw-------. 1 root root  5639 Sep 26  2018 cil
+-rw-------. 1 root root 14416 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/pkcs:
+total 20
+-rw-------. 1 root root 1365 Sep 26  2018 cil
+-rw-------. 1 root root 9014 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/piranha:
+total 28
+-rw-------. 1 root root  4364 Sep 26  2018 cil
+-rw-------. 1 root root 13354 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/pingd:
+total 20
+-rw-------. 1 root root  998 Sep 26  2018 cil
+-rw-------. 1 root root 8669 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/pesign:
+total 20
+-rw-------. 1 root root 1111 Sep 26  2018 cil
+-rw-------. 1 root root 8682 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/pegasus:
+total 36
+-rw-------. 1 root root  9172 Sep 26  2018 cil
+-rw-------. 1 root root 18237 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/permissivedomains:
+total 8
+-rw-------. 1 root root 80 Sep 26  2018 cil
+-rw-------. 1 root root  3 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/pcscd:
+total 20
+-rw-------. 1 root root  2208 Sep 26  2018 cil
+-rw-------. 1 root root 10323 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/pcp:
+total 28
+-rw-------. 1 root root  4098 Sep 26  2018 cil
+-rw-------. 1 root root 12567 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/pcmcia:
+total 20
+-rw-------. 1 root root  2318 Sep 26  2018 cil
+-rw-------. 1 root root 10013 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/passenger:
+total 20
+-rw-------. 1 root root 2072 Sep 26  2018 cil
+-rw-------. 1 root root 9958 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/pads:
+total 20
+-rw-------. 1 root root 1738 Sep 26  2018 cil
+-rw-------. 1 root root 9653 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/osad:
+total 20
+-rw-------. 1 root root 1220 Sep 26  2018 cil
+-rw-------. 1 root root 9023 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/oracleasm:
+total 20
+-rw-------. 1 root root 1442 Sep 26  2018 cil
+-rw-------. 1 root root 9167 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/openwsman:
+total 20
+-rw-------. 1 root root  3023 Sep 26  2018 cil
+-rw-------. 1 root root 10987 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/openvswitch:
+total 20
+-rw-------. 1 root root  2746 Sep 26  2018 cil
+-rw-------. 1 root root 10993 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/openvpn:
+total 28
+-rw-------. 1 root root  5689 Sep 26  2018 cil
+-rw-------. 1 root root 14704 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/opensm:
+total 20
+-rw-------. 1 root root 1060 Sep 26  2018 cil
+-rw-------. 1 root root 8669 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/openshift:
+total 32
+-rw-------. 1 root root  8063 Sep 26  2018 cil
+-rw-------. 1 root root 16968 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/openshift-origin:
+total 16
+-rw-------. 1 root root  738 Sep 26  2018 cil
+-rw-------. 1 root root 8013 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/openhpid:
+total 20
+-rw-------. 1 root root 1347 Sep 26  2018 cil
+-rw-------. 1 root root 9009 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/opendnssec:
+total 20
+-rw-------. 1 root root 1271 Sep 26  2018 cil
+-rw-------. 1 root root 8922 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/openct:
+total 20
+-rw-------. 1 root root 1299 Sep 26  2018 cil
+-rw-------. 1 root root 9078 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/oddjob:
+total 20
+-rw-------. 1 root root 1944 Sep 26  2018 cil
+-rw-------. 1 root root 9892 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/obex:
+total 20
+-rw-------. 1 root root  995 Sep 26  2018 cil
+-rw-------. 1 root root 8752 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/nx:
+total 20
+-rw-------. 1 root root  2628 Sep 26  2018 cil
+-rw-------. 1 root root 10369 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/nut:
+total 20
+-rw-------. 1 root root  4019 Sep 26  2018 cil
+-rw-------. 1 root root 11838 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/numad:
+total 20
+-rw-------. 1 root root 1047 Sep 26  2018 cil
+-rw-------. 1 root root 8657 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ntp:
+total 20
+-rw-------. 1 root root  2628 Sep 26  2018 cil
+-rw-------. 1 root root 10792 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ntop:
+total 20
+-rw-------. 1 root root 1834 Sep 26  2018 cil
+-rw-------. 1 root root 9667 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/nslcd:
+total 20
+-rw-------. 1 root root 1328 Sep 26  2018 cil
+-rw-------. 1 root root 9049 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/nsd:
+total 20
+-rw-------. 1 root root 2142 Sep 26  2018 cil
+-rw-------. 1 root root 9910 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/nscd:
+total 20
+-rw-------. 1 root root  2911 Sep 26  2018 cil
+-rw-------. 1 root root 11183 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/nova:
+total 20
+-rw-------. 1 root root  2777 Sep 26  2018 cil
+-rw-------. 1 root root 11125 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/nis:
+total 20
+-rw-------. 1 root root  3635 Sep 26  2018 cil
+-rw-------. 1 root root 11998 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ninfod:
+total 20
+-rw-------. 1 root root 1377 Sep 26  2018 cil
+-rw-------. 1 root root 9035 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/networkmanager:
+total 28
+-rw-------. 1 root root  5883 Sep 26  2018 cil
+-rw-------. 1 root root 15247 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/netutils:
+total 20
+-rw-------. 1 root root  2795 Sep 26  2018 cil
+-rw-------. 1 root root 11063 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/netlabel:
+total 20
+-rw-------. 1 root root 1093 Sep 26  2018 cil
+-rw-------. 1 root root 8909 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ncftool:
+total 20
+-rw-------. 1 root root  2493 Sep 26  2018 cil
+-rw-------. 1 root root 10799 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/namespace:
+total 20
+-rw-------. 1 root root 1270 Sep 26  2018 cil
+-rw-------. 1 root root 8886 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/nagios:
+total 36
+-rw-------. 1 root root  9072 Sep 26  2018 cil
+-rw-------. 1 root root 17789 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mythtv:
+total 20
+-rw-------. 1 root root 1676 Sep 26  2018 cil
+-rw-------. 1 root root 9401 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mysql:
+total 28
+-rw-------. 1 root root  4341 Sep 26  2018 cil
+-rw-------. 1 root root 13096 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/munin:
+total 32
+-rw-------. 1 root root  7343 Sep 26  2018 cil
+-rw-------. 1 root root 16660 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mta:
+total 28
+-rw-------. 1 root root  5138 Sep 26  2018 cil
+-rw-------. 1 root root 14140 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mrtg:
+total 20
+-rw-------. 1 root root  2154 Sep 26  2018 cil
+-rw-------. 1 root root 10365 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mplayer:
+total 20
+-rw-------. 1 root root  3455 Sep 26  2018 cil
+-rw-------. 1 root root 12161 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mozilla:
+total 36
+-rw-------. 1 root root  8579 Sep 26  2018 cil
+-rw-------. 1 root root 18754 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mpd:
+total 20
+-rw-------. 1 root root  2762 Sep 26  2018 cil
+-rw-------. 1 root root 11194 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mount:
+total 28
+-rw-------. 1 root root  6671 Sep 26  2018 cil
+-rw-------. 1 root root 15847 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/motion:
+total 20
+-rw-------. 1 root root 1288 Sep 26  2018 cil
+-rw-------. 1 root root 9073 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mongodb:
+total 20
+-rw-------. 1 root root  2206 Sep 26  2018 cil
+-rw-------. 1 root root 10157 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mojomojo:
+total 20
+-rw-------. 1 root root  2135 Sep 26  2018 cil
+-rw-------. 1 root root 10113 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mon_statd:
+total 20
+-rw-------. 1 root root 1223 Sep 26  2018 cil
+-rw-------. 1 root root 9020 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/modutils:
+total 28
+-rw-------. 1 root root  5598 Sep 26  2018 cil
+-rw-------. 1 root root 14017 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/modemmanager:
+total 20
+-rw-------. 1 root root 1484 Sep 26  2018 cil
+-rw-------. 1 root root 9320 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mock:
+total 20
+-rw-------. 1 root root  3354 Sep 26  2018 cil
+-rw-------. 1 root root 11455 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/miscfiles:
+total 20
+-rw-------. 1 root root  888 Sep 26  2018 cil
+-rw-------. 1 root root 8648 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mirrormanager:
+total 20
+-rw-------. 1 root root  977 Sep 26  2018 cil
+-rw-------. 1 root root 8525 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mip6d:
+total 20
+-rw-------. 1 root root  820 Sep 26  2018 cil
+-rw-------. 1 root root 8401 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/minissdpd:
+total 20
+-rw-------. 1 root root 1162 Sep 26  2018 cil
+-rw-------. 1 root root 8800 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/minidlna:
+total 20
+-rw-------. 1 root root 1628 Sep 26  2018 cil
+-rw-------. 1 root root 9392 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/milter:
+total 20
+-rw-------. 1 root root  2486 Sep 26  2018 cil
+-rw-------. 1 root root 10503 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/memcached:
+total 20
+-rw-------. 1 root root 1299 Sep 26  2018 cil
+-rw-------. 1 root root 8873 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mediawiki:
+total 20
+-rw-------. 1 root root 1395 Sep 26  2018 cil
+-rw-------. 1 root root 9085 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mcelog:
+total 20
+-rw-------. 1 root root 1531 Sep 26  2018 cil
+-rw-------. 1 root root 9313 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mandb:
+total 20
+-rw-------. 1 root root 1474 Sep 26  2018 cil
+-rw-------. 1 root root 9146 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/man2html:
+total 20
+-rw-------. 1 root root 1236 Sep 26  2018 cil
+-rw-------. 1 root root 8829 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mailscanner:
+total 20
+-rw-------. 1 root root 1848 Sep 26  2018 cil
+-rw-------. 1 root root 9815 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/mailman:
+total 20
+-rw-------. 1 root root  3091 Sep 26  2018 cil
+-rw-------. 1 root root 11466 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/lvm:
+total 28
+-rw-------. 1 root root  6792 Sep 26  2018 cil
+-rw-------. 1 root root 15572 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/lttng-tools:
+total 20
+-rw-------. 1 root root 1237 Sep 26  2018 cil
+-rw-------. 1 root root 8799 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/lsm:
+total 20
+-rw-------. 1 root root 1949 Sep 26  2018 cil
+-rw-------. 1 root root 9638 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/lpd:
+total 20
+-rw-------. 1 root root  3709 Sep 26  2018 cil
+-rw-------. 1 root root 12027 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/logwatch:
+total 20
+-rw-------. 1 root root  2825 Sep 26  2018 cil
+-rw-------. 1 root root 11389 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/logrotate:
+total 28
+-rw-------. 1 root root  4566 Sep 26  2018 cil
+-rw-------. 1 root root 13793 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/logging:
+total 28
+-rw-------. 1 root root  7413 Sep 26  2018 cil
+-rw-------. 1 root root 16267 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/logadm:
+total 20
+-rw-------. 1 root root 1648 Sep 26  2018 cil
+-rw-------. 1 root root 9405 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/lockdev:
+total 20
+-rw-------. 1 root root  802 Sep 26  2018 cil
+-rw-------. 1 root root 8459 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/locallogin:
+total 28
+-rw-------. 1 root root  4468 Sep 26  2018 cil
+-rw-------. 1 root root 13122 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/loadkeys:
+total 20
+-rw-------. 1 root root 1068 Sep 26  2018 cil
+-rw-------. 1 root root 8932 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/lldpad:
+total 20
+-rw-------. 1 root root 1395 Sep 26  2018 cil
+-rw-------. 1 root root 9075 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/livecd:
+total 20
+-rw-------. 1 root root  2677 Sep 26  2018 cil
+-rw-------. 1 root root 10465 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/lircd:
+total 20
+-rw-------. 1 root root 2045 Sep 26  2018 cil
+-rw-------. 1 root root 9908 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/linuxptp:
+total 20
+-rw-------. 1 root root 2068 Sep 26  2018 cil
+-rw-------. 1 root root 9923 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/likewise:
+total 28
+-rw-------. 1 root root  5169 Sep 26  2018 cil
+-rw-------. 1 root root 13615 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/libraries:
+total 28
+-rw-------. 1 root root  4521 Sep 26  2018 cil
+-rw-------. 1 root root 13663 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ldap:
+total 20
+-rw-------. 1 root root  2678 Sep 26  2018 cil
+-rw-------. 1 root root 10739 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/l2tp:
+total 20
+-rw-------. 1 root root  2364 Sep 26  2018 cil
+-rw-------. 1 root root 10475 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ktalk:
+total 20
+-rw-------. 1 root root 1507 Sep 26  2018 cil
+-rw-------. 1 root root 9222 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ksmtuned:
+total 20
+-rw-------. 1 root root 1355 Sep 26  2018 cil
+-rw-------. 1 root root 9112 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/kmscon:
+total 20
+-rw-------. 1 root root 1886 Sep 26  2018 cil
+-rw-------. 1 root root 9854 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/kismet:
+total 20
+-rw-------. 1 root root 1976 Sep 26  2018 cil
+-rw-------. 1 root root 9811 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/keystone:
+total 24
+-rw-------. 1 root root  3684 Sep 26  2018 cil
+-rw-------. 1 root root 12477 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/keyboardd:
+total 16
+-rw-------. 1 root root  633 Sep 26  2018 cil
+-rw-------. 1 root root 8160 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/kerberos:
+total 28
+-rw-------. 1 root root  4661 Sep 26  2018 cil
+-rw-------. 1 root root 13285 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/keepalived:
+total 20
+-rw-------. 1 root root  3336 Sep 26  2018 cil
+-rw-------. 1 root root 11214 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/kdumpgui:
+total 20
+-rw-------. 1 root root  2199 Sep 26  2018 cil
+-rw-------. 1 root root 10203 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/kdump:
+total 28
+-rw-------. 1 root root  4356 Sep 26  2018 cil
+-rw-------. 1 root root 12545 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/journalctl:
+total 20
+-rw-------. 1 root root  975 Sep 26  2018 cil
+-rw-------. 1 root root 8622 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/jockey:
+total 20
+-rw-------. 1 root root 1403 Sep 26  2018 cil
+-rw-------. 1 root root 9201 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/jetty:
+total 16
+-rw-------. 1 root root  373 Sep 26  2018 cil
+-rw-------. 1 root root 8003 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/jabber:
+total 20
+-rw-------. 1 root root  2717 Sep 26  2018 cil
+-rw-------. 1 root root 10939 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/isns:
+total 20
+-rw-------. 1 root root 1134 Sep 26  2018 cil
+-rw-------. 1 root root 8747 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/iscsi:
+total 20
+-rw-------. 1 root root  2258 Sep 26  2018 cil
+-rw-------. 1 root root 10065 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/irqbalance:
+total 20
+-rw-------. 1 root root 1201 Sep 26  2018 cil
+-rw-------. 1 root root 8988 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/irc:
+total 20
+-rw-------. 1 root root  2356 Sep 26  2018 cil
+-rw-------. 1 root root 10305 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/iptables:
+total 24
+-rw-------. 1 root root  3913 Sep 26  2018 cil
+-rw-------. 1 root root 12521 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ipsec:
+total 28
+-rw-------. 1 root root  7115 Sep 26  2018 cil
+-rw-------. 1 root root 16086 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ipmievd:
+total 20
+-rw-------. 1 root root 1084 Sep 26  2018 cil
+-rw-------. 1 root root 8784 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ipa:
+total 20
+-rw-------. 1 root root  3342 Sep 26  2018 cil
+-rw-------. 1 root root 11920 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/iotop:
+total 20
+-rw-------. 1 root root  765 Sep 26  2018 cil
+-rw-------. 1 root root 8372 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/iodine:
+total 20
+-rw-------. 1 root root 1210 Sep 26  2018 cil
+-rw-------. 1 root root 8865 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/init:
+total 56
+-rw-------. 1 root root 18962 Sep 26  2018 cil
+-rw-------. 1 root root 32718 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/inn:
+total 20
+-rw-------. 1 root root  2295 Sep 26  2018 cil
+-rw-------. 1 root root 10231 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/inetd:
+total 28
+-rw-------. 1 root root  5194 Sep 26  2018 cil
+-rw-------. 1 root root 13786 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/icecast:
+total 20
+-rw-------. 1 root root 1519 Sep 26  2018 cil
+-rw-------. 1 root root 9321 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/hypervkvp:
+total 20
+-rw-------. 1 root root  2975 Sep 26  2018 cil
+-rw-------. 1 root root 11535 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/hwloc:
+total 20
+-rw-------. 1 root root  730 Sep 26  2018 cil
+-rw-------. 1 root root 8385 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/hsqldb:
+total 20
+-rw-------. 1 root root 1183 Sep 26  2018 cil
+-rw-------. 1 root root 8830 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/hostname:
+total 20
+-rw-------. 1 root root  2246 Sep 26  2018 cil
+-rw-------. 1 root root 10139 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/hddtemp:
+total 20
+-rw-------. 1 root root  967 Sep 26  2018 cil
+-rw-------. 1 root root 8606 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/guest:
+total 28
+-rw-------. 1 root root  4931 Sep 26  2018 cil
+-rw-------. 1 root root 13739 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/gssproxy:
+total 20
+-rw-------. 1 root root  2304 Sep 26  2018 cil
+-rw-------. 1 root root 10157 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/gpsd:
+total 20
+-rw-------. 1 root root 1782 Sep 26  2018 cil
+-rw-------. 1 root root 9585 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/gpm:
+total 20
+-rw-------. 1 root root 1402 Sep 26  2018 cil
+-rw-------. 1 root root 9257 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/gpg:
+total 28
+-rw-------. 1 root root  5049 Sep 26  2018 cil
+-rw-------. 1 root root 14134 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/gnome:
+total 20
+-rw-------. 1 root root  3455 Sep 26  2018 cil
+-rw-------. 1 root root 11878 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/glusterd:
+total 28
+-rw-------. 1 root root  4608 Sep 26  2018 cil
+-rw-------. 1 root root 12947 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/glance:
+total 20
+-rw-------. 1 root root  2713 Sep 26  2018 cil
+-rw-------. 1 root root 10882 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/gitosis:
+total 20
+-rw-------. 1 root root 1196 Sep 26  2018 cil
+-rw-------. 1 root root 8765 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/git:
+total 20
+-rw-------. 1 root root  2616 Sep 26  2018 cil
+-rw-------. 1 root root 10608 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/getty:
+total 20
+-rw-------. 1 root root  2147 Sep 26  2018 cil
+-rw-------. 1 root root 10116 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/geoclue:
+total 20
+-rw-------. 1 root root  2188 Sep 26  2018 cil
+-rw-------. 1 root root 10205 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/gdomap:
+total 20
+-rw-------. 1 root root  986 Sep 26  2018 cil
+-rw-------. 1 root root 8650 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/games:
+total 28
+-rw-------. 1 root root  4131 Sep 26  2018 cil
+-rw-------. 1 root root 12925 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ftp:
+total 28
+-rw-------. 1 root root  5675 Sep 26  2018 cil
+-rw-------. 1 root root 14804 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/fstools:
+total 28
+-rw-------. 1 root root  5029 Sep 26  2018 cil
+-rw-------. 1 root root 13469 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/freqset:
+total 20
+-rw-------. 1 root root  750 Sep 26  2018 cil
+-rw-------. 1 root root 8331 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/freeipmi:
+total 20
+-rw-------. 1 root root 2014 Sep 26  2018 cil
+-rw-------. 1 root root 9861 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/firstboot:
+total 20
+-rw-------. 1 root root  3950 Sep 26  2018 cil
+-rw-------. 1 root root 12207 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/fprintd:
+total 20
+-rw-------. 1 root root 1549 Sep 26  2018 cil
+-rw-------. 1 root root 9477 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/firewallgui:
+total 20
+-rw-------. 1 root root  2070 Sep 26  2018 cil
+-rw-------. 1 root root 10095 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/firewalld:
+total 20
+-rw-------. 1 root root  2628 Sep 26  2018 cil
+-rw-------. 1 root root 10650 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/finger:
+total 20
+-rw-------. 1 root root 1895 Sep 26  2018 cil
+-rw-------. 1 root root 9827 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/fetchmail:
+total 20
+-rw-------. 1 root root  2793 Sep 26  2018 cil
+-rw-------. 1 root root 11241 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/fcoe:
+total 20
+-rw-------. 1 root root 1219 Sep 26  2018 cil
+-rw-------. 1 root root 8834 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/fail2ban:
+total 20
+-rw-------. 1 root root  2459 Sep 26  2018 cil
+-rw-------. 1 root root 10620 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/exim:
+total 24
+-rw-------. 1 root root  3623 Sep 26  2018 cil
+-rw-------. 1 root root 12572 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/entropyd:
+total 20
+-rw-------. 1 root root 1341 Sep 26  2018 cil
+-rw-------. 1 root root 9168 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/dspam:
+total 20
+-rw-------. 1 root root  2704 Sep 26  2018 cil
+-rw-------. 1 root root 10902 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/drbd:
+total 20
+-rw-------. 1 root root  2121 Sep 26  2018 cil
+-rw-------. 1 root root 10046 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/dovecot:
+total 28
+-rw-------. 1 root root  5301 Sep 26  2018 cil
+-rw-------. 1 root root 14253 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/dnssec:
+total 20
+-rw-------. 1 root root  2207 Sep 26  2018 cil
+-rw-------. 1 root root 10296 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/dnsmasq:
+total 20
+-rw-------. 1 root root  2485 Sep 26  2018 cil
+-rw-------. 1 root root 10600 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/dmidecode:
+total 20
+-rw-------. 1 root root  763 Sep 26  2018 cil
+-rw-------. 1 root root 8484 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/dmesg:
+total 20
+-rw-------. 1 root root 1082 Sep 26  2018 cil
+-rw-------. 1 root root 8941 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/dirsrv:
+total 28
+-rw-------. 1 root root  4425 Sep 26  2018 cil
+-rw-------. 1 root root 13208 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/dirsrv-admin:
+total 28
+-rw-------. 1 root root  4476 Sep 26  2018 cil
+-rw-------. 1 root root 12683 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/dictd:
+total 20
+-rw-------. 1 root root 1348 Sep 26  2018 cil
+-rw-------. 1 root root 9126 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/devicekit:
+total 32
+-rw-------. 1 root root  7599 Sep 26  2018 cil
+-rw-------. 1 root root 16530 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/dhcp:
+total 20
+-rw-------. 1 root root  2208 Sep 26  2018 cil
+-rw-------. 1 root root 10198 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/denyhosts:
+total 20
+-rw-------. 1 root root 2034 Sep 26  2018 cil
+-rw-------. 1 root root 9953 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ddclient:
+total 20
+-rw-------. 1 root root  2289 Sep 26  2018 cil
+-rw-------. 1 root root 10297 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/dcc:
+total 20
+-rw-------. 1 root root  2661 Sep 26  2018 cil
+-rw-------. 1 root root 10811 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/dbus:
+total 28
+-rw-------. 1 root root  4654 Sep 26  2018 cil
+-rw-------. 1 root root 13408 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/dbskk:
+total 20
+-rw-------. 1 root root 1269 Sep 26  2018 cil
+-rw-------. 1 root root 8852 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/daemontools:
+total 20
+-rw-------. 1 root root 1762 Sep 26  2018 cil
+-rw-------. 1 root root 9442 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/dbadm:
+total 24
+-rw-------. 1 root root  3761 Sep 26  2018 cil
+-rw-------. 1 root root 12363 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cyrus:
+total 20
+-rw-------. 1 root root  2820 Sep 26  2018 cil
+-rw-------. 1 root root 10863 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cyphesis:
+total 20
+-rw-------. 1 root root  2338 Sep 26  2018 cil
+-rw-------. 1 root root 10463 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cvs:
+total 20
+-rw-------. 1 root root  3338 Sep 26  2018 cil
+-rw-------. 1 root root 11708 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cups:
+total 32
+-rw-------. 1 root root  7692 Sep 26  2018 cil
+-rw-------. 1 root root 17013 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ctdb:
+total 20
+-rw-------. 1 root root  2619 Sep 26  2018 cil
+-rw-------. 1 root root 10680 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cron:
+total 36
+-rw-------. 1 root root 10607 Sep 26  2018 cil
+-rw-------. 1 root root 20153 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cpuplug:
+total 20
+-rw-------. 1 root root  940 Sep 26  2018 cil
+-rw-------. 1 root root 8585 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cpufreqselector:
+total 20
+-rw-------. 1 root root 1159 Sep 26  2018 cil
+-rw-------. 1 root root 9063 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cpucontrol:
+total 20
+-rw-------. 1 root root 1583 Sep 26  2018 cil
+-rw-------. 1 root root 9460 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/courier:
+total 20
+-rw-------. 1 root root  2868 Sep 26  2018 cil
+-rw-------. 1 root root 10988 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/couchdb:
+total 20
+-rw-------. 1 root root 1661 Sep 26  2018 cil
+-rw-------. 1 root root 9447 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/container:
+total 28
+-rw-------. 1 root root  7362 Sep 26  2018 cil
+-rw-------. 1 root root 15958 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/consolekit:
+total 28
+-rw-------. 1 root root  4186 Sep 26  2018 cil
+-rw-------. 1 root root 12797 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/conman:
+total 20
+-rw-------. 1 root root  3584 Sep 26  2018 cil
+-rw-------. 1 root root 11616 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/condor:
+total 28
+-rw-------. 1 root root  6423 Sep 26  2018 cil
+-rw-------. 1 root root 14730 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/comsat:
+total 20
+-rw-------. 1 root root 1349 Sep 26  2018 cil
+-rw-------. 1 root root 8965 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/colord:
+total 20
+-rw-------. 1 root root  2576 Sep 26  2018 cil
+-rw-------. 1 root root 10749 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/collectd:
+total 20
+-rw-------. 1 root root  2827 Sep 26  2018 cil
+-rw-------. 1 root root 11204 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cockpit:
+total 20
+-rw-------. 1 root root  3526 Sep 26  2018 cil
+-rw-------. 1 root root 12147 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cobbler:
+total 20
+-rw-------. 1 root root  3486 Sep 26  2018 cil
+-rw-------. 1 root root 11992 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cmirrord:
+total 20
+-rw-------. 1 root root 1385 Sep 26  2018 cil
+-rw-------. 1 root root 9077 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cloudform:
+total 28
+-rw-------. 1 root root  5206 Sep 26  2018 cil
+-rw-------. 1 root root 14038 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/clogd:
+total 20
+-rw-------. 1 root root 1037 Sep 26  2018 cil
+-rw-------. 1 root root 8663 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/clock:
+total 20
+-rw-------. 1 root root 1266 Sep 26  2018 cil
+-rw-------. 1 root root 9109 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cipe:
+total 20
+-rw-------. 1 root root 1609 Sep 26  2018 cil
+-rw-------. 1 root root 9484 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cinder:
+total 28
+-rw-------. 1 root root  5379 Sep 26  2018 cil
+-rw-------. 1 root root 13162 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/chronyd:
+total 20
+-rw-------. 1 root root  2794 Sep 26  2018 cil
+-rw-------. 1 root root 10753 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/chrome:
+total 28
+-rw-------. 1 root root  4450 Sep 26  2018 cil
+-rw-------. 1 root root 13478 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cgroup:
+total 20
+-rw-------. 1 root root 1619 Sep 26  2018 cil
+-rw-------. 1 root root 9291 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cgdcbxd:
+total 20
+-rw-------. 1 root root  930 Sep 26  2018 cil
+-rw-------. 1 root root 8529 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cfengine:
+total 20
+-rw-------. 1 root root 2045 Sep 26  2018 cil
+-rw-------. 1 root root 9902 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/certwatch:
+total 20
+-rw-------. 1 root root 1461 Sep 26  2018 cil
+-rw-------. 1 root root 9277 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/certmonger:
+total 28
+-rw-------. 1 root root  5258 Sep 26  2018 cil
+-rw-------. 1 root root 13586 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/certmaster:
+total 20
+-rw-------. 1 root root 1412 Sep 26  2018 cil
+-rw-------. 1 root root 9057 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cdrecord:
+total 20
+-rw-------. 1 root root 1347 Sep 26  2018 cil
+-rw-------. 1 root root 9049 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ccs:
+total 20
+-rw-------. 1 root root  2290 Sep 26  2018 cil
+-rw-------. 1 root root 10251 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/canna:
+total 20
+-rw-------. 1 root root 1969 Sep 26  2018 cil
+-rw-------. 1 root root 9836 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/callweaver:
+total 20
+-rw-------. 1 root root 1502 Sep 26  2018 cil
+-rw-------. 1 root root 9153 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/calamaris:
+total 20
+-rw-------. 1 root root 1462 Sep 26  2018 cil
+-rw-------. 1 root root 9237 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/cachefilesd:
+total 20
+-rw-------. 1 root root 1063 Sep 26  2018 cil
+-rw-------. 1 root root 9154 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/bumblebee:
+total 20
+-rw-------. 1 root root 1882 Sep 26  2018 cil
+-rw-------. 1 root root 9736 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/bugzilla:
+total 20
+-rw-------. 1 root root 2019 Sep 26  2018 cil
+-rw-------. 1 root root 9978 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/brltty:
+total 20
+-rw-------. 1 root root 1857 Sep 26  2018 cil
+-rw-------. 1 root root 9668 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/bootloader:
+total 28
+-rw-------. 1 root root  4198 Sep 26  2018 cil
+-rw-------. 1 root root 12668 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/brctl:
+total 20
+-rw-------. 1 root root  901 Sep 26  2018 cil
+-rw-------. 1 root root 8583 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/boinc:
+total 28
+-rw-------. 1 root root  4376 Sep 26  2018 cil
+-rw-------. 1 root root 12731 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/bluetooth:
+total 28
+-rw-------. 1 root root  4346 Sep 26  2018 cil
+-rw-------. 1 root root 13207 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/blueman:
+total 20
+-rw-------. 1 root root  2203 Sep 26  2018 cil
+-rw-------. 1 root root 10171 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/bitlbee:
+total 20
+-rw-------. 1 root root  2141 Sep 26  2018 cil
+-rw-------. 1 root root 10099 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/blkmapd:
+total 20
+-rw-------. 1 root root  969 Sep 26  2018 cil
+-rw-------. 1 root root 8668 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/bcfg2:
+total 20
+-rw-------. 1 root root 1193 Sep 26  2018 cil
+-rw-------. 1 root root 8824 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/bind:
+total 28
+-rw-------. 1 root root  4105 Sep 26  2018 cil
+-rw-------. 1 root root 12734 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/base:
+total 120
+-rw-------. 1 root root 55061 Sep 26  2018 cil
+-rw-------. 1 root root 61329 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/bacula:
+total 28
+-rw-------. 1 root root  4937 Sep 26  2018 cil
+-rw-------. 1 root root 13330 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/awstats:
+total 20
+-rw-------. 1 root root  2291 Sep 26  2018 cil
+-rw-------. 1 root root 10256 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/avahi:
+total 20
+-rw-------. 1 root root  2124 Sep 26  2018 cil
+-rw-------. 1 root root 10029 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/automount:
+total 20
+-rw-------. 1 root root  2859 Sep 26  2018 cil
+-rw-------. 1 root root 11064 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/authlogin:
+total 32
+-rw-------. 1 root root  7766 Sep 26  2018 cil
+-rw-------. 1 root root 17141 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/authconfig:
+total 20
+-rw-------. 1 root root  2451 Sep 26  2018 cil
+-rw-------. 1 root root 10043 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/auditadm:
+total 28
+-rw-------. 1 root root  4952 Sep 26  2018 cil
+-rw-------. 1 root root 14013 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/asterisk:
+total 20
+-rw-------. 1 root root  2808 Sep 26  2018 cil
+-rw-------. 1 root root 11243 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/arpwatch:
+total 20
+-rw-------. 1 root root 1727 Sep 26  2018 cil
+-rw-------. 1 root root 9493 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/application:
+total 20
+-rw-------. 1 root root  559 Sep 26  2018 cil
+-rw-------. 1 root root 8377 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/apm:
+total 28
+-rw-------. 1 root root  4279 Sep 26  2018 cil
+-rw-------. 1 root root 12735 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/apcupsd:
+total 20
+-rw-------. 1 root root  3981 Sep 26  2018 cil
+-rw-------. 1 root root 12202 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/apache:
+total 48
+-rw-------. 1 root root 14892 Sep 26  2018 cil
+-rw-------. 1 root root 26439 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/antivirus:
+total 24
+-rw-------. 1 root root  3750 Sep 26  2018 cil
+-rw-------. 1 root root 12556 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/anaconda:
+total 28
+-rw-------. 1 root root  4558 Sep 26  2018 cil
+-rw-------. 1 root root 12291 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/amtu:
+total 20
+-rw-------. 1 root root  922 Sep 26  2018 cil
+-rw-------. 1 root root 8639 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/amanda:
+total 20
+-rw-------. 1 root root  2978 Sep 26  2018 cil
+-rw-------. 1 root root 11101 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/alsa:
+total 20
+-rw-------. 1 root root 1777 Sep 26  2018 cil
+-rw-------. 1 root root 9642 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/ajaxterm:
+total 20
+-rw-------. 1 root root  2969 Sep 26  2018 cil
+-rw-------. 1 root root 10908 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/aide:
+total 20
+-rw-------. 1 root root 1605 Sep 26  2018 cil
+-rw-------. 1 root root 9119 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/aiccu:
+total 20
+-rw-------. 1 root root 1894 Sep 26  2018 cil
+-rw-------. 1 root root 9840 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/afs:
+total 20
+-rw-------. 1 root root  3207 Sep 26  2018 cil
+-rw-------. 1 root root 11324 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/acct:
+total 20
+-rw-------. 1 root root 1487 Sep 26  2018 cil
+-rw-------. 1 root root 9528 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/accountsd:
+total 20
+-rw-------. 1 root root 1767 Sep 26  2018 cil
+-rw-------. 1 root root 9722 Sep 26  2018 hll
+-rw-------. 1 root root    2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/100/abrt:
+total 32
+-rw-------. 1 root root  7796 Sep 26  2018 cil
+-rw-------. 1 root root 17060 Sep 26  2018 hll
+-rw-------. 1 root root     2 Sep 26  2018 lang_ext
+
+/etc/selinux/targeted/active/modules/disabled:
+total 0
+
+/etc/selinux/targeted/modules:
+total 0
+drwxr-xr-x. 3 root root 44 Jul  4  2020 active
+
+/etc/selinux/targeted/modules/active:
+total 4
+-rw-r--r--. 1 root root 282 Jul  4  2020 README.migrated
+drwxr-xr-x. 2 root root   6 Jul  4  2020 modules
+
+/etc/selinux/targeted/modules/active/modules:
+total 0
+
+/etc/selinux/targeted/logins:
+total 0
+
+/etc/selinux/final:
+total 0
+
+/etc/selinux/tmp:
+total 0
+
+/etc/cron.d:
+total 4
+-rw-r--r--. 1 root root 128 Oct 16  2017 0hourly
+
+/etc/cron.hourly:
+total 4
+-rwxr-xr-x. 1 root root 392 Oct 16  2017 0anacron
+
+/etc/prelink.conf.d:
+total 12
+-rw-r--r--. 1 root root 220 Sep 18  2018 grub2.conf
+-rw-r--r--. 1 root root 184 Mar 19  2018 nss-softokn-prelink.conf
+-rw-r--r--. 1 root root  57 Feb 21  2017 fipscheck.conf
+
+/etc/sysctl.d:
+total 0
+lrwxrwxrwx. 1 root root 14 Jul  4  2020 99-sysctl.conf -> ../sysctl.conf
+
+/etc/ppp:
+total 28
+drwxr-xr-x. 2 root root    6 Aug 24  2018 peers
+-rwxr-xr-x. 1 root root  386 Aug 24  2018 ip-down
+-rwxr-xr-x. 1 root root 3214 Aug 24  2018 ip-down.ipv6to4
+-rwxr-xr-x. 1 root root  430 Aug 24  2018 ip-up
+-rwxr-xr-x. 1 root root 6426 Aug 24  2018 ip-up.ipv6to4
+-rwxr-xr-x. 1 root root 1687 Aug 24  2018 ipv6-down
+-rwxr-xr-x. 1 root root 3182 Aug 24  2018 ipv6-up
+
+/etc/ppp/peers:
+total 0
+
+/etc/profile.d:
+total 56
+-rw-r--r--. 1 root root  771 Aug 24  2018 256term.csh
+-rw-r--r--. 1 root root  841 Aug 24  2018 256term.sh
+-rw-r--r--. 1 root root 1706 Aug 24  2018 lang.csh
+-rw-r--r--. 1 root root 2703 Aug 24  2018 lang.sh
+-rw-r--r--. 1 root root   80 Jun 21  2018 csh.local
+-rw-r--r--. 1 root root   81 Jun 21  2018 sh.local
+-rw-r--r--. 1 root root 1741 Jun 15  2018 colorls.csh
+-rw-r--r--. 1 root root 1606 Jun 15  2018 colorls.sh
+-rw-r--r--. 1 root root  196 Mar 24  2017 colorgrep.csh
+-rw-r--r--. 1 root root  201 Mar 24  2017 colorgrep.sh
+-rw-r--r--. 1 root root  123 May 25  2015 less.csh
+-rw-r--r--. 1 root root  121 May 25  2015 less.sh
+-rw-r--r--. 1 root root  164 Jan 28  2014 which2.csh
+-rw-r--r--. 1 root root  169 Jan 28  2014 which2.sh
+
+/etc/polkit-1:
+total 0
+drwx------. 2 polkitd root    65 Jul  4  2020 rules.d
+drwxr-x---. 7 root    polkitd 98 Jul  4  2020 localauthority
+drwxr-xr-x. 2 root    root     6 Jan 27  2014 localauthority.conf.d
+
+/etc/polkit-1/rules.d:
+total 8
+-rw-r--r--. 1 root root 974 Jan 27  2014 49-polkit-pkla-compat.rules
+-rw-r--r--. 1 root root 326 Apr 29  2013 50-default.rules
+
+/etc/polkit-1/localauthority:
+total 0
+drwxr-xr-x. 2 root root 6 Jan 27  2014 10-vendor.d
+drwxr-xr-x. 2 root root 6 Jan 27  2014 20-org.d
+drwxr-xr-x. 2 root root 6 Jan 27  2014 30-site.d
+drwxr-xr-x. 2 root root 6 Jan 27  2014 50-local.d
+drwxr-xr-x. 2 root root 6 Jan 27  2014 90-mandatory.d
+
+/etc/polkit-1/localauthority/10-vendor.d:
+total 0
+
+/etc/polkit-1/localauthority/20-org.d:
+total 0
+
+/etc/polkit-1/localauthority/30-site.d:
+total 0
+
+/etc/polkit-1/localauthority/50-local.d:
+total 0
+
+/etc/polkit-1/localauthority/90-mandatory.d:
+total 0
+
+/etc/polkit-1/localauthority.conf.d:
+total 0
+
+/etc/dbus-1:
+total 12
+drwxr-xr-x. 2 root root 4096 Jul  4  2020 system.d
+drwxr-xr-x. 2 root root    6 Aug 21  2018 session.d
+-rw-r--r--. 1 root root  838 Aug 21  2018 session.conf
+-rw-r--r--. 1 root root  833 Aug 21  2018 system.conf
+
+/etc/dbus-1/system.d:
+total 100
+-rw-r--r--. 1 root root   465 Sep 18  2018 nm-dispatcher.conf
+-rw-r--r--. 1 root root   387 Sep 18  2018 nm-ifcfg-rh.conf
+-rw-r--r--. 1 root root  9421 Sep 18  2018 org.freedesktop.NetworkManager.conf
+-rw-r--r--. 1 root root   947 Sep  7  2018 org.freedesktop.hostname1.conf
+-rw-r--r--. 1 root root  2527 Sep  7  2018 org.freedesktop.import1.conf
+-rw-r--r--. 1 root root   937 Sep  7  2018 org.freedesktop.locale1.conf
+-rw-r--r--. 1 root root  8534 Sep  7  2018 org.freedesktop.login1.conf
+-rw-r--r--. 1 root root  3726 Sep  7  2018 org.freedesktop.machine1.conf
+-rw-r--r--. 1 root root 10118 Sep  7  2018 org.freedesktop.systemd1.conf
+-rw-r--r--. 1 root root   947 Sep  7  2018 org.freedesktop.timedate1.conf
+-rw-r--r--. 1 root root  1430 Sep  5  2018 com.redhat.RHSM1.Facts.conf
+-rw-r--r--. 1 root root  2314 Sep  5  2018 com.redhat.RHSM1.conf
+-rw-r--r--. 1 root root  1390 Sep  5  2018 com.redhat.SubscriptionManager.conf
+-rw-r--r--. 1 root root  1096 Aug 28  2018 wpa_supplicant.conf
+-rw-r--r--. 1 root root  1117 Aug 20  2018 dbus-abrt.conf
+-rw-r--r--. 1 root root  1084 Aug 17  2018 FirewallD.conf
+-rw-r--r--. 1 root root   638 Aug  7  2018 org.freedesktop.PolicyKit1.conf
+-rw-r--r--. 1 root root   587 Jul  5  2018 com.redhat.tuned.conf
+-rw-r--r--. 1 root root   409 Mar 17  2017 teamd.conf
+
+/etc/dbus-1/session.d:
+total 0
+
+/etc/xdg:
+total 0
+drwxr-xr-x. 2 root root 18 Jul  4  2020 systemd
+drwxr-xr-x. 2 root root  6 Dec 14  2017 autostart
+
+/etc/xdg/systemd:
+total 0
+lrwxrwxrwx. 1 root root 18 Jul  4  2020 user -> ../../systemd/user
+
+/etc/xdg/autostart:
+total 0
+
+/etc/X11:
+total 0
+drwxr-xr-x. 2 root root 30 Jul  4  2020 xorg.conf.d
+drwxr-xr-x. 2 root root  6 Dec 14  2017 applnk
+drwxr-xr-x. 2 root root  6 Dec 14  2017 fontpath.d
+
+/etc/X11/xorg.conf.d:
+total 4
+-rw-r--r--. 1 root root 232 Jul  4  2020 00-keyboard.conf
+
+/etc/X11/applnk:
+total 0
+
+/etc/X11/fontpath.d:
+total 0
+
+/etc/depmod.d:
+total 4
+-rw-r--r--. 1 root root 116 Aug 28  2018 dist.conf
+
+/etc/yum:
+total 4
+drwxr-xr-x. 2 root root 140 Jul  4  2020 pluginconf.d
+drwxr-xr-x. 2 root root  26 Jul  4  2020 protected.d
+drwxr-xr-x. 2 root root   6 Aug 15  2018 fssnap.d
+drwxr-xr-x. 2 root root   6 Aug 15  2018 vars
+-rw-r--r--. 1 root root 444 Aug 15  2018 version-groups.conf
+
+/etc/yum/pluginconf.d:
+total 20
+-rw-r--r--. 1 root root 372 Jul  4  2020 langpacks.conf
+-rw-r--r--. 1 root root  17 Sep  5  2018 product-id.conf
+-rw-r--r--. 1 root root 858 Sep  5  2018 search-disabled-repos.conf
+-rw-r--r--. 1 root root  17 Sep  5  2018 subscription-manager.conf
+-rw-r--r--. 1 root root 178 Oct 19  2017 rhnplugin.conf
+
+/etc/yum/protected.d:
+total 4
+-rw-r--r--. 1 root root 8 Sep  7  2018 systemd.conf
+
+/etc/yum/fssnap.d:
+total 0
+
+/etc/yum/vars:
+total 0
+
+/etc/openldap:
+total 4
+drwxr-xr-x. 2 root root  70 Jul  4  2020 certs
+-rw-r--r--. 1 root root 363 Sep  1  2018 ldap.conf
+
+/etc/openldap/certs:
+total 64
+-rw-r--r--. 1 root root 65536 Jul  4  2020 cert8.db
+-rw-r--r--. 1 root root 16384 Jul  4  2020 key3.db
+-rw-r--r--. 1 root root 16384 Jul  4  2020 secmod.db
+-r--------. 1 root root    45 Jul  4  2020 password
+
+/etc/my.cnf.d:
+total 4
+-rw-r--r--. 1 root root 232 Apr 20  2018 mysql-clients.cnf
+
+/etc/gss:
+total 0
+drwxr-xr-x. 2 root root 27 Sep 14 05:47 mech.d
+
+/etc/gss/mech.d:
+total 4
+-rw-r--r--. 1 root root 189 Apr  7  2020 gssproxy.conf
+
+/etc/xml:
+total 4
+-rw-r--r--. 1 root root 1171 Dec 29  2013 catalog
+
+/etc/sgml:
+total 0
+drwxr-xr-x. 2 root root 24 Jul  4  2020 docbook
+
+/etc/sgml/docbook:
+total 4
+-rw-r--r--. 1 root root 236 Dec 29  2013 xmlcatalog
+
+/etc/iproute2:
+total 36
+-rw-r--r--. 1 root root  85 Mar  6  2018 bpf_pinning
+-rw-r--r--. 1 root root  75 Mar  6  2018 ematch_map
+-rw-r--r--. 1 root root  31 Mar  6  2018 group
+-rw-r--r--. 1 root root 262 Mar  6  2018 nl_protos
+-rw-r--r--. 1 root root 735 Mar  6  2018 rt_dsfield
+-rw-r--r--. 1 root root 326 Mar  6  2018 rt_protos
+-rw-r--r--. 1 root root 112 Mar  6  2018 rt_realms
+-rw-r--r--. 1 root root  92 Mar  6  2018 rt_scopes
+-rw-r--r--. 1 root root  87 Mar  6  2018 rt_tables
+
+/etc/ssl:
+total 0
+lrwxrwxrwx. 1 root root 16 Jul  4  2020 certs -> ../pki/tls/certs
+
+/etc/groff:
+total 0
+drwxr-xr-x. 2 root root 41 Jul  4  2020 site-tmac
+drwxr-xr-x. 2 root root  6 Jan 29  2014 site-font
+
+/etc/groff/site-tmac:
+total 8
+-rw-r--r--. 1 root root 96 Jan 29  2014 man.local
+-rw-r--r--. 1 root root 90 Jan 29  2014 mdoc.local
+
+/etc/groff/site-font:
+total 0
+
+/etc/pkcs11:
+total 0
+drwxr-xr-x. 2 root root 6 Jun 15  2017 modules
+
+/etc/pkcs11/modules:
+total 0
+
+/etc/libnl:
+total 8
+-rw-r--r--. 1 root root 1130 Apr 18  2017 classid
+-rw-r--r--. 1 root root 1532 Apr 18  2017 pktloc
+
+/etc/skel:
+total 0
+
+/etc/pm:
+total 0
+drwxr-xr-x. 2 root root 6 Dec 14  2017 config.d
+drwxr-xr-x. 2 root root 6 Dec 14  2017 power.d
+drwxr-xr-x. 2 root root 6 Dec 14  2017 sleep.d
+
+/etc/pm/config.d:
+total 0
+
+/etc/pm/power.d:
+total 0
+
+/etc/pm/sleep.d:
+total 0
+
+/etc/exports.d:
+total 0
+
+/etc/dracut.conf.d:
+total 0
+
+/etc/binfmt.d:
+total 0
+
+/etc/modules-load.d:
+total 0
+
+/etc/tmpfiles.d:
+total 0
+
+/etc/rsyslog.d:
+total 4
+-rw-r--r--. 1 root root 49 Sep  7  2018 listen.conf
+
+/etc/statetab.d:
+total 0
+
+/etc/krb5.conf.d:
+total 0
+
+/etc/gdbinit.d:
+total 0
+
+/etc/gnupg:
+total 0
+
+/etc/NetworkManager:
+total 4
+drwxr-xr-x. 5 root root   96 Jul  4  2020 dispatcher.d
+-rw-r--r--. 1 root root 2145 Sep 18  2018 NetworkManager.conf
+drwxr-xr-x. 2 root root    6 Sep 18  2018 conf.d
+drwxr-xr-x. 2 root root    6 Sep 18  2018 dnsmasq-shared.d
+drwxr-xr-x. 2 root root    6 Sep 18  2018 dnsmasq.d
+drwxr-xr-x. 2 root root    6 Sep 18  2018 system-connections
+
+/etc/NetworkManager/dispatcher.d:
+total 8
+drwxr-xr-x. 2 root root    6 Sep 18  2018 no-wait.d
+drwxr-xr-x. 2 root root    6 Sep 18  2018 pre-up.d
+drwxr-xr-x. 2 root root    6 Sep 18  2018 pre-down.d
+-rwxr-xr-x. 1 root root  175 Aug 24  2018 00-netreport
+-rwxr-xr-x. 1 root root 1123 Apr 24  2018 11-dhclient
+
+/etc/NetworkManager/dispatcher.d/no-wait.d:
+total 0
+
+/etc/NetworkManager/dispatcher.d/pre-up.d:
+total 0
+
+/etc/NetworkManager/dispatcher.d/pre-down.d:
+total 0
+
+/etc/NetworkManager/conf.d:
+total 0
+
+/etc/NetworkManager/dnsmasq-shared.d:
+total 0
+
+/etc/NetworkManager/dnsmasq.d:
+total 0
+
+/etc/NetworkManager/system-connections:
+total 0
+
+/etc/opt:
+total 0
+
+/etc/xinetd.d:
+total 0
+
+/etc/subversion:
+total 0
+
+/etc/terminfo:
+total 0
+
+/etc/chkconfig.d:
+total 0
+
+/etc/gcrypt:
+total 0
+
+/etc/popt.d:
+total 0
+
+/etc/cron.monthly:
+total 0
+
+/etc/cron.weekly:
+total 0

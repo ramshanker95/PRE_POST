@@ -1,0 +1,6 @@
+    cd/dvd  VBOX     CD-ROM           1.0   /dev/sr0 
+    disk    ATA      VBOX HARDDISK    1.0   /dev/sda 
+    disk    ATA      VBOX HARDDISK    1.0   /dev/sdb 
+    disk    ATA      VBOX HARDDISK    1.0   /dev/sdc 
+    disk    ATA      VBOX HARDDISK    1.0   /dev/sdd 
+    disk    ATA      VBOX HARDDISK    1.0   /dev/sde 

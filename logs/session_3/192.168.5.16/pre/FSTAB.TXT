@@ -1,0 +1,16 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Sat Jul  4 03:46:36 2020
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/rhel_rhel7-root /                       xfs     defaults        0 0
+UUID=0d591821-a17b-4d96-82e0-9284080f4193 /boot                   xfs     defaults        0 0
+/dev/mapper/rhel_rhel7-swap swap                    swap    defaults        0 0
+#/dev/mapper/rhel_rhel7-data /data                   xfs     defaults        0 0
+##/dev/mapper/TEST_VG-TEST_LV	/sybase/db1/db2		xfs	defaults	0	0
+#/dev/TEST_VG/TEST_LV	/data	xfs	defaults	0 0
+192.168.1.11:/data	/data	nfs	defaults	0 0
+##/dev/sdsd/sdsds	sdsdsdsd	xfs	defaults	0 0
