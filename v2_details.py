@@ -399,3 +399,12 @@ if __name__ == "__main__":
     app = MainWindow()
     app.mainloop()
     sys.exit()
+
+
+
+# https://www.figma.com/file/2ZacQy8ny1nqrL9Vna0j8c/record_page?node-id=0%3A1&t=5FPjstodmlHyRiCH-1
+# figd_-jrZHRc2-rqaqTFnLMWU5WQY47dn2r_Z3dLnEDbX
+
+# https://github.com/ParthJadhav/Tkinter-Designer/blob/master/docs/instructions.md
+
+# figd_e87mDwVJEn0_jjC_Ws62RX1HkC_D0RFrpfs0zU1C
