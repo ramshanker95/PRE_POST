@@ -32,7 +32,7 @@ def my_logger(message=""):
     #     f.write("{}\t{}\n".format(datetime.today(), message))
     pass
 
-class SessionList(tk.Frame):
+class ViewServer(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         font = tkFont.Font(family="Helvetica", size=76, weight="bold")
@@ -104,7 +104,7 @@ class PageThree(tk.Frame):
         # self.columnconfigure(0, weight=1)
         font = tkFont.Font(family="Helvetica", size=16, weight="bold")
         out_font = tkFont.Font(family="Helvetica", size=12, weight="bold")
-        s_font = tkFont.Font(family="Helvetica", size=26, weight="bold")
+        s_font = tkFont.Font(family="Helvetica", size=22, weight="bold")
         font_for_list = tkFont.Font(family="Helvetica", size=16, weight="bold")
         self.conn_flag = False
         self.commad_list_for = []
@@ -117,12 +117,12 @@ class PageThree(tk.Frame):
         self.btn_height = 150
 
         # Session List ============= 
-        self.sessions = os.listdir("logs")
+        self.sessions = os.listdir("server_lists")
         self.sframe = Frame(self)
-        self.sframe.pack(pady=20, padx=50, side=LEFT)
+        self.sframe.pack(pady=20, padx=5, side=LEFT)
 
-        self.lst = Label(self.sframe, text="Sessions", font=s_font)
-        self.lst.grid(row=0, column=0, padx=50, pady=10)
+        self.lst = Label(self.sframe, text="server credential's", font=s_font)
+        self.lst.grid(row=0, column=0, padx=5, pady=10)
 
         self.session_list = Listbox(self.sframe, bg="#ffffff",
                                    fg= "#000000", font=font_for_list, height=20, width=20)
@@ -142,6 +142,46 @@ class PageThree(tk.Frame):
         for line in self.sessions:
             print(line)
             self.session_list.insert(END, line.strip())
+        
+        # Frame For Edit Credential
+        self.Edit_frame = LabelFrame(self, text="Edit Server", font=font)
+        # self.Edit_frame.grid(row=0, column=0)
+        self.Edit_frame.pack(pady=20, padx=5, side=LEFT)
+
+        self.ip_label = Label(self.Edit_frame, text="IP Address", font=font)
+        self.ip_label.grid(row=1, column=0)
+        
+        self.ip_entry = Entry(self.Edit_frame, text=var.EDIT_SERVER_ID, font=font)
+        self.ip_entry.grid(row=2, column=0)
+
+        self.user_label = Label(self.Edit_frame, text="User Id", font=font)
+        self.user_label.grid(row=3, column=0)
+
+        self.user_entry = Entry(self.Edit_frame, text=var.EDIT_SERVER_ID, font=font)
+        self.user_entry.grid(row=4, column=0)
+
+        self.pass_label = Label(self.Edit_frame, text="Password", font=font)
+        self.pass_label.grid(row=5, column=0)
+
+        self.pass_entry = Entry(self.Edit_frame, text=var.EDIT_SERVER_PASS, font=font)
+        self.pass_entry.grid(row=6, column=0)
+
+
+        self.add = Button(self.Edit_frame, text="Submit", width=20, border=0, bg="#02FFFF", font=font)
+        self.add.grid(row=7, column=0, pady=10, padx=10)
+
+        # self.clr = Button(self.Edit_frame, text="Clear", width=20, border=0, 
+        #                 bg="#02FFFF", font=font, command=self.re_create)
+        # self.clr.grid(row=8, column=0, pady=10, padx=10)
+
+        self.cal = Button(self.Edit_frame, text="Cancel", width=20, font=font,
+                        border=0, bg="#F20F00", command=self.cancel_cmd)
+        self.cal.grid(row=9, column=0, pady=10, padx=10)
+
+        self.mess_label = Label(self.Edit_frame, text="Edit Server Information here",
+                                            width=30, font=out_font)
+        self.mess_label.grid(row=10, column=0)
+        # ============
             
         # Sessin Details ============
         self.frame = Frame(self)
@@ -152,8 +192,8 @@ class PageThree(tk.Frame):
 
         self.tv.heading(1, text="Sn")
         self.tv.heading(2, text="IP")
-        self.tv.heading(3, text="ST")
-        self.tv.heading(4, text="Resut")
+        self.tv.heading(3, text="user")
+        self.tv.heading(4, text="password")
 
         self.sb = Scrollbar(self.frame, orient=VERTICAL)
         self.sb.pack(side=LEFT, fill=Y)
@@ -170,41 +210,57 @@ class PageThree(tk.Frame):
         print(city)                    # Get city
         outputStr = "{0} : {1}".format(state,city)        # Formatting
         var.SERVER = city[1]
+        var.EDIT_SERVER_IP = city[1]
+        var.EDIT_SERVER_ID = city[2]
+        var.EDIT_SERVER_PASS = city[3]
+
+        self.ip_entry.delete(0,"end")
+        self.ip_entry.insert(0, var.EDIT_SERVER_IP)
+
+        self.user_entry.delete(0,"end")
+        self.user_entry.insert(0, var.EDIT_SERVER_ID)
+        
+        self.pass_entry.delete(0,"end")
+        self.pass_entry.insert(0, var.EDIT_SERVER_PASS)
+
         print(var.SERVER)
         # messagebox.showinfo("Double Clicked",outputStr)   
-        self.controller.show_frame(0)
+        # self.controller.show_frame(0)
     
     
     def onselect(self, event):
         print("on select")
         w = event.widget
-        print(f"Selection by mouse: {w.curselection()}")
-        if len(w.curselection()) == 0:
-            return 0
         index = int(w.curselection()[0])
         value = w.get(index)
         print('You selected item "%s"' % (value))
         var.SESSION = value
         # data table
         # get all server ip
-        self.server = os.listdir(f"logs\\{value}")
+
+        with open(f"server_lists\\{value}\\servers.csv") as files:
+            content = csv.reader(files)
+            self.server_list = []
+            for i in content:
+                # print(i)
+                self.server_list.append(i)
+
+        
+        # self.server = os.listdir(f"logs\\{value}")
 
         stat = ["pass", "fiald"]
         error = ["NA", "Connection Error", "Authentication Error", "Other"]
 
-        serial_number = [i for i in range(1, 255)]
-        Errors = ["{}".format(choice(error)) for _ in range(1, 100)]
-
-        test_results = ["{}".format(choice(stat)) for _ in range(1, 100)]
+        serial_number = [i for i in range(len(self.server_list))]
         # Clear list of server
         for item in self.tv.get_children():
             self.tv.delete(item)
-
-        i = 1
-        for sn, ser, err, res in zip(serial_number, self.server, Errors, test_results):
+        for ind, items in enumerate(self.server_list):
             try:
-                self.tv.insert(parent='', index=i, iid=i, values=(sn, ser, err, res))
-                i +=1
+                self.tv.insert(parent='', index=ind, iid=ind,
+                values=(serial_number[ind],
+                            self.server_list[ind][0], self.server_list[ind][1],
+                            self.server_list[ind][2]))
             except TclError:
                 print("Error: ")
                 pass
@@ -212,8 +268,17 @@ class PageThree(tk.Frame):
         # self.tv.bind('<<TreeviewSelect>>', self.OnDoubleClick)
         self.tv.bind('<Double-1>', self.OnDoubleClick)
 
+    def cancel_cmd(self):
+        self.ip_entry.delete(0,"end")
+        self.user_entry.delete(0,"end")
+        self.pass_entry.delete(0,"end")
 
-class PageOne(tk.Frame):
+
+    def re_create(self):
+        pass
+
+
+class AddServer(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
 
@@ -226,13 +291,13 @@ class PageOne(tk.Frame):
         h = self.winfo_screenheight() -40
 
         fh = round((h - 330)/10)
-        fw = round((((w - 126)-20)/8)/2)
+        fw = round((((w - 126)-20)/8))
         self.controller = controller
         self.configure(bg=main_frame_bg)
         self.rowconfigure(0, weight=1)
         self.columnconfigure(0, weight=1)
-        font = tkFont.Font(family="Helvetica", size=10, weight="bold")
-        out_font = tkFont.Font(family="Helvetica", size=10)
+        font = tkFont.Font(family="Helvetica", size=14, weight="bold")
+        out_font = tkFont.Font(family="Helvetica", size=20)
         self.conn_flag = False
         self.commad_list_for = []
         self.current_command = 0
@@ -246,173 +311,52 @@ class PageOne(tk.Frame):
         # All session list
         self.session_list = os.listdir("logs")
 
-        # get all server ip
-        self.server = os.listdir("logs\\{}".format(self.session_list[0]))
-
-
         # Create a main frame
-        self.pre_frame = LabelFrame(self, text="PRE")
-        self.pre_frame.grid(row=0, column=0)
 
-        # Text Area
-        # Create the textbox
-        self.txtbox = scrolledtext.ScrolledText(
-            self.pre_frame, width=fw, height=fh, font=out_font)
-        self.txtbox.grid(row=0, column=0)
+        self.Edit_frame = LabelFrame(self, text="Edit Server", width=800, font=font)
+        self.Edit_frame.grid(row=0, column=0)
 
-        self.post_frame = LabelFrame(self, text="POST")
-        self.post_frame.grid(row=0, column=1)
-
-        # Create the textbox
-        self.txtbox1 = scrolledtext.ScrolledText(
-            self.post_frame, width=fw, height=fh, font=out_font)
-        self.txtbox1.grid(row=0, column=0)
-
-        # Controll Section
-        self.command_frame = LabelFrame(self, text="Commands")
-        self.command_frame.grid(row=0, column=2)
-        self.server_list = Listbox(self.command_frame, bg=main_frame_bg,
-                                   fg=font_color, font=font, height=fh-5, width=20)
-        self.server_list.grid(row=1, column=0, sticky="w", padx=2, columnspan=2)
-
-        # Onselect Event
-        self.server_list.bind('<<ListboxSelect>>', self.cmd_onselect)
+        self.ip_label = Label(self.Edit_frame, text="IP Address", font=font)
+        self.ip_label.grid(row=1, column=0)
         
+        self.ip_entry = Entry(self.Edit_frame, text=var.EDIT_SERVER_ID, font=font)
+        self.ip_entry.grid(row=2, column=0)
 
-        scr = Scrollbar(self.command_frame)
-        scr.grid(row=1, column=2, sticky=E+W+N+S)
+        self.user_label = Label(self.Edit_frame, text="User Id", font=font)
+        self.user_label.grid(row=3, column=0)
 
-        # Contecting to the listbox
-        scr.config(command=self.server_list.yview)
-        self.server_list.config(yscrollcommand=scr.set)
-        # Fetching Server List from File
+        self.user_label = Entry(self.Edit_frame, text=var.EDIT_SERVER_ID, font=font)
+        self.user_label.grid(row=4, column=0)
 
-        self.cmd = [i.replace(".TXT", "")
-               for i in os.listdir(r"logs\{}\{}\pre".format(self.session_list[0], self.server[0]))]
+        self.pass_label = Label(self.Edit_frame, text="Password", font=font)
+        self.pass_label.grid(row=5, column=0)
 
-        for line in self.cmd:
-            self.server_list.insert(END, line.strip())
-
-        self.search = Entry(self.command_frame, text="Next", font=font, width=10, bg="#ffD2ff",
-                      fg="black", border=0)
-        self.search.grid(row=0, column=0)
-
-        self.searchl = Label(self.command_frame, text="Search", font=font, width=10, bg="#000fff",
-                      fg="black", border=0)
-        self.searchl.grid(row=0, column=1, columnspan=2)
-
-        self.search.bind('<KeyRelease>', self.search_cmd)
-
-        quit = Button(self.command_frame, text="Exit", font=font, width=10, bg="#ED425D",
-                      fg="black", border=0, command=self.exit_tool)
-        quit.grid(row=2, column=0, pady=10)
-
-        
-        self.sr_name = Label(self.command_frame, text="", font=font)
-        self.sr_name.grid(row=3, column=0, pady=1)
+        self.pass_label = Entry(self.Edit_frame, text=var.EDIT_SERVER_PASS, font=font)
+        self.pass_label.grid(row=6, column=0)
 
 
-    def search_cmd(self, evt):
-        self.e_text=self.search.get().upper()
-        # print("Data: ",self.cmd, self.e_text)
-        self.result = []
-        for cm in self.cmd:
-            if self.e_text in cm:
-                # print(self.e_text, "-->>", cm)
-                self.result.append(cm)
-        self.server_list.delete(0,END)
-        for line in self.result:
-            # print("---", line)
-            self.server_list.insert(END, line.strip())
+        self.add = Button(self.Edit_frame, text="Add", width=20, border=0, bg="#02FFFF", font=font)
+        self.add.grid(row=7, column=0, pady=10, padx=10)
 
-        idx = '1.0'
-        idx = self.txtbox1.search("l", idx, nocase=1,
-							stopindex=END)
-        print("IDX: ", idx)
-        
-    def cmd_onselect(self, evt):
-        w = evt.widget
-        try:
-            index = int(w.curselection()[0])
-            value = w.get(index)
-            # value = self.server_list.get(tk.ACTIVE)
-            print('You selected command "%s"' % (value))
-            print("Selected Server: ", var.SERVER)
-            self.sr_name.configure(text=var.SERVER)
-            post_error = []
+        self.clr = Button(self.Edit_frame, text="Clear", width=20, border=0, 
+                        bg="#02FFFF", font=font, command=self.re_create)
+        self.clr.grid(row=8, column=0, pady=10, padx=10)
 
-            if not os.path.exists(r"logs\{}\{}\pre\{}.TXT".format(var.SESSION, var.SERVER, value)):
-                self.txtbox.delete("1.0", END)
-                self.txtbox.insert(END, "No Record Found")
-            else:
-                with open(r"logs\{}\{}\pre\{}.TXT".format(var.SESSION, var.SERVER, value), "r") as f:
-                    self.txtbox.delete('1.0', END)
-                    self.txtbox.insert(END, f.read())
+        self.cal = Button(self.Edit_frame, text="Cancel", width=20, font=font,
+                        border=0, bg="#F20F00", command=self.cancel_cmd)
+        self.cal.grid(row=9, column=0, pady=10, padx=10)
 
-                # Adding code for highlight Code on the output
-                # read csv file
-                with open(r"logs\\session_1\\192.168.5.1\\res\\result.csv") as cf:
-                    reader = csv.reader(cf)
-                    for i in reader:
-                        if len(i) > 0 and value in i[1]:
-                            print(f"Output: {i[-1]}")
-                            error_tag = i[-1].split("-")
-                            print(error_tag)
-                            if len(error_tag) > 1:
-                                for er in error_tag:
-                                    print(f"{er} : {er.replace('pr=', '')}.0")
-                                    if "pr=" in er:
-                                        st = er.replace('pr=', '')
-                                        if len(st) > 0:
-                                            self.txtbox.tag_add("start", f"{st}.0",f"{int(st)+1}.0")
-                                            self.txtbox.tag_config("start", background="red", foreground="white")
-                                    else:
-                                        st = er.replace('po=', '')
-                                        if len(st) > 0:
-                                            post_error.append([st, int(st) + 1])
-                
-                    
-            if not os.path.exists(r"logs\{}\{}\post\{}.TXT".format(var.SESSION, var.SERVER, value)):
-                self.txtbox1.delete("1.0", END)
-                self.txtbox1.insert(END, "No Record Found")
-            else:
-                with open(r"logs\{}\{}\post\{}.TXT".format(var.SESSION, var.SERVER, value), "r") as f:
-                    self.txtbox1.delete('1.0', END)
-                    self.txtbox1.insert(END, f.read())
+        self.mess_label = Label(self.Edit_frame, text="You Can Edit Server Information here",
+                                            width=50, font=out_font)
+        self.mess_label.grid(row=10, column=0)
 
-                    # High light in post also
-                    for item in post_error:
-                        self.txtbox1.tag_add("start", f"{item[0]}.0",f"{item[1]}.0")
-                        self.txtbox1.tag_config("start", background="red", foreground="white")
-
-        except Exception as e:
-            print("Error", e)
     
+    def cancel_cmd(self):
+        self.controller.show_frame(1)
 
-    # click event handler
-    def confirm(self, mess):
-        my_logger("Confirm: {}".format(mess))
-        answer = askyesno(title='confirmation',
-                        message='Are you sure? \n\n' + mess)
-        
-        if answer:
-            my_logger("Confirm: Yes")
-            return True
-        else:
-            my_logger("Confirm: No")
-            return False
-        
-    
-    def exit_tool(self):
-        my_logger("Exit Tool Confirm?")
-        if self.confirm("Are you sure you want to exit?"):
-            # my_logger("Exit Tool: Yes")
-            # self.controller.destroy()
-            self.controller.show_frame(1)
-            print("Exit Tool")
-        else:
-            # my_logger("Exit Tool: No")
-            pass
+    def re_create(self):
+        pass
+
 
 
 class MainWindow(tk.Tk):
@@ -422,8 +366,10 @@ class MainWindow(tk.Tk):
         w = self.winfo_screenwidth() - 40
         h = self.winfo_screenheight() - 40
 
+        self.state('zoomed')
+
         self.title("File Syatem Extender")
-        self.geometry("{}x{}+0+0".format(w, h))
+        # self.geometry("{}x{}+0+0".format(w, h))
         self.resizable(True, True)
         container = tk.Frame(self)
         container.pack(side="top", fill="both", expand=True)
@@ -432,13 +378,14 @@ class MainWindow(tk.Tk):
 
         self.frames = {}
         self.fl = []
-        for F in (PageOne, PageThree, SessionList):
+        for F in (AddServer, PageThree, ViewServer):
             frame = F(container, self)
             # self.frames[F] = frame
             self.fl.append(frame)
             frame.grid(row=0, column=0, sticky="nsew")
         # self.show_frame(PageThree)
         self.show_frame(1)
+
 
     def show_frame(self, cont):
         print("Frame: ", cont)
@@ -447,6 +394,9 @@ class MainWindow(tk.Tk):
         # frame = self.frames[cont]
         frame = self.fl[cont]
         frame.tkraise()
+    
+    def destroy_frame(self, cont):
+        self.fl[cont].destroy()
 
 
 if __name__ == "__main__":
@@ -454,12 +404,3 @@ if __name__ == "__main__":
     app = MainWindow()
     app.mainloop()
     sys.exit()
-
-
-
-# https://www.figma.com/file/2ZacQy8ny1nqrL9Vna0j8c/record_page?node-id=0%3A1&t=5FPjstodmlHyRiCH-1
-# figd_-jrZHRc2-rqaqTFnLMWU5WQY47dn2r_Z3dLnEDbX
-
-# https://github.com/ParthJadhav/Tkinter-Designer/blob/master/docs/instructions.md
-
-# figd_e87mDwVJEn0_jjC_Ws62RX1HkC_D0RFrpfs0zU1C

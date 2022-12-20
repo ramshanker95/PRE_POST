@@ -77,10 +77,11 @@ if mode.lower() == "hard":
 
 
 elif mode.lower() == "soft":
-    compare_result = [["Sn", "pre test", "post test", "result", "result_2", "error"]]
+    compare_result = [["Sn", "pre test", "post test", "result", "result_2", "error", "error_line"]]
     index = 0
     success_falg = True
     for pre, post in zip(pre_files, post_files):
+        error_line = ""
         with open(pre, "r") as pf:
             # pre_read = "".join(sorted(pf.read()))
             pre_read = pf.readlines()
@@ -91,23 +92,27 @@ elif mode.lower() == "soft":
 
         count = 0
         # Pre to post check
-        for pl1 in pre_read:
+        for ind, pl1 in enumerate(pre_read):
             if pl1 not in post_read:
                 count += 1
                 print(f"ERROR: {pl1}")
+                print(f"Error pre in Line: {ind}")
+                error_line += f"-pr={ind+1}"
 
         # Post to pre check
-        for pl1 in post_read:
+        for ind, pl1 in enumerate(post_read):
             if pl1 not in pre_read:
                 count += 1
                 print(f"ERROR: {pl1}")
+                print(f"Error post in Line: {ind}")
+                error_line += f"-po={ind+1}"
 
         if count == 0:
             print("Success")
-            compare_result.append([index, pre.split("/")[-1], post.split("/")[-1], "success", 1, count])
+            compare_result.append([index, pre.split("/")[-1], post.split("/")[-1], "success", 1, count , error_line])
         else:
             print(f"fails {count} times in {post}")
-            compare_result.append([index, pre.split("/")[-1], post.split("/")[-1], "filed", 0, count])
+            compare_result.append([index, pre.split("/")[-1], post.split("/")[-1], "filed", 0, count, error_line])
         index += 1
 else:
     print(f"Failed To initialized with mode: {mode}")
