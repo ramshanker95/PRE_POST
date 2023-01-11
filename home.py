@@ -628,8 +628,6 @@ class PageOne(tk.Frame):
         my_logger("Error Message: {}".format(message))
         messagebox.showerror('SSH Error', 'Error: {}'.format(message))
 
-
-
         
 class PageTwo(tk.Frame):
     def __init__(self, parent, controller):

@@ -11,8 +11,9 @@ from tkinter import messagebox
 from tkinter.messagebox import askyesno
 from datetime import datetime
 from tkinter import *
-from PIL import ImageTk, Image  
+from PIL import ImageTk, Image
 from threading import Thread
+from initiate import InitTest
 
 
 class MainPage(tk.Frame):
