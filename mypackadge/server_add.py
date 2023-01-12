@@ -5,7 +5,7 @@ import tkinter.font as tkFont
 from tkinter import ttk
 from tkinter import scrolledtext
 from tkinter import E, W, N, S
-from utils import *
+from mypackadge.utils import *
 from tkinter import messagebox
 from tkinter.messagebox import askyesno
 from datetime import datetime
@@ -13,7 +13,7 @@ from tkinter import *
 from PIL import ImageTk, Image
 from threading import Thread
 from random import randint, choice
-import VARIABLES as var
+import mypackadge.VARIABLES as var
 import csv
 import pandas as pd
 
@@ -40,8 +40,11 @@ class ViewServer(tk.Frame):
         self.lst = Label(self, text="Sessions", font=font)
         self.lst.grid(row=0, column=0, padx=100, pady=100)
 
-        self.banner = Label(self, text="Select Session to View ->", font=font_for_list)
-        self.banner.grid(row=1, column=0, padx=100, pady=100)
+        # self.banner = Label(self, text="Select Session to View ->", font=font_for_list)
+        # self.banner.grid(row=1, column=0, padx=100, pady=100)
+
+        self.home_btn = Button(self, text="Home", font=font_for_list, command=self.home)
+        self.home_btn.grid(row=1, column=1, padx=10, pady=10)
 
         self.server_list = Listbox(self, bg="#ffffff",
                                    fg= "#000000", font=font_for_list, height=10, width=20)
@@ -64,6 +67,9 @@ class ViewServer(tk.Frame):
 
         self.next = Button(self, text="More", width=40, border=0, bg="#524136", height=20)
         self.next.grid(row=3, column=1, padx=10, pady=10)
+
+    def home(self):
+        self.controller.show_frame(0)
 
         
     def command_frame(self):
@@ -179,7 +185,8 @@ class PageThree(tk.Frame):
         self.edit = Button(self.Edit_frame, text="Edit", width=20, border=0, bg="#02FFFF", font=font)
         self.edit.grid(row=13, column=0, pady=10, padx=10)
 
-        self.btn_1 = Button(self.Edit_frame, text="Button 1", width=20, border=0, bg="#02FFFF", font=font)
+        self.btn_1 = Button(self.Edit_frame, text="Home", width=20, border=0, bg="#02FFFF", font=font,
+                                                command=self.home)
         self.btn_1.grid(row=14, column=0, pady=10, padx=10)
             
         # Sessin Details ============
@@ -200,14 +207,16 @@ class PageThree(tk.Frame):
         self.tv.config(yscrollcommand=self.sb.set)
         self.sb.config(command=self.tv.yview)
 
+
+    def home(self):
+        self.controller.show_frame(0)
+
         
     def OnDoubleClick(self, event):
         e = event.widget                                  # Get event controls
         iid = e.identify("item",event.x,event.y)          # Get the double-click item id
         state = e.item(iid,"text")                        # Get state
         city = e.item(iid,"values")
-        print(city)                    # Get city
-        outputStr = "{0} : {1}".format(state,city)        # Formatting
         var.SERVER = city[1]
         var.EDIT_SERVER_IP = city[1]
         var.EDIT_SERVER_ID = city[2]
@@ -222,20 +231,13 @@ class PageThree(tk.Frame):
         self.pass_entry.delete(0,"end")
         self.pass_entry.insert(0, var.EDIT_SERVER_PASS)
 
-        print(var.SERVER)
-        # messagebox.showinfo("Double Clicked",outputStr)   
-        # self.controller.show_frame(0)
-    
     
     def onselect(self, event):
-        print("on select")
         w = event.widget
-        print("=====>> ", w.curselection())
         if len(w.curselection()) == 0:
             return 0
         self.index = int(w.curselection()[0])
         self.value = w.get(self.index)
-        print('You selected item "%s"' % (self.value))
         var.SESSION = self.value
         # data table
         # get all server ip
@@ -361,9 +363,13 @@ class AddServer(tk.Frame):
                         border=0, bg="#F20F00", command=self.cancel_cmd)
         self.cal.grid(row=9, column=0, pady=10, padx=10)
 
+        self.home = Button(self.Edit_frame, text="Home", width=20, font=font,
+                        border=0, bg="#F20F00", command=lambda : self.controller.show_frame(0))
+        self.home.grid(row=10, column=0, pady=10, padx=10)
+
         self.mess_label = Label(self.Edit_frame, text="You Can Create Session here",
                                             width=50, font=out_font)
-        self.mess_label.grid(row=10, column=0)
+        self.mess_label.grid(row=11, column=0)
 
         #  Create the textbox
         self.group1 = tk.LabelFrame(self, text="Server Details", padx=5, pady=5)
@@ -390,7 +396,7 @@ class AddServer(tk.Frame):
 
     
     def cancel_cmd(self):
-        self.controller.show_frame(1)
+        self.controller.show_frame(4)
 
     def session_create(self):
         session_list = os.listdir("logs")
@@ -401,22 +407,22 @@ class AddServer(tk.Frame):
                     os.mkdir(f"server_lists/{self.session_entry.get()}")
                     if self.save_text():
                         messagebox.showinfo("Session", f"Session created Name: {self.session_entry.get()}")   
-                        self.controller.show_frame(1)
+                        self.controller.show_frame(4)
                     else:
                         os.rmdir(f"logs/{self.session_entry.get()}")
                         os.rmdir(f"server_lists/{self.session_entry.get()}")
                         messagebox.showinfo("Session", f"Session Error: Empty IP List")   
-                        self.controller.show_frame(0)
+                        self.controller.show_frame(3)
 
                 except Exception as e:
                     messagebox.showinfo("Session ERROR", f"Error in Create Session: {e}")   
-                    self.controller.show_frame(0)
+                    self.controller.show_frame(3)
             else:
                 messagebox.showinfo("Sesion", f"Session Found: {self.session_entry.get()}")   
-                self.controller.show_frame(0)
+                self.controller.show_frame(3)
         else:
             messagebox.showinfo("Session", f"Session Error: Empty Sesion Name")   
-            self.controller.show_frame(0)
+            self.controller.show_frame(3)
 
 
 class AddServerIp(tk.Frame):
@@ -477,12 +483,12 @@ class AddServerIp(tk.Frame):
         txt = self.txtbox.get("1.0", tk.END)
         with open("server_list.txt", "w") as f:
             f.write(txt)
-            my_logger("Saved server list: {}".format)
+            print("Saved server list: {}".format)
         self.btn_Image.configure(text="Saved")
         pass
 
     def prev_page(self):
-        self.controller.show_frame(2)
+        self.controller.show_frame(4)
         print("Backed")
 
 
@@ -509,7 +515,7 @@ class MainWindow(tk.Tk):
             # self.frames[F] = frame
             self.fl.append(frame)
             frame.grid(row=0, column=0, sticky="nsew")
-        self.show_frame(0)
+        self.show_frame(3)
 
 
     def show_frame(self, cont):

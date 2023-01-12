@@ -1,4 +1,5 @@
 hostname
+hostname -I
 sestatus
 cat /etc/fstab
 cat /etc/fstab|wc -l
@@ -33,3 +34,6 @@ ps -ef
 iptables -L
 systemctl status nfs
 systemctl status ntpd
+
+
+

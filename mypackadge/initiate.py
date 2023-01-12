@@ -5,7 +5,7 @@ import tkinter.font as tkFont
 from tkinter import ttk
 from tkinter import scrolledtext
 from tkinter import E, W, N, S
-from utils import *
+from mypackadge.utils import *
 from tkinter import messagebox
 from tkinter.messagebox import askyesno
 from datetime import datetime
@@ -13,7 +13,7 @@ from tkinter import *
 from PIL import ImageTk, Image
 from threading import Thread
 from random import randint, choice
-import VARIABLES as var
+import mypackadge.VARIABLES as var
 import csv
 import pandas as pd
 
@@ -196,6 +196,7 @@ class InitTest(tk.Frame):
     
     def return_to_home(self):
         print("Going To Home Page")
+        self.controller.show_frame(0)
 
 
 class MainWindow(tk.Tk):
@@ -217,7 +218,7 @@ class MainWindow(tk.Tk):
 
         self.frames = {}
         self.fl = []
-        for F in (PageThree,):
+        for F in (InitTest,):
             frame = F(container, self)
             # self.frames[F] = frame
             self.fl.append(frame)

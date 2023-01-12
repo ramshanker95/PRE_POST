@@ -6,7 +6,7 @@ from tkinter import ttk
 from tkinter import scrolledtext
 from tkinter import E, W, N, S
 from turtle import left
-from utils import *
+from mypackadge.utils import *
 from tkinter import messagebox
 from tkinter.messagebox import askyesno
 from datetime import datetime
@@ -14,14 +14,11 @@ from tkinter import *
 from PIL import ImageTk, Image
 from threading import Thread
 from random import randint, choice
-import VARIABLES as var
+import mypackadge.VARIABLES as var
 import csv
 
 global server_name
 server_name = ""
-
-print(var.NAME)
-print(var.SERVER)
 
 # https://apidemos.com/tkinter/tkinter-progressbar/tkinter-progressbar-start-step-stop-method.html
 # https://www.activestate.com/resources/quick-reads/how-to-add-images-in-tkinter/#:~:text=However%2C%20Tkinter%20does%20not%20support%20images%20directly.%20Instead%2C,%E2%80%9Ctest%E2%80%9D%20in%20the%20background%3A%20label1%20%3D%20tkinter.Label%28image%3Dtest%29%20
@@ -32,7 +29,7 @@ def my_logger(message=""):
     #     f.write("{}\t{}\n".format(datetime.today(), message))
     pass
 
-class SessionList(tk.Frame):
+class SessionList_p(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         font = tkFont.Font(family="Helvetica", size=76, weight="bold")
@@ -47,8 +44,6 @@ class SessionList(tk.Frame):
 
         self.sessions = os.listdir("logs")
 
-        print("session: ", self.sessions)
-        
         self.lst = Label(self, text="Sessions", font=font)
         self.lst.grid(row=0, column=0, padx=100, pady=100)
 
@@ -71,7 +66,6 @@ class SessionList(tk.Frame):
         # Fetching Server List from File
 
         for line in self.sessions*10:
-            print(line)
             self.server_list.insert(END, line.strip())
 
         self.next = Button(self, text="More", width=40, border=0, bg="#524136", height=20)
@@ -81,6 +75,7 @@ class SessionList(tk.Frame):
     def command_frame(self):
         print("Clickes found")
 
+
     def onselect(self, event):
         print("on select")
         w = event.widget
@@ -89,7 +84,8 @@ class SessionList(tk.Frame):
         print('You selected item "%s"' % (value))
         var.SESSION = value
 
-class PageThree(tk.Frame):
+
+class SessionList(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
 
@@ -127,7 +123,8 @@ class PageThree(tk.Frame):
         self.session_list = Listbox(self.sframe, bg="#ffffff",
                                    fg= "#000000", font=font_for_list, height=20, width=20)
         self.session_list.grid(row=1, column=0, padx=5, pady=20, rowspan=2, sticky=E+W+N+S)
-
+        
+         
         # Onselect Event
         self.session_list.bind('<<ListboxSelect>>', self.onselect)
 
@@ -142,6 +139,10 @@ class PageThree(tk.Frame):
         for line in self.sessions:
             print(line)
             self.session_list.insert(END, line.strip())
+
+        self.next = Button(self, text="Home", width=20, border=0, bg="#524136", height=20,
+                        command=lambda : self.controller.show_frame(0))
+        self.next.pack(pady=20, side=LEFT)
             
         # Sessin Details ============
         self.frame = Frame(self)
@@ -172,7 +173,7 @@ class PageThree(tk.Frame):
         var.SERVER = city[1]
         print(var.SERVER)
         # messagebox.showinfo("Double Clicked",outputStr)   
-        self.controller.show_frame(0)
+        self.controller.show_frame(2)
     
     
     def onselect(self, event):
@@ -213,7 +214,7 @@ class PageThree(tk.Frame):
         self.tv.bind('<Double-1>', self.OnDoubleClick)
 
 
-class PageOne(tk.Frame):
+class ResultAnalysia(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
 
@@ -272,7 +273,7 @@ class PageOne(tk.Frame):
         self.command_frame = LabelFrame(self, text="Commands")
         self.command_frame.grid(row=0, column=2)
         self.server_list = Listbox(self.command_frame, bg=main_frame_bg,
-                                   fg=font_color, font=font, height=fh-5, width=20)
+                                   fg=font_color, font=font, height=fh-8, width=20)
         self.server_list.grid(row=1, column=0, sticky="w", padx=2, columnspan=2)
 
         # Onselect Event
@@ -408,7 +409,7 @@ class PageOne(tk.Frame):
         if self.confirm("Are you sure you want to exit?"):
             # my_logger("Exit Tool: Yes")
             # self.controller.destroy()
-            self.controller.show_frame(1)
+            self.controller.show_frame(0)
             print("Exit Tool")
         else:
             # my_logger("Exit Tool: No")
@@ -430,20 +431,15 @@ class MainWindow(tk.Tk):
         container.grid_rowconfigure(0, weight=1)
         container.grid_columnconfigure(0, weight=1)
 
-        self.frames = {}
+
         self.fl = []
-        for F in (PageOne, PageThree, SessionList):
+        for F in (ResultAnalysia, SessionList):
             frame = F(container, self)
-            # self.frames[F] = frame
             self.fl.append(frame)
             frame.grid(row=0, column=0, sticky="nsew")
-        # self.show_frame(PageThree)
         self.show_frame(1)
 
     def show_frame(self, cont):
-        print("Frame: ", cont)
-        print(self.frames)
-        print(self.fl)
         # frame = self.frames[cont]
         frame = self.fl[cont]
         frame.tkraise()
@@ -455,11 +451,3 @@ if __name__ == "__main__":
     app.mainloop()
     sys.exit()
 
-
-
-# https://www.figma.com/file/2ZacQy8ny1nqrL9Vna0j8c/record_page?node-id=0%3A1&t=5FPjstodmlHyRiCH-1
-# figd_-jrZHRc2-rqaqTFnLMWU5WQY47dn2r_Z3dLnEDbX
-
-# https://github.com/ParthJadhav/Tkinter-Designer/blob/master/docs/instructions.md
-
-# figd_e87mDwVJEn0_jjC_Ws62RX1HkC_D0RFrpfs0zU1C
